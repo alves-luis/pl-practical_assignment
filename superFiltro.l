@@ -11,28 +11,63 @@ char * idPost = NULL;
 char * title = NULL;
 char * date = NULL;
 char * text = NULL;
+typedef struct tagValue {
+	int count;
+	GSList * idPosts;
+} * TagValue;
 int textSize = 0;
+
+void printBetweenTag(void * tag, void * data) {
+	printf("<%s>%s</%s> ",(char *) data, (char *) tag, (char *) data);
+}
+
+void printFileBetweenTag(void * tag, void * data) {
+	fprintf((FILE *) data, "<li>%s</li>\n",(char * )tag);
+}
+
+void htmlInit(FILE * f) {
+	fprintf(f,"<html><head><meta charset='UTF-8'/> </head><body>");
+}
+
+void formatPrint() {
+	printf("<pub id=\"%s\">\n",idPost);
+	printf("\t<title>%s</title>\n",title);
+	printf("\t<author_date>%s</author_date>\n",date);
+	printf("\t<tags>\n\t\t");
+	g_slist_foreach(tags,printBetweenTag,"tag");
+	printf("\n\t</tags>\n");
+	printf("\t<categories>\n\t\t");
+	g_slist_foreach(categories,printBetweenTag,"category");
+	printf("\n\t</categories>\n");
+	printf("\t<text>\n");
+	printf("%s\n",text);
+	printf("\t</text>\n");
+	printf("</pub>\n");
+
+	// now we create the file with html
+	char * fileName = malloc(sizeof(char)*512);
+	sprintf(fileName,"%s.html",idPost);
+	FILE * postHtml = fopen(fileName,"w");
+	htmlInit(postHtml);
+	fprintf(postHtml,"<h1>%s</h1>\n",idPost+ 5);
+	fprintf(postHtml,"<h2>%s</h2>\n",title);
+	fprintf(postHtml,"<b>Date: </b>%s\n",date);
+	fprintf(postHtml,"<p></p><b>Tags:</b><ul>\n");
+	g_slist_foreach(tags,printFileBetweenTag,postHtml);
+	fprintf(postHtml,"</ul>\n");
+	fprintf(postHtml,"<p>%s</p>",text);
+
+	fclose(postHtml);
+}
 
 void freeString(void * string) {
 	free((char *)string);
 }
 
-void imprime(void * tag, void * data){
-	printf("%s: %s\n",(char *)data,(char *)tag);
-}
-
-void imprimeTags(void * key, void * data, void * d) {
-	printf("(%s) - %d\n",(char*)key,*(int*)data);
-}
-
-void testPrint() {
-	//g_slist_foreach(tags,imprime,"Tag");
-	//g_slist_foreach(categories,imprime,"Category");
-	//g_hash_table_foreach(tagCount,imprimeTags,NULL);
-	printf("Title: %s\n",title);
-	printf("Id: %s\n",idPost);
-	printf("Date: %s\n",date);
-	printf("Text: %s\n",text);
+void addIdsToHash(void * tag, void * id) {
+	TagValue value = g_hash_table_lookup(tagCount,(char *) tag);
+	if (value)
+		value->idPosts = g_slist_prepend(value->idPosts,(char *)id);
 }
 
 %}
@@ -53,21 +88,25 @@ dig [0-9]
 <TAG>tag:\{[^}]+\}	{
 	yytext[yyleng-1]=0;
 	char* tag_name = strdup(yytext+5);
-	int * count = g_hash_table_lookup(tagCount,tag_name);
-	if (count) { // if already exists, increase count
-		*count = *count+1;
+	TagValue value = g_hash_table_lookup(tagCount,tag_name);
+	if (value) { // if already exists, increase count
+		value->count = (value->count)+1;
 	}
 	else { // else create new entry in hash count
-		count = (int *) malloc(sizeof(int));
-		*count = 1;
-		g_hash_table_insert(tagCount,tag_name,count);
+		value = (TagValue) malloc(sizeof(struct tagValue));
+		value->count = 1;
+		value->idPosts = NULL;
+		g_hash_table_insert(tagCount,tag_name,value);
 	}
 	tags = g_slist_prepend(tags,tag_name);
 }
 <TAG>.|\n 		{;}
 
 <ID>\}\n		{ categories = NULL; BEGIN CATEG; }
-<ID>\{post-{dig}+	{idPost=strdup(yytext+1); }
+<ID>\{post-{dig}+	{
+	idPost=strdup(yytext+1);
+	// add ID to each tag
+	g_slist_foreach(tags,addIdsToHash,idPost);}
 <ID>.				{;}
 
 <CATEG>\n\n		{ BEGIN TITLE; }
@@ -85,6 +124,7 @@ dig [0-9]
 		free(text);
 	}
 	text = malloc(sizeof(char)*1024);
+	text[0] = '\0';
 	textSize = 1024;
 	BEGIN TEXT;
 }
@@ -113,50 +153,24 @@ int yywrap() {
 	return 1;
 }
 
-void printBetweenTag(void * tag, void * data) {
-	printf("<%s>%s</%s> ",(char *) data, (char *) tag, (char *) data);
+void printPostIdInTagIndex(void * id, void * file) {
+	fprintf((FILE *)file,"<li><a href=\"%s.html\">%s</a></li>\n",(char *)id, (char *)id);
 }
 
-void printFileBetweenTag(void * tag, void * data) {
-	fprintf((FILE *) data, "<li>%s</li>\n",(char * )tag);
+void printTagIndex(void * key, void * value, void * file) {
+	fprintf((FILE *)file,"<p><b>%s - %d</b></p>\n<ul>",(char *) key, ((TagValue) value)->count);
+	g_slist_foreach(((TagValue) value)->idPosts,printPostIdInTagIndex,file);
+	fprintf((FILE *)file,"</ul>\n");
 }
 
-void htmlInit(FILE * f) {
-	fprintf(f,"<html><head><meta charset='UTF-8'/> </head><body>");
-}
-
-void formatPrint() {
-	printf("<pub id=\"%s\">\n",idPost);
-	printf("\t<title>%s</title>\n",title);
-	printf("\t<author_date>%s</author_date>\n",date);
-	printf("\t<tags>\n\t\t");
-	g_slist_foreach(tags,printBetweenTag,"tag");
-	printf("\n\t</tags>\n");
-	printf("\t<categories>\n\t\t");
-	g_slist_foreach(categories,printBetweenTag,"category");
-	printf("\n\t</categories>\n");
-	printf("\t<text>\n");
-	printf("%s\n",text);
-	printf("\t</text>\n");
-	printf("</pub>\n");
-	// now we create the file with html
-	char * fileName = malloc(sizeof(char)*512);
-	sprintf(fileName,"%s.html",idPost);
-	FILE * postHtml = fopen(fileName,"w");
-	htmlInit(postHtml);
-	fprintf(postHtml,"<h1>%s</h1>\n",idPost+ 5);
-	fprintf(postHtml,"<h2>%s</h2>\n",title);
-	fprintf(postHtml,"<b>Date: </b>%s\n",date);
-	fprintf(postHtml,"<p></p><b>Tags:</b><ul>\n");
-	g_slist_foreach(tags,printFileBetweenTag,postHtml);
-	fprintf(postHtml,"</ul>\n");
-
-	fclose(postHtml);
+void generateIndex() {
+	FILE * tagsIndexFile = fopen("tags.html","w");
+	g_hash_table_foreach(tagCount, printTagIndex, tagsIndexFile);
 }
 
 int main(int argc, char * argv[]) {
-	FILE * tagsIndexFile = fopen("tags.html","w");
 	tagCount = g_hash_table_new(g_str_hash,g_str_equal);
 	yylex();
+	generateIndex();
 	return 0;
 }
