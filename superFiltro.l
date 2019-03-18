@@ -49,9 +49,9 @@ void formatPrint() {
 	sprintf(fileName,"%s.html",idPost);
 	FILE * postHtml = fopen(fileName,"w");
 	htmlInit(postHtml);
-	fprintf(postHtml,"<h1>%s</h1>\n",idPost+ 5);
+	fprintf(postHtml,"<h1>%s</h1>\n",idPost + 5);
 	fprintf(postHtml,"<h2>%s</h2>\n",title);
-	fprintf(postHtml,"<b>Date: </b>%s\n",date);
+	fprintf(postHtml,"<b>Author - Date: </b>%s\n",date);
 	fprintf(postHtml,"<p></p><b>Tags:</b><ul>\n");
 	g_slist_foreach(tags,printFileBetweenTag,postHtml);
 	fprintf(postHtml,"</ul>\n");
@@ -80,7 +80,7 @@ dig [0-9]
 \<pub\>			{ BEGIN PUB; }
 
 <PUB>\</pub\>	{ BEGIN INITIAL; }
-<PUB>#TAG: 		{ tags = NULL;BEGIN TAG; }
+<PUB>#TAG: 		{ tags = NULL; BEGIN TAG; }
 <PUB>#DATE:" "\[[^\]]+\]" " { BEGIN DATE; }
 <PUB>.|\n		{;}
 
@@ -119,7 +119,7 @@ dig [0-9]
 <TITLE>\n		{BEGIN PUB;}
 <TITLE>[^\n]+	{title = strdup(yytext);}
 
-<DATE>\[.*\]\n		{
+<DATE>\n		{
 	if (text) {
 		free(text);
 	}
@@ -132,6 +132,7 @@ dig [0-9]
 
 <TEXT>\nPartilhe" "este" "Artigo\n { formatPrint();BEGIN PUB;}
 <TEXT>\nEtiquetas: 				   { formatPrint();BEGIN PUB;}
+<TEXT>^\[.*\] { ;}
 <TEXT>.*|\n							{
 	int size = strlen(text)+yyleng+1;
 	if (size > textSize) {
