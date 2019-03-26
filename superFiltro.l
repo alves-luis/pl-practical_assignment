@@ -4,25 +4,37 @@
 #include <string.h>
 #include <glib.h>
 #include <gmodule.h>
+ // Hash table com tag as key e e número e TagValue
 GHashTable * tagCount = NULL;
+ // Lista com tags de cada artigo
 GSList * tags = NULL;
+ // Lista com categorias de cada artigo
 GSList * categories = NULL;
 char * idPost = NULL;
 char * title = NULL;
 char * date = NULL;
 char * text = NULL;
+
 typedef struct tagValue {
 	int count;
 	GSList * idPosts;
 } * TagValue;
 int textSize = 0;
 
-void printBetweenTag(void * tag, void * data) {
-	printf("<%s>%s</%s> ",(char *) data, (char *) tag, (char *) data);
+void printCategoriaInNorm(void * tag, void * data) {
+	fprintf((FILE *) data, "<category>%s</category> ", (char *) tag);
 }
 
-void printFileBetweenTag(void * tag, void * data) {
+void printTagInNorm(void * tag, void * data) {
+	fprintf((FILE *) data, "<tag>%s</tag> ", (char *) tag);
+}
+
+void printTaginHTML(void * tag, void * data) {
 	fprintf((FILE *) data, "<li>%s</li>\n",(char * )tag);
+}
+
+void printCategoriesInHTML(void * category, void* data){
+	fprintf((FILE *)data, "<li>%s</li>\n",(char *)category);
 }
 
 void htmlInit(FILE * f) {
@@ -30,19 +42,25 @@ void htmlInit(FILE * f) {
 }
 
 void formatPrint() {
-	printf("<pub id=\"%s\">\n",idPost);
-	printf("\t<title>%s</title>\n",title);
-	printf("\t<author_date>%s</author_date>\n",date);
-	printf("\t<tags>\n\t\t");
-	g_slist_foreach(tags,printBetweenTag,"tag");
-	printf("\n\t</tags>\n");
-	printf("\t<categories>\n\t\t");
-	g_slist_foreach(categories,printBetweenTag,"category");
-	printf("\n\t</categories>\n");
-	printf("\t<text>\n");
-	printf("%s\n",text);
-	printf("\t</text>\n");
-	printf("</pub>\n");
+	char * fName = malloc(sizeof(char)*512);
+	sprintf(fName,"%s.norm",idPost);
+	FILE * normalized= fopen(fName,"w");
+	fprintf(normalized,"<pub id=\"%s\">\n",idPost);
+	fprintf(normalized,"\t<title>%s</title>\n",title);
+	fprintf(normalized,"\t<author_date>%s</author_date>\n",date);
+	fprintf(normalized,"\t<tags>\n\t\t");
+	g_slist_foreach(tags,printTagInNorm,normalized);
+	fprintf(normalized,"\n\t</tags>\n");
+	fprintf(normalized,"\t<categories>\n\t\t");
+	g_slist_foreach(categories,printCategoriaInNorm,normalized);
+	fprintf(normalized,"\n\t</categories>\n");
+	fprintf(normalized,"\t<text>\n");
+	fprintf(normalized,"%s\n",text);
+	fprintf(normalized,"\t</text>\n");
+	fprintf(normalized,"</pub>\n");
+	fclose(normalized);
+	free(fName);
+
 
 	// now we create the file with html
 	char * fileName = malloc(sizeof(char)*512);
@@ -53,11 +71,15 @@ void formatPrint() {
 	fprintf(postHtml,"<h2>%s</h2>\n",title);
 	fprintf(postHtml,"<b>Author - Date: </b>%s\n",date);
 	fprintf(postHtml,"<p></p><b>Tags:</b><ul>\n");
-	g_slist_foreach(tags,printFileBetweenTag,postHtml);
+	g_slist_foreach(tags,printTaginHTML,postHtml);
+	fprintf(postHtml,"</ul>\n");
+	fprintf(postHtml,"<p></p><b>Categoria:</b><ul>\n");
+	g_slist_foreach(categories,printCategoriesInHTML,postHtml);
 	fprintf(postHtml,"</ul>\n");
 	fprintf(postHtml,"<p>%s</p>",text);
 
 	fclose(postHtml);
+	free(fileName);
 }
 
 void freeString(void * string) {
