@@ -104,6 +104,7 @@ dig [0-9]
 <PUB>\</pub\>	{ BEGIN INITIAL; }
 <PUB>#TAG: 		{ tags = NULL; BEGIN TAG; }
 <PUB>#DATE:" "\[[^\]]+\]" " { BEGIN DATE; }
+<PUB>#ID:			{ idPost = NULL; BEGIN ID;}
 <PUB>.|\n		{;}
 
 <TAG>#ID:		{ BEGIN ID; }
@@ -132,7 +133,7 @@ dig [0-9]
 <ID>.				{;}
 
 <CATEG>\n\n		{ BEGIN TITLE; }
-<CATEG>[A-Z][a-z]+	{
+<CATEG>[A-Z][^A-Z\n ]+	{
 	char * category = strdup(yytext);
 	categories = g_slist_prepend(categories,category);
 }
@@ -154,7 +155,8 @@ dig [0-9]
 
 <TEXT>\nPartilhe" "este" "Artigo\n { formatPrintNorm();formatPrintHTML();BEGIN PUB;}
 <TEXT>\nEtiquetas: 				   { formatPrintNorm();formatPrintHTML();BEGIN PUB;}
-<TEXT>^\[.*\] { ;}
+<TEXT>\</pub\>				{formatPrintNorm();formatPrintHTML();BEGIN INITIAL;}
+<TEXT>^\[.*\] {;}
 <TEXT>.*|\n							{
 	int size = strlen(text)+yyleng+1;
 	if (size > textSize) {
