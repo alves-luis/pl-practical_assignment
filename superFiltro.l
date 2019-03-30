@@ -101,7 +101,7 @@ dig [0-9]
 %%
 \<pub\>			{ BEGIN PUB; }
 
-<PUB>\</pub\>	{ BEGIN INITIAL; }
+<PUB>\<\/pub\>	{ BEGIN INITIAL; }
 <PUB>#TAG: 		{ tags = NULL; BEGIN TAG; }
 <PUB>#DATE:" "\[[^\]]+\]" " { BEGIN DATE; }
 <PUB>#ID:			{ idPost = NULL; BEGIN ID;}
@@ -155,7 +155,7 @@ dig [0-9]
 
 <TEXT>\nPartilhe" "este" "Artigo\n { formatPrintNorm();formatPrintHTML();BEGIN PUB;}
 <TEXT>\nEtiquetas: 				   { formatPrintNorm();formatPrintHTML();BEGIN PUB;}
-<TEXT>\</pub\>				{formatPrintNorm();formatPrintHTML();BEGIN INITIAL;}
+<TEXT>\<\/pub\>				{formatPrintNorm();formatPrintHTML();BEGIN INITIAL;}
 <TEXT>^\[.*\] {;}
 <TEXT>.*|\n							{
 	int size = strlen(text)+yyleng+1;
