@@ -41,7 +41,7 @@ void htmlInit(FILE * f) {
 	fprintf(f,"<html><head><meta charset='UTF-8'/> </head><body>");
 }
 
-void formatPrint() {
+void formatPrintNorm() {
 	char * fName = malloc(sizeof(char)*512);
 	sprintf(fName,"%s.norm",idPost);
 	FILE * normalized= fopen(fName,"w");
@@ -60,8 +60,8 @@ void formatPrint() {
 	fprintf(normalized,"</pub>\n");
 	fclose(normalized);
 	free(fName);
-
-
+}
+void formatPrintHTML(){
 	// now we create the file with html
 	char * fileName = malloc(sizeof(char)*512);
 	sprintf(fileName,"%s.html",idPost);
@@ -152,8 +152,8 @@ dig [0-9]
 }
 <DATE>.+		{date = strdup(yytext);}
 
-<TEXT>\nPartilhe" "este" "Artigo\n { formatPrint();BEGIN PUB;}
-<TEXT>\nEtiquetas: 				   { formatPrint();BEGIN PUB;}
+<TEXT>\nPartilhe" "este" "Artigo\n { formatPrintNorm();formatPrintHTML();BEGIN PUB;}
+<TEXT>\nEtiquetas: 				   { formatPrintNorm();formatPrintHTML();BEGIN PUB;}
 <TEXT>^\[.*\] { ;}
 <TEXT>.*|\n							{
 	int size = strlen(text)+yyleng+1;
