@@ -14,7 +14,7 @@ NR>2 {
       for(j=0;j<4;j++){
         n=split(lookOn[j],name," ");
         for(i=0;i<n;i++){
-          if(name[i] ~ /[A-Z][^A-Z]+/){s
+          if(name[i] ~ /[A-Z][^A-Z]+/){
             nome[name[i]]++;
             conta++;
           }
