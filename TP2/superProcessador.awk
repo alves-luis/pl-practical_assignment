@@ -1,6 +1,6 @@
 BEGIN {
       FS=";"
-      print "digraph G {\n" > "grafo.dot"
+      print "digraph G {\n rankdir=LR\n" > "graph.dot"
       }
 # contar o número de processos registados por Concelho e Freguesia.
 # calcular a frequência de processos por ano e relacionar com os concelhos
@@ -41,6 +41,27 @@ NR > 2 {
       }
     }
 
+NR > 2 && $2 ~ /.+/ {
+         req=$2;
+         pai=$7;
+         mae=$9;
+         conj= $11;
+         # se houver pai
+         if(pai != ""){
+             print "edge [color=blue];\n" >> "graph.dot"
+             print " \" " req " \" " " -> " " \" " pai " \" " ";\n" >> "graph.dot";
+         }
+         # se houver mãe
+         if(mae != ""){
+             print "edge [color=red];\n" >> "graph.dot"
+             print " \" " req " \" " " -> " " \" " mae " \" " ";\n" >> "graph.dot";
+         }
+         # se houver conjuge
+         if(conj != ""){
+             print "edge [color=black];\n" >> "graph.dot"
+             print " \" " req " \" " " -> " " \" " conj " \" " " [style=dotted];\n" >> "graph.dot";
+         }
+    }
 
 
 END {
@@ -48,5 +69,5 @@ END {
     for (conc in concelho) print "O Concelho " conc " tem " concelho[conc] " pedidos.";
     for (date in dados) for(con in dados[date]) print "Para o ano de "date", houve " dados[date][con] " pedido no concelho de " con ".";
     for (n in nome) print "O nome " n " tem " nome[n] " ocorrencias."
-    print "Número total de nomes próprios = " numNomesProprios
-}
+    print "Nº total de nomes próprios = " numNomesProprios;
+    print "}" >> "graph.dot"}
