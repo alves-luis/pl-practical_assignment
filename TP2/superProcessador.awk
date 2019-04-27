@@ -1,22 +1,41 @@
 BEGIN {
       FS=";"
+      print "digraph G {\n" > "grafo.dot"
       }
+# contar o número de processos registados por Concelho e Freguesia.
+# calcular a frequência de processos por ano e relacionar com os concelhos
+NR > 2 {
+        freguesia[$4]++ ;
+        concelho[$5]++;
+        split($6,data,"[-/.]");
+        # Adiciona a uma matriz de ano/concelho,
+        # o número de pedidos no concelho nesse ano
+        dados[data[1]][$5]++
+     }
 
+# estudar a ocorrência de nomes próprios
+# (não considere só os requerentes, mas considere também seus
+# parentes).
+NR > 2 {
 
-NR>2 {freguesia[$4]++ ; concelho[$5]++;
-      split($6,data,"[-/.]"); dados[data[1]][$5]++}
-NR>2 {
-
+      # nome do requerente
       lookOn[0]=$2
+      # nome do pai
       lookOn[1]=$7
+      # nome da mãe
       lookOn[2]=$9
+      # nome do conjuge
       lookOn[3]=$11
-      for(j=0;j<4;j++){
-        n=split(lookOn[j],name," ");
-        for(i=0;i<n;i++){
+
+      for(j = 0; j < 4; j++){
+        # n = número de nomes próprios em cada nome
+        n = split(lookOn[j],name," ");
+        # para cada nome próprio, adiciona a contagem a uma hash de nomes
+        # próprios
+        for(i = 0; i < n; i++) {
           if(name[i] ~ /[A-Z][^A-Z]+/){
             nome[name[i]]++;
-            conta++;
+            numNomesProprios++;
           }
         }
       }
@@ -24,9 +43,10 @@ NR>2 {
 
 
 
-END{for (freg in freguesia) print "A freguesia " freg " tem " freguesia[freg] " pedidos.";
+END {
+    for (freg in freguesia) print "A freguesia " freg " tem " freguesia[freg] " pedidos.";
     for (conc in concelho) print "O Concelho " conc " tem " concelho[conc] " pedidos.";
-    for (date in dados) for(con in dados[date]) print "Para o ano de "date" , houve " dados[date][con] " pedido no concelho de " con ".";
+    for (date in dados) for(con in dados[date]) print "Para o ano de "date", houve " dados[date][con] " pedido no concelho de " con ".";
     for (n in nome) print "O nome " n " tem " nome[n] " ocorrencias."
-    print "Número total de linhas " NR ;
-    print "CONTA = " conta}
+    print "Número total de nomes próprios = " numNomesProprios
+}
