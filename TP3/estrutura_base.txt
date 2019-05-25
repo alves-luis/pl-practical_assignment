@@ -1,0 +1,33 @@
+artista {
+  nome;
+    - Luís
+  idade;
+    - 21
+  formação;
+    - MIEI, UMinho
+  produtoras para as quais trabalhou;
+    - Disney
+}
+obra {
+  nome;
+    - Os 3 Gambuzinos
+  data;
+    - 02/02/1969
+  género;
+    - Documentário
+  duração;
+    - 20m
+}
+evento {
+  nome;
+    - Festival Internacional de Cannes
+  edição;
+    - 27ª
+  data;
+    - 01/05/1969
+  tipo;
+    - Festival
+}
+Luís produziu Os 3 Gambuzinos.
+Luís aprendeuCom Rafaela.
+Rafaela participouEm Festival Internacional de Cannes.
