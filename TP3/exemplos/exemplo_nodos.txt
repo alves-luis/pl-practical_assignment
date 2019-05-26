@@ -1,0 +1,11 @@
+artista {
+    nome: 'Luis'
+    idade: '23'
+    formacao: 'UMinho'
+}
+obra {
+  nome: 'Os 3 Gambuzinos'
+  data: '02/02/1969'
+  genero: 'Documentário'
+  duracao: '20m'
+}

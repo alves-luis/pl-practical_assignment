@@ -25,20 +25,19 @@ Conteudo: Nodo
         | Relacao
         ;
 
-Nodo: ARTISTA '{' Nome LTagArtista
-    | OBRA '{' Nome LTagObra
-    | EVENTO '{' Nome LTagEvento
+Nodo: ARTISTA '{' Nome LTagArtista '}'
+    | OBRA '{' Nome LTagObra '}'
+    | EVENTO '{' Nome LTagEvento '}'
     ;
 
-Nome: NOME ':' VALOR ';'
+Nome: NOME ':' VALOR
     ;
 
-LTagArtista: '}'
-           | TagArtista '}'
+LTagArtista: /* empty list */
            | LTagArtista TagArtista
            ;
 
-TagArtista: AtributoArtista ':' VALOR ';'
+TagArtista: AtributoArtista ':' VALOR
           ;
 
 AtributoArtista: IDADE
@@ -46,12 +45,11 @@ AtributoArtista: IDADE
                | PRODUTORAS
                ;
 
-LTagObra: '}'
-        | TagObra '}'
+LTagObra: /* empty list */
         | LTagObra TagObra
         ;
 
-TagObra: AtributoObra ':' VALOR ';'
+TagObra: AtributoObra ':' VALOR
          ;
 
 AtributoObra: DATA
@@ -59,12 +57,11 @@ AtributoObra: DATA
             | DURACAO
             ;
 
-LTagEvento: '}'
-          | TagEvento '}'
+LTagEvento: /* empty list */
           | LTagEvento TagEvento
           ;
 
-TagEvento: AtributoEvento ':' VALOR ';'
+TagEvento: AtributoEvento ':' VALOR
          ;
 
 AtributoEvento: EDICAO
