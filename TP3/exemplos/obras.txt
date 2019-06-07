@@ -1,0 +1,11130 @@
+obra {
+  nome: "Tie Me Up! Tie Me Down!",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 111
+}
+
+obra {
+  nome: "High Heels",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 113
+}
+
+obra {
+  nome: "Dead Zone, The",
+  data: 1983,
+  genero: "Horror",
+  duracao: 104
+}
+
+obra {
+  nome: "Cuba",
+  data: 1979,
+  genero: "Action",
+  duracao: 122
+}
+
+obra {
+  nome: "Days of Heaven",
+  data: 1978,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Octopussy",
+  data: 1983,
+  genero: "Action",
+  duracao: 140
+}
+
+obra {
+  nome: "Target Eagle",
+  data: 1984,
+  genero: "Action",
+  duracao: 101
+}
+
+obra {
+  nome: "American Angels: Baptism of Blood, The",
+  data: 1989,
+  genero: "Drama",
+  duracao: 99
+}
+
+obra {
+  nome: "Subway",
+  data: 1985,
+  genero: "Drama",
+  duracao: 104
+}
+
+obra {
+  nome: "Camille Claudel",
+  data: 1990,
+  genero: "Drama",
+  duracao: 149
+}
+
+obra {
+  nome: "Fanny and Alexander",
+  data: 1982,
+  genero: "Drama",
+  duracao: 188
+}
+
+obra {
+  nome: "Tragedy of a Ridiculous Man",
+  data: 1982,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "A Man & a Woman",
+  data: 1966,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "A Man & a Woman: Twenty Years Later",
+  data: 1986,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Un Hombre y una Mujer",
+  data: 1966,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Official Story, The",
+  data: 1985,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Lindbergh Kidnapping Case, The",
+  data: 1976,
+  genero: "Drama",
+  duracao: 150
+}
+
+obra {
+  nome: "Blackmail",
+  data: 1929,
+  genero: "Mystery",
+  duracao: 84
+}
+
+obra {
+  nome: "Donovan's Reef",
+  data: 1963,
+  genero: "Comedy",
+  duracao: 109
+}
+
+obra {
+  nome: "Tucker: The Man & His Dream",
+  data: 1988,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Scrooged",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Raiders of the Lost Ark",
+  data: 1981,
+  genero: "Action",
+  duracao: 116
+}
+
+obra {
+  nome: "Running Man, The",
+  data: 1987,
+  genero: "Science Fiction",
+  duracao: 101
+}
+
+obra {
+  nome: "Predator 2",
+  data: 1991,
+  genero: "Action",
+  duracao: 105
+}
+
+obra {
+  nome: "Colors",
+  data: 1988,
+  genero: "Drama",
+  duracao: 127
+}
+
+obra {
+  nome: "Zandalee",
+  data: 1990,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Miles from Home",
+  data: 1988,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Final Notice",
+  data: 1989,
+  genero: "Mystery",
+  duracao: 88
+}
+
+obra {
+  nome: "Quintet",
+  data: 1979,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Devil's Eye, The",
+  data: 1960,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Wild Strawberries",
+  data: 1957,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Seventh Seal, The",
+  data: 1956,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Germicide",
+  data: 1992,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Dreams",
+  data: 1955,
+  genero: "Drama",
+  duracao: 86
+}
+
+obra {
+  nome: "Naked Night, The",
+  data: 1955,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Through a Glass Darkly",
+  data: 1962,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Cries & Whispers",
+  data: 1972,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Barbarian & the Geisha, The",
+  data: 1958,
+  genero: "Action",
+  duracao: 104
+}
+
+obra {
+  nome: "Casino Royale",
+  data: 1967,
+  genero: "Comedy",
+  duracao: 130
+}
+
+obra {
+  nome: "Elephant Walk",
+  data: 1954,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Ten",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 121
+}
+
+obra {
+  nome: "Man Who Loved Women, The",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 118
+}
+
+obra {
+  nome: "Hawaii",
+  data: 1966,
+  genero: "Drama",
+  duracao: 190
+}
+
+obra {
+  nome: "Torn Curtain",
+  data: 1966,
+  genero: "Mystery",
+  duracao: 125
+}
+
+obra {
+  nome: "Duet for One",
+  data: 1986,
+  genero: "Drama",
+  duracao: 107
+}
+
+obra {
+  nome: "Sound of Music, The",
+  data: 1965,
+  genero: "Music",
+  duracao: 172
+}
+
+obra {
+  nome: "Gonzo Presents Muppet Weird Stuff",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 55
+}
+
+obra {
+  nome: "Tartuffe",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 140
+}
+
+obra {
+  nome: "A New Life",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 104
+}
+
+obra {
+  nome: "Magic",
+  data: 1978,
+  genero: "Mystery",
+  duracao: 106
+}
+
+obra {
+  nome: "Tommy",
+  data: 1992,
+  genero: "Music",
+  duracao: 286
+}
+
+obra {
+  nome: "Big Fix, The",
+  data: 1978,
+  genero: "Mystery",
+  duracao: 108
+}
+
+obra {
+  nome: "Alan & Naomi",
+  data: 1992,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Fatal Attraction",
+  data: 1987,
+  genero: "Mystery",
+  duracao: 120
+}
+
+obra {
+  nome: "Patriot Games",
+  data: 1992,
+  genero: "Action",
+  duracao: 117
+}
+
+obra {
+  nome: "Woman Next Door, The",
+  data: 1981,
+  genero: "Drama",
+  duracao: 106
+}
+
+obra {
+  nome: "Hunting",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 97
+}
+
+obra {
+  nome: "Bataan",
+  data: 1991,
+  genero: "War",
+  duracao: 115
+}
+
+obra {
+  nome: "Siegfried, The Nibelungenlied",
+  data: 1924,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Henry, Portrait of a Serial Killer",
+  data: 1991,
+  genero: "Horror",
+  duracao: 90
+}
+
+obra {
+  nome: "Big Blue, The",
+  data: 1988,
+  genero: "Drama",
+  duracao: 118
+}
+
+obra {
+  nome: "Flight of the Intruder",
+  data: 1991,
+  genero: "Drama",
+  duracao: 115
+}
+
+obra {
+  nome: "Nobody's Fool",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "After Hours",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 97
+}
+
+obra {
+  nome: "Desperately Seeking Susan",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 104
+}
+
+obra {
+  nome: "A New Leaf",
+  data: 1971,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Killers of Kilimanjaro",
+  data: 1959,
+  genero: "Action",
+  duracao: 91
+}
+
+obra {
+  nome: "Don Juan",
+  data: 1926,
+  genero: "Action",
+  duracao: 126
+}
+
+obra {
+  nome: "Babette's Feast",
+  data: 1987,
+  genero: "Drama",
+  duracao: 102
+}
+
+obra {
+  nome: "Vincent, Francois, Paul & the Others",
+  data: 1989,
+  genero: "Drama",
+  duracao: 118
+}
+
+obra {
+  nome: "Thunderball",
+  data: 1988,
+  genero: "Action",
+  duracao: 141
+}
+
+obra {
+  nome: "Lodger (Story of the London Fog)",
+  data: 1926,
+  genero: "Mystery",
+  duracao: 66
+}
+
+obra {
+  nome: "Appointment with Death",
+  data: 1988,
+  genero: "Mystery",
+  duracao: 103
+}
+
+obra {
+  nome: "Murder on the Orient Express",
+  data: 1974,
+  genero: "Mystery",
+  duracao: 128
+}
+
+obra {
+  nome: "Blood Alley",
+  data: 1955,
+  genero: "War",
+  duracao: 115
+}
+
+obra {
+  nome: "Spy Who Loved Me, The",
+  data: 1977,
+  genero: "Action",
+  duracao: 136
+}
+
+obra {
+  nome: "Storm",
+  data: 1988,
+  genero: "Action",
+  duracao: 100
+}
+
+obra {
+  nome: "Bloodbath",
+  data: 1991,
+  genero: "Horror",
+  duracao: 89
+}
+
+obra {
+  nome: "Miami Cops",
+  data: 1989,
+  genero: "Action",
+  duracao: 103
+}
+
+obra {
+  nome: "Island of Dr. Moreau, The",
+  data: 1996,
+  genero: "Horror",
+  duracao: 96
+}
+
+obra {
+  nome: "Eighty-Four Charing Cross Road",
+  data: 1992,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Elephant Man, The",
+  data: 1980,
+  genero: "Drama",
+  duracao: 124
+}
+
+obra {
+  nome: "Dr Alien",
+  data: 1988,
+  genero: "Science Fiction",
+  duracao: 90
+}
+
+obra {
+  nome: "Creepshow",
+  data: 1982,
+  genero: "Horror",
+  duracao: 120
+}
+
+obra {
+  nome: "Sammy & Rosie Get Laid",
+  data: 1987,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Goalie's Anxiety at the Penalty Kick, The",
+  data: 1971,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Mademoiselle Striptease",
+  data: 1957,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Women, The",
+  data: 1969,
+  genero: "Drama",
+  duracao: 86
+}
+
+obra {
+  nome: "That Naughty Girl",
+  data: 1958,
+  genero: "Comedy",
+  duracao: 77
+}
+
+obra {
+  nome: "Voulez-Vous Danser Avec Moi?",
+  data: 1959,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "A Coeur Joie, (Head Over Heels)",
+  data: 1967,
+  genero: "Action",
+  duracao: 100
+}
+
+obra {
+  nome: "Shalako",
+  data: 1968,
+  genero: "Westerns",
+  duracao: 113
+}
+
+obra {
+  nome: "Contempt",
+  data: 1964,
+  genero: "Drama",
+  duracao: 102
+}
+
+obra {
+  nome: "Dear Brigitte",
+  data: 1965,
+  genero: "Comedy",
+  duracao: 100
+}
+
+obra {
+  nome: "A Very Private Affair",
+  data: 1962,
+  genero: "Drama",
+  duracao: 134
+}
+
+obra {
+  nome: "Ravishing Idiot, The",
+  data: 1964,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Bride Is Much Too Beautiful, The",
+  data: 1958,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Doctor at Sea",
+  data: 1955,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Le Repos Du Guerrier, (Warrior's Rest)",
+  data: 1962,
+  genero: "War",
+  duracao: 100
+}
+
+obra {
+  nome: "And God Created Woman",
+  data: 1957,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Ms. Don Juan",
+  data: 1973,
+  genero: "Drama",
+  duracao: 87
+}
+
+obra {
+  nome: "Siesta",
+  data: 1987,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Rich & Strange",
+  data: 1932,
+  genero: "Drama",
+  duracao: 92
+}
+
+obra {
+  nome: "Lionheart",
+  data: 1987,
+  genero: "Action",
+  duracao: 104
+}
+
+obra {
+  nome: "E. T. The Extra-Terrestrial",
+  data: 1982,
+  genero: "Science Fiction",
+  duracao: 115
+}
+
+obra {
+  nome: "Cool World",
+  data: 1992,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Nadine",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 83
+}
+
+obra {
+  nome: "Batman",
+  data: 1989,
+  genero: "Action",
+  duracao: 126
+}
+
+obra {
+  nome: "Blind Date",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "Mother Lode",
+  data: 1982,
+  genero: "Action",
+  duracao: 101
+}
+
+obra {
+  nome: "Final Analysis",
+  data: 1992,
+  genero: "Drama",
+  duracao: 125
+}
+
+obra {
+  nome: "Never Say Never Again",
+  data: 1983,
+  genero: "Action",
+  duracao: 134
+}
+
+obra {
+  nome: "Nine & a Half Weeks",
+  data: 1986,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "No Mercy",
+  data: 1986,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Marrying Man, The",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 116
+}
+
+obra {
+  nome: "Misery",
+  data: 1990,
+  genero: "Horror",
+  duracao: 123
+}
+
+obra {
+  nome: "Crisis",
+  data: 1946,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Samson & Delilah",
+  data: 1984,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Act of Piracy",
+  data: 1990,
+  genero: "Mystery",
+  duracao: 101
+}
+
+obra {
+  nome: "Split Decisions",
+  data: 1988,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Vampire's Kiss",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Nightmare at Noon",
+  data: 1988,
+  genero: "Action",
+  duracao: 96
+}
+
+obra {
+  nome: "Presumed Innocent",
+  data: 1990,
+  genero: "Mystery",
+  duracao: 127
+}
+
+obra {
+  nome: "Reap the Wild Wind",
+  data: 1942,
+  genero: "Drama",
+  duracao: 123
+}
+
+obra {
+  nome: "Pocket Money",
+  data: 1972,
+  genero: "Comedy",
+  duracao: 100
+}
+
+obra {
+  nome: "Mary White",
+  data: 1977,
+  genero: "Drama",
+  duracao: 102
+}
+
+obra {
+  nome: "Guilty by Suspicion",
+  data: 1990,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Secret Beyond the Door",
+  data: 1948,
+  genero: "Mystery",
+  duracao: 99
+}
+
+obra {
+  nome: "Scarlet Street",
+  data: 1945,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Daffy Duck's Quackbusters",
+  data: 1988,
+  genero: "Action",
+  duracao: 76
+}
+
+obra {
+  nome: "Rowlf's Rhapsodies with the Muppets",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 55
+}
+
+obra {
+  nome: "Gandhi",
+  data: 1982,
+  genero: "Drama",
+  duracao: 188
+}
+
+obra {
+  nome: "Wind & the Lion, The",
+  data: 1975,
+  genero: "Action",
+  duracao: 120
+}
+
+obra {
+  nome: "Carnal Knowledge",
+  data: 1971,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Getting Straight",
+  data: 1970,
+  genero: "Comedy",
+  duracao: 126
+}
+
+obra {
+  nome: "Scarlet Letter, The",
+  data: 1972,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Count of Old Town, The",
+  data: 1935,
+  genero: "Comedy",
+  duracao: 75
+}
+
+obra {
+  nome: "Autumn Sonata",
+  data: 1978,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Gaslight",
+  data: 1944,
+  genero: "Drama",
+  duracao: 114
+}
+
+obra {
+  nome: "Indiscreet",
+  data: 1958,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Walpurgis Night",
+  data: 1941,
+  genero: "Drama",
+  duracao: 75
+}
+
+obra {
+  nome: "Joan of Arc",
+  data: 1948,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "A Woman Called Golda",
+  data: 1982,
+  genero: "Drama",
+  duracao: 195
+}
+
+obra {
+  nome: "A Walk in the Spring Rain",
+  data: 1969,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Under Capricorn",
+  data: 1949,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Notorious",
+  data: 1946,
+  genero: "Mystery",
+  duracao: 101
+}
+
+obra {
+  nome: "June Night",
+  data: 1940,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Goodbye Again",
+  data: 1961,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Anastasia",
+  data: 1956,
+  genero: "Drama",
+  duracao: 106
+}
+
+obra {
+  nome: "Bells of St. Mary's, The",
+  data: 1945,
+  genero: "Drama",
+  duracao: 126
+}
+
+obra {
+  nome: "Intermezzo",
+  data: 1937,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "A Woman's Face",
+  data: 1938,
+  genero: "Drama",
+  duracao: 104
+}
+
+obra {
+  nome: "Swedenhielms",
+  data: 1935,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Only One Night",
+  data: 1939,
+  genero: "Drama",
+  duracao: 87
+}
+
+obra {
+  nome: "Dollar",
+  data: 1938,
+  genero: "Drama",
+  duracao: 74
+}
+
+obra {
+  nome: "Elena & Her Men",
+  data: 1956,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Europa Fifty-One",
+  data: 1952,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Voyage in Italy",
+  data: 1953,
+  genero: "Drama",
+  duracao: 83
+}
+
+obra {
+  nome: "Fear",
+  data: 1954,
+  genero: "Drama",
+  duracao: 81
+}
+
+obra {
+  nome: "Stromboli",
+  data: 1950,
+  genero: "Drama",
+  duracao: 107
+}
+
+obra {
+  nome: "Cactus Flower",
+  data: 1969,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Hideaways",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 105
+}
+
+obra {
+  nome: "Twenty Four Hours in a Woman's Life",
+  data: 1990,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Programmed to Kill",
+  data: 1987,
+  genero: "Action",
+  duracao: 91
+}
+
+obra {
+  nome: "Conan the Barbarian",
+  data: 1982,
+  genero: "Action",
+  duracao: 128
+}
+
+obra {
+  nome: "Raw Nerve",
+  data: 1991,
+  genero: "Mystery",
+  duracao: 91
+}
+
+obra {
+  nome: "Think Dirty",
+  data: 1970,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "King of Comedy",
+  data: 1982,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Best of the Big Laff Off, The",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Amadeus",
+  data: 1984,
+  genero: "Drama",
+  duracao: 158
+}
+
+obra {
+  nome: "White Lightning",
+  data: 1973,
+  genero: "Action",
+  duracao: 101
+}
+
+obra {
+  nome: "Unbearable Lightness of Being, The",
+  data: 1988,
+  genero: "Drama",
+  duracao: 172
+}
+
+obra {
+  nome: "Life & Times of Judge Roy Bean, The",
+  data: 1972,
+  genero: "Western",
+  duracao: 124
+}
+
+obra {
+  nome: "Airport",
+  data: 1970,
+  genero: "Drama",
+  duracao: 137
+}
+
+obra {
+  nome: "Day for Night",
+  data: 1973,
+  genero: "Drama",
+  duracao: 116
+}
+
+obra {
+  nome: "Secrets of Women",
+  data: 1952,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Burnt Offerings",
+  data: 1976,
+  genero: "Horror",
+  duracao: 116
+}
+
+obra {
+  nome: "Easy Rider",
+  data: 1969,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Five Easy Pieces",
+  data: 1991,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Day of the Locust, The",
+  data: 1974,
+  genero: "Drama",
+  duracao: 144
+}
+
+obra {
+  nome: "Goldfinger",
+  data: 1964,
+  genero: "Action",
+  duracao: 112
+}
+
+obra {
+  nome: "Exorcist II, The Heretic",
+  data: 1977,
+  genero: "Horror",
+  duracao: 117
+}
+
+obra {
+  nome: "Lady for a Night",
+  data: 1942,
+  genero: "Drama",
+  duracao: 88
+}
+
+obra {
+  nome: "Charly",
+  data: 1968,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "High Plains Drifter",
+  data: 1973,
+  genero: "Western",
+  duracao: 105
+}
+
+obra {
+  nome: "Honkytonk Man",
+  data: 1982,
+  genero: "Drama",
+  duracao: 123
+}
+
+obra {
+  nome: "Nightbreed",
+  data: 1990,
+  genero: "Horror",
+  duracao: 102
+}
+
+obra {
+  nome: "Under the Sun of Satan",
+  data: 1987,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Vagabond",
+  data: 1985,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Bill Cosby, Live at Harrah's",
+  data: 1993,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Monty Python & the Holy Grail",
+  data: 1974,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "John Cleese on How to Irritate People",
+  data: 1993,
+  genero: "Comedy",
+  duracao: 65
+}
+
+obra {
+  nome: "Matchmaker, The",
+  data: 1958,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "For Your Eyes Only",
+  data: 1981,
+  genero: "Action",
+  duracao: 129
+}
+
+obra {
+  nome: "Wings",
+  data: 1928,
+  genero: "War",
+  duracao: 139
+}
+
+obra {
+  nome: "Medicine Man",
+  data: 1992,
+  genero: "Action",
+  duracao: 106
+}
+
+obra {
+  nome: "Kiss of the Spider Woman",
+  data: 1985,
+  genero: "Drama",
+  duracao: 119
+}
+
+obra {
+  nome: "Rookie, THe",
+  data: 1990,
+  genero: "Action",
+  duracao: 121
+}
+
+obra {
+  nome: "Sting, The",
+  data: 1973,
+  genero: "Drama",
+  duracao: 129
+}
+
+obra {
+  nome: "Torpedo Run",
+  data: 1958,
+  genero: "War",
+  duracao: 96
+}
+
+obra {
+  nome: "Instant Justice",
+  data: 1986,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Cyrano de Bergerac",
+  data: 1990,
+  genero: "Drama",
+  duracao: 135
+}
+
+obra {
+  nome: "Border Street",
+  data: 1948,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Firehouse",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "Morituri",
+  data: 1965,
+  genero: "Drama",
+  duracao: 123
+}
+
+obra {
+  nome: "From the Life of the Marionettes",
+  data: 1980,
+  genero: "Drama",
+  duracao: 104
+}
+
+obra {
+  nome: "Frantic",
+  data: 1988,
+  genero: "Mystery",
+  duracao: 120
+}
+
+obra {
+  nome: "Coma",
+  data: 1978,
+  genero: "Science Fiction",
+  duracao: 114
+}
+
+obra {
+  nome: "Dead Ringers",
+  data: 1988,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Golden Ninja Invasion",
+  data: 1988,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "Exorcist, The",
+  data: 1973,
+  genero: "Horror",
+  duracao: 122
+}
+
+obra {
+  nome: "Alice Doesn't Live Here Anymore",
+  data: 1975,
+  genero: "Comedy",
+  duracao: 112
+}
+
+obra {
+  nome: "Eyes of the Amaryllis, The",
+  data: 1982,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "What Price Glory?",
+  data: 1952,
+  genero: "War",
+  duracao: 109
+}
+
+obra {
+  nome: "Inauguration of the Pleasure Dome",
+  data: 1954,
+  genero: "Short",
+  duracao: 40
+}
+
+obra {
+  nome: "School Daze",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 114
+}
+
+obra {
+  nome: "End of Innocence, The",
+  data: 1990,
+  genero: "Drama",
+  duracao: 102
+}
+
+obra {
+  nome: "Anderson Tapes, The",
+  data: 1971,
+  genero: "Mystery",
+  duracao: 98
+}
+
+obra {
+  nome: "Father Murphy, A Horse from Heaven",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 50
+}
+
+obra {
+  nome: "Skull",
+  data: 1989,
+  genero: "Drama",
+  duracao: 80
+}
+
+obra {
+  nome: "Quick & The Dead, The",
+  data: 1987,
+  genero: "Western",
+  duracao: 91
+}
+
+obra {
+  nome: "Best Defense",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Dreamscape",
+  data: 1984,
+  genero: "Science Fiction",
+  duracao: 99
+}
+
+obra {
+  nome: "Black Rain",
+  data: 1989,
+  genero: "Action",
+  duracao: 125
+}
+
+obra {
+  nome: "8 1/2",
+  data: 1963,
+  genero: "Drama",
+  duracao: 138
+}
+
+obra {
+  nome: "One Frightened Night",
+  data: 1935,
+  genero: "Horror",
+  duracao: 64
+}
+
+obra {
+  nome: "Year My Voice Broke, The",
+  data: 1988,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Is Paris Burning?",
+  data: 1966,
+  genero: "War",
+  duracao: 175
+}
+
+obra {
+  nome: "QB VII",
+  data: 1974,
+  genero: "Drama",
+  duracao: 313
+}
+
+obra {
+  nome: "Island of Dr. Moreau, The",
+  data: 1977,
+  genero: "Horror",
+  duracao: 104
+}
+
+obra {
+  nome: "Beyond the Limit",
+  data: 1983,
+  genero: "Drama",
+  duracao: 104
+}
+
+obra {
+  nome: "Secret Agent",
+  data: 1936,
+  genero: "Mystery",
+  duracao: 84
+}
+
+obra {
+  nome: "Paramount Comedy Theater: Well-Developed",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 71
+}
+
+obra {
+  nome: "Big Bust Out, The",
+  data: 1972,
+  genero: "Action",
+  duracao: 71
+}
+
+obra {
+  nome: "Fourth Protocol, The",
+  data: 1987,
+  genero: "Mystery",
+  duracao: 119
+}
+
+obra {
+  nome: "Gremlins 2: The New Batch",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Fast Times at Ridgemont High",
+  data: 1982,
+  genero: "Comedy",
+  duracao: 92
+}
+
+obra {
+  nome: "Rabid",
+  data: 1977,
+  genero: "Horror",
+  duracao: 91
+}
+
+obra {
+  nome: "Vampire Raiders, Ninja Queen",
+  data: 1989,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "Bloopers from Star Trek",
+  data: 1970,
+  genero: "Comedy",
+  duracao: 26
+}
+
+obra {
+  nome: "Destroyer",
+  data: 1943,
+  genero: "Action",
+  duracao: 99
+}
+
+obra {
+  nome: "Party Girl",
+  data: 1992,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Twin Peaks",
+  data: 1989,
+  genero: "Mystery",
+  duracao: 113
+}
+
+obra {
+  nome: "Moonstruck",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Witches of Eastwick, The",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 119
+}
+
+obra {
+  nome: "Moonraker",
+  data: 1979,
+  genero: "Action",
+  duracao: 128
+}
+
+obra {
+  nome: "Beat Street",
+  data: 1984,
+  genero: "Drama",
+  duracao: 106
+}
+
+obra {
+  nome: "Running Out of Luck",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 88
+}
+
+obra {
+  nome: "Never on Tuesday",
+  data: 1989,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Shampoo",
+  data: 1975,
+  genero: "Comedy",
+  duracao: 109
+}
+
+obra {
+  nome: "Power",
+  data: 1985,
+  genero: "Drama",
+  duracao: 111
+}
+
+obra {
+  nome: "Darling",
+  data: 1965,
+  genero: "Drama",
+  duracao: 122
+}
+
+obra {
+  nome: "Ugly American, The",
+  data: 1963,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Ambassador Bill",
+  data: 1931,
+  genero: "Comedy",
+  duracao: 68
+}
+
+obra {
+  nome: "Big Trail, The",
+  data: 1931,
+  genero: "Western",
+  duracao: 110
+}
+
+obra {
+  nome: "Hombre",
+  data: 1967,
+  genero: "Western",
+  duracao: 111
+}
+
+obra {
+  nome: "Coogan's Bluff",
+  data: 1968,
+  genero: "Action",
+  duracao: 103
+}
+
+obra {
+  nome: "Penn & Teller Get Killed",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "Shy People",
+  data: 1987,
+  genero: "Drama",
+  duracao: 118
+}
+
+obra {
+  nome: "It's My Turn",
+  data: 1980,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "Dangerous Liaisons",
+  data: 1988,
+  genero: "Drama",
+  duracao: 119
+}
+
+obra {
+  nome: "Reversal of Fortune",
+  data: 1990,
+  genero: "Drama",
+  duracao: 111
+}
+
+obra {
+  nome: "Meeting Venus",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 119
+}
+
+obra {
+  nome: "Tomorrow Is Forever",
+  data: 1946,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Like Father Like Son",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Rope",
+  data: 1948,
+  genero: "Drama",
+  duracao: 81
+}
+
+obra {
+  nome: "Road to Hong Kong",
+  data: 1962,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "Shirley Valentine",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "City of Joy",
+  data: 1992,
+  genero: "Drama",
+  duracao: 135
+}
+
+obra {
+  nome: "Appaloosa, The",
+  data: 1966,
+  genero: "Western",
+  duracao: 99
+}
+
+obra {
+  nome: "Seven Minutes in Heaven",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 88
+}
+
+obra {
+  nome: "Hearts of Darkness, A Filmmaker's Apocalypse",
+  data: 1991,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Tonight for Sure",
+  data: 1961,
+  genero: "Comedy",
+  duracao: 66
+}
+
+obra {
+  nome: "White Hunter, Black Heart",
+  data: 1990,
+  genero: "Adventure",
+  duracao: 110
+}
+
+obra {
+  nome: "Sundays & Cybele",
+  data: 1962,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Puppet Master",
+  data: 1989,
+  genero: "Science Fiction",
+  duracao: 90
+}
+
+obra {
+  nome: "Night Gallery",
+  data: 1991,
+  genero: "Horror",
+  duracao: 95
+}
+
+obra {
+  nome: "Pet Sematary",
+  data: 1989,
+  genero: "Horror",
+  duracao: 103
+}
+
+obra {
+  nome: "America's Music, Gospel",
+  data: 1992,
+  genero: "Music",
+  duracao: 60
+}
+
+obra {
+  nome: "Slap Shot",
+  data: 1977,
+  genero: "Comedy",
+  duracao: 123
+}
+
+obra {
+  nome: "O. C. & Stiggs",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 109
+}
+
+obra {
+  nome: "A Fish Called Wanda",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "A Lesson in Love",
+  data: 1954,
+  genero: "Comedy",
+  duracao: 96
+}
+
+obra {
+  nome: "Brink of Life",
+  data: 1957,
+  genero: "Drama",
+  duracao: 82
+}
+
+obra {
+  nome: "Betty Blue",
+  data: 1986,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Hair",
+  data: 1979,
+  genero: "Music",
+  duracao: 122
+}
+
+obra {
+  nome: "National Lampoon's Christmas Vacation",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 97
+}
+
+obra {
+  nome: "Dersu Uzala, (The Hunter)",
+  data: 1974,
+  genero: "Adventure",
+  duracao: 124
+}
+
+obra {
+  nome: "Alice",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 106
+}
+
+obra {
+  nome: "Fifth Floor, The",
+  data: 1980,
+  genero: "Mystery",
+  duracao: 90
+}
+
+obra {
+  nome: "Snow Kill",
+  data: 1990,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "People, The",
+  data: 1971,
+  genero: "Drama",
+  duracao: 74
+}
+
+obra {
+  nome: "True Grit",
+  data: 1969,
+  genero: "Western",
+  duracao: 128
+}
+
+obra {
+  nome: "Battle of Midway, The",
+  data: 1942,
+  genero: "War",
+  duracao: 18
+}
+
+obra {
+  nome: "Three Godfathers",
+  data: 1948,
+  genero: "Western",
+  duracao: 103
+}
+
+obra {
+  nome: "Hush, Hush, Sweet Charlotte",
+  data: 1965,
+  genero: "Mystery",
+  duracao: 133
+}
+
+obra {
+  nome: "A Stolen Life",
+  data: 1946,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Old Maid, The",
+  data: 1939,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "All about Eve",
+  data: 1950,
+  genero: "Drama",
+  duracao: 138
+}
+
+obra {
+  nome: "Fly, The",
+  data: 1986,
+  genero: "Horror",
+  duracao: 96
+}
+
+obra {
+  nome: "Quick Change",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "Lair of the White Worm, The",
+  data: 1988,
+  genero: "Horror",
+  duracao: 93
+}
+
+obra {
+  nome: "Rainbow, The",
+  data: 1989,
+  genero: "Drama",
+  duracao: 104
+}
+
+obra {
+  nome: "Man Who Knew Too Much, The",
+  data: 1956,
+  genero: "Mystery",
+  duracao: 120
+}
+
+obra {
+  nome: "Beauty & the Beast",
+  data: 1992,
+  genero: "Science Fiction",
+  duracao: 90
+}
+
+obra {
+  nome: "Foreign Correspondent",
+  data: 1940,
+  genero: "Mystery",
+  duracao: 120
+}
+
+obra {
+  nome: "Heiress, The",
+  data: 1949,
+  genero: "Drama",
+  duracao: 115
+}
+
+obra {
+  nome: "Boy Who Could Fly, The",
+  data: 1986,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Terrorists, The",
+  data: 1975,
+  genero: "Action",
+  duracao: 89
+}
+
+obra {
+  nome: "Wheel of Fortune",
+  data: 1942,
+  genero: "Drama",
+  duracao: 85
+}
+
+obra {
+  nome: "Do the Right Thing",
+  data: 1989,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Court-Martial of Jackie Robinson, The",
+  data: 1990,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Elvira Madigan",
+  data: 1967,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Hurricane Smith",
+  data: 1992,
+  genero: "Action",
+  duracao: 86
+}
+
+obra {
+  nome: "Fair Game",
+  data: 1987,
+  genero: "Action",
+  duracao: 86
+}
+
+obra {
+  nome: "Rape of the Sabines, The",
+  data: 1989,
+  genero: "Action",
+  duracao: 95
+}
+
+obra {
+  nome: "Risky Business",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "I Love All of You (Je Vous Aime)",
+  data: 1980,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Love Songs",
+  data: 1986,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Le Choix des Armes",
+  data: 1983,
+  genero: "Mystery",
+  duracao: 114
+}
+
+obra {
+  nome: "Choice of Arms",
+  data: 1981,
+  genero: "Action",
+  duracao: 135
+}
+
+obra {
+  nome: "March or Die",
+  data: 1977,
+  genero: "War",
+  duracao: 107
+}
+
+obra {
+  nome: "Last Metro, The",
+  data: 1980,
+  genero: "Drama",
+  duracao: 135
+}
+
+obra {
+  nome: "Jean de Florette",
+  data: 1986,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Fat Man & Little Boy",
+  data: 1989,
+  genero: "Drama",
+  duracao: 127
+}
+
+obra {
+  nome: "Wild at Heart",
+  data: 1990,
+  genero: "Drama",
+  duracao: 125
+}
+
+obra {
+  nome: "Family Business",
+  data: 1989,
+  genero: "Action",
+  duracao: 113
+}
+
+obra {
+  nome: "Stand & Deliver",
+  data: 1988,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Looker",
+  data: 1981,
+  genero: "Science Fiction",
+  duracao: 94
+}
+
+obra {
+  nome: "Fire & Rain",
+  data: 1989,
+  genero: "Action",
+  duracao: 89
+}
+
+obra {
+  nome: "Best of Candid Camera, The",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 56
+}
+
+obra {
+  nome: "Seven Sinners",
+  data: 1940,
+  genero: "Drama",
+  duracao: 83
+}
+
+obra {
+  nome: "Judgment at Nuremberg",
+  data: 1961,
+  genero: "Drama",
+  duracao: 190
+}
+
+obra {
+  nome: "Minsky's Follies",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Novice, The",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 97
+}
+
+obra {
+  nome: "Wings of Desire",
+  data: 1987,
+  genero: "Drama",
+  duracao: 130
+}
+
+obra {
+  nome: "Until the End of the World",
+  data: 1991,
+  genero: "Drama",
+  duracao: 158
+}
+
+obra {
+  nome: "Castaway",
+  data: 1987,
+  genero: "Drama",
+  duracao: 118
+}
+
+obra {
+  nome: "Alfred Hitchcock Presents, Sorcerer's Apprentice",
+  data: 1993,
+  genero: "Mystery",
+  duracao: 30
+}
+
+obra {
+  nome: "Delicatessen",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Great Train Robbery, The",
+  data: 1979,
+  genero: "Mystery",
+  duracao: 110
+}
+
+obra {
+  nome: "Hanover Street",
+  data: 1991,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Hunchback",
+  data: 1991,
+  genero: "Drama",
+  duracao: 102
+}
+
+obra {
+  nome: "My Darling Clementine",
+  data: 1946,
+  genero: "Western",
+  duracao: 97
+}
+
+obra {
+  nome: "Wagon Master",
+  data: 1950,
+  genero: "Western",
+  duracao: 86
+}
+
+obra {
+  nome: "She Wore a Yellow Ribbon",
+  data: 1949,
+  genero: "Western",
+  duracao: 93
+}
+
+obra {
+  nome: "Fantasy Man",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Monster in the Closet",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 87
+}
+
+obra {
+  nome: "Double Edge",
+  data: 1992,
+  genero: "Drama",
+  duracao: 85
+}
+
+obra {
+  nome: "Network",
+  data: 1976,
+  genero: "Comedy",
+  duracao: 116
+}
+
+obra {
+  nome: "Chinatown",
+  data: 1974,
+  genero: "Drama",
+  duracao: 131
+}
+
+obra {
+  nome: "Three Days of the Condor",
+  data: 1975,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Voyage of the Damned",
+  data: 1977,
+  genero: "Drama",
+  duracao: 134
+}
+
+obra {
+  nome: "Barfly",
+  data: 1987,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Wait Until Spring, Bandini",
+  data: 1990,
+  genero: "Drama",
+  duracao: 104
+}
+
+obra {
+  nome: "Life with Father",
+  data: 1947,
+  genero: "Comedy",
+  duracao: 118
+}
+
+obra {
+  nome: "Stavisky",
+  data: 1974,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Time Bandits",
+  data: 1981,
+  genero: "Comedy",
+  duracao: 117
+}
+
+obra {
+  nome: "Shining, The",
+  data: 1980,
+  genero: "Horror",
+  duracao: 144
+}
+
+obra {
+  nome: "Flame of Barbary Coast",
+  data: 1945,
+  genero: "Western",
+  duracao: 91
+}
+
+obra {
+  nome: "Naked Truth, The",
+  data: 1993,
+  genero: "Comedy",
+  duracao: 92
+}
+
+obra {
+  nome: "Brood, The",
+  data: 1979,
+  genero: "Horror",
+  duracao: 92
+}
+
+obra {
+  nome: "Molly Maguires, The",
+  data: 1970,
+  genero: "Action",
+  duracao: 123
+}
+
+obra {
+  nome: "Beverly Hills Cop",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 105
+}
+
+obra {
+  nome: "Blind Man's Bluff",
+  data: 1991,
+  genero: "Mystery",
+  duracao: 86
+}
+
+obra {
+  nome: "La Dolce Vita",
+  data: 1961,
+  genero: "Drama",
+  duracao: 140
+}
+
+obra {
+  nome: "After the Fox",
+  data: 1966,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Man with the Golden Gun, The",
+  data: 1974,
+  genero: "Action",
+  duracao: 127
+}
+
+obra {
+  nome: "Marbella",
+  data: 1985,
+  genero: "Action",
+  duracao: 96
+}
+
+obra {
+  nome: "Bobo, The",
+  data: 1967,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Big Bands, The",
+  data: 1993,
+  genero: "Music",
+  duracao: 53
+}
+
+obra {
+  nome: "Killer Image.",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 97
+}
+
+obra {
+  nome: "Kandyland",
+  data: 1987,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Campus Man",
+  data: 1987,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Jubal",
+  data: 1956,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Purple Rose of Cairo, The",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 84
+}
+
+obra {
+  nome: "Broadway Danny Rose",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 85
+}
+
+obra {
+  nome: "Husbands & Wives",
+  data: 1992,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "Hannah & Her Sisters",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Hurricane",
+  data: 1979,
+  genero: "Action",
+  duracao: 115
+}
+
+obra {
+  nome: "Between Two Women",
+  data: 1986,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Cannonball Run, The",
+  data: 1981,
+  genero: "Comedy",
+  duracao: 96
+}
+
+obra {
+  nome: "Doughnuts & Society",
+  data: 1936,
+  genero: "Comedy",
+  duracao: 70
+}
+
+obra {
+  nome: "Holocaust",
+  data: 1978,
+  genero: "Drama",
+  duracao: 450
+}
+
+obra {
+  nome: "Meridian",
+  data: 1990,
+  genero: "Science Fiction",
+  duracao: 103
+}
+
+obra {
+  nome: "Diary of a Hitman",
+  data: 1992,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Gor",
+  data: 1988,
+  genero: "Action",
+  duracao: 95
+}
+
+obra {
+  nome: "Surrender",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "Places in the Heart",
+  data: 1984,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Not Without My Daughter",
+  data: 1991,
+  genero: "Drama",
+  duracao: 106
+}
+
+obra {
+  nome: "Heroes",
+  data: 1977,
+  genero: "Drama",
+  duracao: 113
+}
+
+obra {
+  nome: "Absence of Malice",
+  data: 1981,
+  genero: "Drama",
+  duracao: 116
+}
+
+obra {
+  nome: "Norma Rae",
+  data: 1979,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Steel Magnolias",
+  data: 1989,
+  genero: "Drama",
+  duracao: 118
+}
+
+obra {
+  nome: "Burbs, The",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Empire Strikes Back, The",
+  data: 1980,
+  genero: "Science Fiction",
+  duracao: 124
+}
+
+obra {
+  nome: "Star Wars",
+  data: 1977,
+  genero: "Science Fiction",
+  duracao: 121
+}
+
+obra {
+  nome: "Return of the Jedi",
+  data: 1983,
+  genero: "Science Fiction",
+  duracao: 132
+}
+
+obra {
+  nome: "Hear My Song",
+  data: 1991,
+  genero: "Drama",
+  duracao: 104
+}
+
+obra {
+  nome: "Slightly Scarlet",
+  data: 1956,
+  genero: "Action",
+  duracao: 99
+}
+
+obra {
+  nome: "Gunfight at the OK Corral",
+  data: 1957,
+  genero: "Western",
+  duracao: 120
+}
+
+obra {
+  nome: "Bloodsucking Pharaohs in Pittsburgh",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "Roma",
+  data: 1972,
+  genero: "Drama",
+  duracao: 129
+}
+
+obra {
+  nome: "China Syndrome, The",
+  data: 1979,
+  genero: "Drama",
+  duracao: 122
+}
+
+obra {
+  nome: "Morning After, The",
+  data: 1986,
+  genero: "Mystery",
+  duracao: 100
+}
+
+obra {
+  nome: "Klute",
+  data: 1971,
+  genero: "Drama",
+  duracao: 114
+}
+
+obra {
+  nome: "Electric Horseman, The",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 113
+}
+
+obra {
+  nome: "Cat Ballou",
+  data: 1965,
+  genero: "Comedy",
+  duracao: 97
+}
+
+obra {
+  nome: "Rebecca",
+  data: 1940,
+  genero: "Drama",
+  duracao: 130
+}
+
+obra {
+  nome: "Jane Eyre",
+  data: 1944,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Stacey!",
+  data: 1973,
+  genero: "Action",
+  duracao: 87
+}
+
+obra {
+  nome: "Naked Obsession",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 85
+}
+
+obra {
+  nome: "Stripped to Kill II, Live Girls",
+  data: 1989,
+  genero: "Mystery",
+  duracao: 83
+}
+
+obra {
+  nome: "Rain Killer, The",
+  data: 1990,
+  genero: "Mystery",
+  duracao: 94
+}
+
+obra {
+  nome: "Valley Girl",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "Silence of the Lambs, The",
+  data: 1991,
+  genero: "Mystery",
+  duracao: 118
+}
+
+obra {
+  nome: "Stealing Home",
+  data: 1988,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Napoleon & Samantha",
+  data: 1972,
+  genero: "Comedy",
+  duracao: 92
+}
+
+obra {
+  nome: "My Left Foot",
+  data: 1989,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Back to the Beach",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 92
+}
+
+obra {
+  nome: "Painted Veil, The",
+  data: 1934,
+  genero: "Drama",
+  duracao: 85
+}
+
+obra {
+  nome: "Inspiration",
+  data: 1931,
+  genero: "Drama",
+  duracao: 74
+}
+
+obra {
+  nome: "Anna Christie",
+  data: 1930,
+  genero: "Drama",
+  duracao: 92
+}
+
+obra {
+  nome: "Flesh & the Devil, The",
+  data: 1926,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Woman of Affairs",
+  data: 1928,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Anna Karenina",
+  data: 1935,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Camille",
+  data: 1936,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Mata Hari",
+  data: 1931,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Wild Orchids",
+  data: 1929,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Grand Hotel",
+  data: 1932,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Susan Lennox, Her Fall & Rise",
+  data: 1931,
+  genero: "Drama",
+  duracao: 84
+}
+
+obra {
+  nome: "Ninotchka",
+  data: 1939,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "Queen Christina",
+  data: 1933,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Mysterious Lady, The",
+  data: 1928,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Joyless Street",
+  data: 1925,
+  genero: "Drama",
+  duracao: 125
+}
+
+obra {
+  nome: "Single Standard, The",
+  data: 1929,
+  genero: "Drama",
+  duracao: 74
+}
+
+obra {
+  nome: "As You Desire Me",
+  data: 1932,
+  genero: "Drama",
+  duracao: 71
+}
+
+obra {
+  nome: "Romance",
+  data: 1930,
+  genero: "Drama",
+  duracao: 76
+}
+
+obra {
+  nome: "A Child Is Waiting",
+  data: 1962,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Tootsie",
+  data: 1982,
+  genero: "Comedy",
+  duracao: 116
+}
+
+obra {
+  nome: "Let It Ride",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 86
+}
+
+obra {
+  nome: "Julius Caesar",
+  data: 1953,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Nineteen Forty-One",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 120
+}
+
+obra {
+  nome: "Jaws",
+  data: 1975,
+  genero: "Action",
+  duracao: 124
+}
+
+obra {
+  nome: "Hot Pursuit",
+  data: 1987,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Triumph of the Spirit",
+  data: 1989,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Brannigan",
+  data: 1975,
+  genero: "Drama",
+  duracao: 111
+}
+
+obra {
+  nome: "Buffet Froid",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "Salvador",
+  data: 1986,
+  genero: "Drama",
+  duracao: 122
+}
+
+obra {
+  nome: "Horse Soldiers, The",
+  data: 1959,
+  genero: "Western",
+  duracao: 102
+}
+
+obra {
+  nome: "Long John Silver",
+  data: 1954,
+  genero: "Action",
+  duracao: 108
+}
+
+obra {
+  nome: "Hustler, The",
+  data: 1961,
+  genero: "Drama",
+  duracao: 134
+}
+
+obra {
+  nome: "Star Chamber, The",
+  data: 1983,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Clara's Heart",
+  data: 1988,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Burglar",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Comic Relief",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 120
+}
+
+obra {
+  nome: "Bloodbrothers",
+  data: 1978,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Rain Man",
+  data: 1988,
+  genero: "Drama",
+  duracao: 134
+}
+
+obra {
+  nome: "Masculine Feminine",
+  data: 1966,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Outer Limits, The",
+  data: 1964,
+  genero: "Science Fiction",
+  duracao: 51
+}
+
+obra {
+  nome: "Last Ride of the Dalton Gang, The",
+  data: 1979,
+  genero: "Western",
+  duracao: 180
+}
+
+obra {
+  nome: "Number Seventeen",
+  data: 1932,
+  genero: "Crime",
+  duracao: 66
+}
+
+obra {
+  nome: "Manhunter",
+  data: 1986,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Bonfire of the Vanities, The",
+  data: 1990,
+  genero: "Drama",
+  duracao: 126
+}
+
+obra {
+  nome: "Working Girl",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 115
+}
+
+obra {
+  nome: "Shining Through",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 133
+}
+
+obra {
+  nome: "Slumber Party Massacre III",
+  data: 1991,
+  genero: "Horror",
+  duracao: 76
+}
+
+obra {
+  nome: "Tokyo Pop",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Terminator 2",
+  data: 1991,
+  genero: "Action",
+  duracao: 136
+}
+
+obra {
+  nome: "Terminator, The",
+  data: 1984,
+  genero: "Action",
+  duracao: 108
+}
+
+obra {
+  nome: "King Kong Lives!",
+  data: 1986,
+  genero: "Action",
+  duracao: 105
+}
+
+obra {
+  nome: "Those Daring Young Men in Their Jaunty",
+  data: 1969,
+  genero: "Comedy",
+  duracao: 125
+}
+
+obra {
+  nome: "At Play in the Fields of the Lord",
+  data: 1991,
+  genero: "Drama",
+  duracao: 186
+}
+
+obra {
+  nome: "Memoirs of an Invisible Man",
+  data: 1992,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Clan of the Cave Bear, The",
+  data: 1985,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Final Terror, The",
+  data: 1983,
+  genero: "Horror",
+  duracao: 82
+}
+
+obra {
+  nome: "Reckless",
+  data: 1984,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Roxanne",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Blade Runner",
+  data: 1982,
+  genero: "Action",
+  duracao: 117
+}
+
+obra {
+  nome: "Wall Street",
+  data: 1987,
+  genero: "Drama",
+  duracao: 126
+}
+
+obra {
+  nome: "Pope of Greenwich Village",
+  data: 1992,
+  genero: "Drama",
+  duracao: 111
+}
+
+obra {
+  nome: "After School",
+  data: 1989,
+  genero: "Drama",
+  duracao: 89
+}
+
+obra {
+  nome: "Flaming Frontiers",
+  data: 1938,
+  genero: "Western",
+  duracao: 298
+}
+
+obra {
+  nome: "Libeled Lady",
+  data: 1936,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "Inserts",
+  data: 1976,
+  genero: "Drama",
+  duracao: 99
+}
+
+obra {
+  nome: "Blue Iguana, The",
+  data: 1988,
+  genero: "Drama",
+  duracao: 88
+}
+
+obra {
+  nome: "Tender Mercies",
+  data: 1983,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Nights in White Satin",
+  data: 1987,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Videodrome",
+  data: 1989,
+  genero: "Horror",
+  duracao: 87
+}
+
+obra {
+  nome: "Intimate Stranger",
+  data: 1991,
+  genero: "Mystery",
+  duracao: 96
+}
+
+obra {
+  nome: "Highlander",
+  data: 1986,
+  genero: "Science Fiction",
+  duracao: 110
+}
+
+obra {
+  nome: "Bodycount",
+  data: 1987,
+  genero: "Action",
+  duracao: 93
+}
+
+obra {
+  nome: "Tango & Cash",
+  data: 1989,
+  genero: "Action",
+  duracao: 104
+}
+
+obra {
+  nome: "There's a Girl in My Soup",
+  data: 1970,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Swing Shift",
+  data: 1984,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Foul Play",
+  data: 1978,
+  genero: "Comedy",
+  duracao: 112
+}
+
+obra {
+  nome: "Best Friends",
+  data: 1982,
+  genero: "Comedy",
+  duracao: 109
+}
+
+obra {
+  nome: "Butterflies Are Free",
+  data: 1972,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Overboard",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 112
+}
+
+obra {
+  nome: "Girl from Petrovka, The",
+  data: 1974,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Housesitter",
+  data: 1992,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Wildcats",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 106
+}
+
+obra {
+  nome: "Protocol",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 100
+}
+
+obra {
+  nome: "Seems Like Old Times",
+  data: 1980,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Sugarland Express, The",
+  data: 1974,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Private Benjamin",
+  data: 1980,
+  genero: "Comedy",
+  duracao: 110
+}
+
+obra {
+  nome: "Deceived",
+  data: 1991,
+  genero: "Mystery",
+  duracao: 115
+}
+
+obra {
+  nome: "Arrowsmith",
+  data: 1931,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Say Goodbye Maggie Cole",
+  data: 1972,
+  genero: "Drama",
+  duracao: 78
+}
+
+obra {
+  nome: "Circus World",
+  data: 1964,
+  genero: "Drama",
+  duracao: 132
+}
+
+obra {
+  nome: "Affair in Trinidad",
+  data: 1952,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Lady from Shanghai",
+  data: 1948,
+  genero: "Mystery",
+  duracao: 87
+}
+
+obra {
+  nome: "Lady in Question",
+  data: 1940,
+  genero: "Drama",
+  duracao: 81
+}
+
+obra {
+  nome: "Gilda",
+  data: 1946,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Loves of Carmen, The",
+  data: 1948,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Dick Tracy",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 105
+}
+
+obra {
+  nome: "Marnie",
+  data: 1964,
+  genero: "Drama",
+  duracao: 130
+}
+
+obra {
+  nome: "Hot Child in the City",
+  data: 1987,
+  genero: "Mystery",
+  duracao: 85
+}
+
+obra {
+  nome: "Johnny Dangerously",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Stark",
+  data: 1985,
+  genero: "Mystery",
+  duracao: 95
+}
+
+obra {
+  nome: "Three Strange Loves",
+  data: 1949,
+  genero: "Drama",
+  duracao: 84
+}
+
+obra {
+  nome: "My Fair Lady",
+  data: 1964,
+  genero: "Music",
+  duracao: 170
+}
+
+obra {
+  nome: "Unforgiven, The",
+  data: 1960,
+  genero: "Drama",
+  duracao: 123
+}
+
+obra {
+  nome: "Robin & Marian",
+  data: 1976,
+  genero: "Action",
+  duracao: 106
+}
+
+obra {
+  nome: "Children's Hour, The",
+  data: 1961,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Rainmaker, The",
+  data: 1956,
+  genero: "Drama",
+  duracao: 121
+}
+
+obra {
+  nome: "Pat & Mike",
+  data: 1952,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "Lion in Winter, THe",
+  data: 1968,
+  genero: "Drama",
+  duracao: 134
+}
+
+obra {
+  nome: "Sea of Grass, The",
+  data: 1991,
+  genero: "Western",
+  duracao: 132
+}
+
+obra {
+  nome: "Guess Who's Coming to Dinner",
+  data: 1967,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Desk Set",
+  data: 1957,
+  genero: "Comedy",
+  duracao: 153
+}
+
+obra {
+  nome: "Rooster Cogburn",
+  data: 1975,
+  genero: "Western",
+  duracao: 107
+}
+
+obra {
+  nome: "On Golden Pond",
+  data: 1981,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Adam's Rib",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Boom Town",
+  data: 1991,
+  genero: "Drama",
+  duracao: 116
+}
+
+obra {
+  nome: "Dragon Seed",
+  data: 1991,
+  genero: "Drama",
+  duracao: 145
+}
+
+obra {
+  nome: "Little Women",
+  data: 1991,
+  genero: "Drama",
+  duracao: 115
+}
+
+obra {
+  nome: "Philadelphia Story, The",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 113
+}
+
+obra {
+  nome: "Without Love",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 112
+}
+
+obra {
+  nome: "Woman of the Year",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 113
+}
+
+obra {
+  nome: "Juice",
+  data: 1992,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Hoosiers",
+  data: 1986,
+  genero: "Drama",
+  duracao: 114
+}
+
+obra {
+  nome: "Tin Men",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 112
+}
+
+obra {
+  nome: "Last Temptation of Christ, The",
+  data: 1988,
+  genero: "Drama",
+  duracao: 163
+}
+
+obra {
+  nome: "Paris Trout",
+  data: 1991,
+  genero: "Drama",
+  duracao: 99
+}
+
+obra {
+  nome: "Souvenir",
+  data: 1988,
+  genero: "Drama",
+  duracao: 87
+}
+
+obra {
+  nome: "A Man for All Seasons",
+  data: 1966,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Knights & Emeralds",
+  data: 1986,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Masque of the Red Death",
+  data: 1989,
+  genero: "Horror",
+  duracao: 83
+}
+
+obra {
+  nome: "Adventures of Smilin' Jack, The",
+  data: 1943,
+  genero: "Mystery",
+  duracao: 265
+}
+
+obra {
+  nome: "Adventures in Dinosaur City",
+  data: 1992,
+  genero: "Action",
+  duracao: 88
+}
+
+obra {
+  nome: "Allnighter, The",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "Caddyshack",
+  data: 1980,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Tom Sawyer",
+  data: 1973,
+  genero: "Music",
+  duracao: 102
+}
+
+obra {
+  nome: "Rita, Sue & Bob Too",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Hawk of Powder River",
+  data: 1947,
+  genero: "Western",
+  duracao: 56
+}
+
+obra {
+  nome: "Tempest",
+  data: 1928,
+  genero: "Drama",
+  duracao: 148
+}
+
+obra {
+  nome: "Running Mates",
+  data: 1986,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Prettykill",
+  data: 1987,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Judge Priest",
+  data: 1934,
+  genero: "Drama",
+  duracao: 80
+}
+
+obra {
+  nome: "Harvey",
+  data: 1950,
+  genero: "Comedy",
+  duracao: 104
+}
+
+obra {
+  nome: "If Looks Could Kill",
+  data: 1991,
+  genero: "Action",
+  duracao: 89
+}
+
+obra {
+  nome: "Raising Arizona",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Once Around",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 114
+}
+
+obra {
+  nome: "Loulou",
+  data: 1980,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "World According to Garp, The",
+  data: 1982,
+  genero: "Drama",
+  duracao: 136
+}
+
+obra {
+  nome: "Virus",
+  data: 1980,
+  genero: "Science Fiction",
+  duracao: 106
+}
+
+obra {
+  nome: "Northwest Passage",
+  data: 1940,
+  genero: "Action",
+  duracao: 127
+}
+
+obra {
+  nome: "Gardens of Stone",
+  data: 1987,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Enemies, a Love Story",
+  data: 1989,
+  genero: "Drama",
+  duracao: 121
+}
+
+obra {
+  nome: "Addams Family, The",
+  data: 1992,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Freaks",
+  data: 1932,
+  genero: "Horror",
+  duracao: 65
+}
+
+obra {
+  nome: "Necessary Roughness",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "A Show of Force",
+  data: 1990,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Competition, The",
+  data: 1980,
+  genero: "Drama",
+  duracao: 129
+}
+
+obra {
+  nome: "Crossing Delancey",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 97
+}
+
+obra {
+  nome: "State of Things, The",
+  data: 1982,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Business As Usual",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "A Touch of Class",
+  data: 1973,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Women in Love.",
+  data: 1970,
+  genero: "Drama",
+  duracao: 129
+}
+
+obra {
+  nome: "Salome's Last Dance",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "Casino",
+  data: 1986,
+  genero: "Mystery",
+  duracao: 100
+}
+
+obra {
+  nome: "Smiles of a Summer Night",
+  data: 1955,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "New Year's Day",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Mephisto",
+  data: 1981,
+  genero: "Drama",
+  duracao: 132
+}
+
+obra {
+  nome: "Easy Virtue",
+  data: 1927,
+  genero: "Mystery",
+  duracao: 60
+}
+
+obra {
+  nome: "Swing It Sailor!",
+  data: 1937,
+  genero: "Comedy",
+  duracao: 59
+}
+
+obra {
+  nome: "Strictly Business",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 83
+}
+
+obra {
+  nome: "Blame It on Rio",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Straight to Hell",
+  data: 1987,
+  genero: "Action",
+  duracao: 86
+}
+
+obra {
+  nome: "A View to a Kill",
+  data: 1990,
+  genero: "Action",
+  duracao: 131
+}
+
+obra {
+  nome: "American Anthem",
+  data: 1986,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Bedtime Story",
+  data: 1963,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Courtship of Eddie's Father, The",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 117
+}
+
+obra {
+  nome: "Night Train to Katmandu, THe",
+  data: 1988,
+  genero: "Action",
+  duracao: 102
+}
+
+obra {
+  nome: "Port of Call",
+  data: 1948,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Paper Moon",
+  data: 1973,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Yellowbeard",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 97
+}
+
+obra {
+  nome: "Adventures of Sherlock Holmes' Smarter",
+  data: 1975,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "Flashback",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "World's Greatest Lover, The",
+  data: 1977,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "Killer's Kiss",
+  data: 1955,
+  genero: "Mystery",
+  duracao: 67
+}
+
+obra {
+  nome: "Deceivers, The",
+  data: 1988,
+  genero: "Action",
+  duracao: 103
+}
+
+obra {
+  nome: "Breathless",
+  data: 1983,
+  genero: "Action",
+  duracao: 97
+}
+
+obra {
+  nome: "Born on the Fourth of July",
+  data: 1989,
+  genero: "Drama",
+  duracao: 145
+}
+
+obra {
+  nome: "Awakenings",
+  data: 1991,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Annie Hall",
+  data: 1977,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Manhattan",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 96
+}
+
+obra {
+  nome: "Reds",
+  data: 1981,
+  genero: "Drama",
+  duracao: 195
+}
+
+obra {
+  nome: "Crimes of the Heart",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 105
+}
+
+obra {
+  nome: "Looking for Mr. Goodbar",
+  data: 1977,
+  genero: "Drama",
+  duracao: 136
+}
+
+obra {
+  nome: "Godfather, The",
+  data: 1972,
+  genero: "Drama",
+  duracao: 175
+}
+
+obra {
+  nome: "Godfather, Pt 2., The",
+  data: 1974,
+  genero: "Drama",
+  duracao: 201
+}
+
+obra {
+  nome: "I Will, I Will...For Now",
+  data: 1976,
+  genero: "Comedy",
+  duracao: 109
+}
+
+obra {
+  nome: "Play It Again, Sam",
+  data: 1972,
+  genero: "Comedy",
+  duracao: 86
+}
+
+obra {
+  nome: "Love & Death",
+  data: 1975,
+  genero: "Comedy",
+  duracao: 82
+}
+
+obra {
+  nome: "Sleeper",
+  data: 1973,
+  genero: "Comedy",
+  duracao: 88
+}
+
+obra {
+  nome: "Fellini Satyricon",
+  data: 1970,
+  genero: "Drama",
+  duracao: 130
+}
+
+obra {
+  nome: "Formula, The",
+  data: 1980,
+  genero: "Mystery",
+  duracao: 117
+}
+
+obra {
+  nome: "Black Sunday",
+  data: 1977,
+  genero: "Drama",
+  duracao: 143
+}
+
+obra {
+  nome: "Bobby Deerfield",
+  data: 1977,
+  genero: "Drama",
+  duracao: 124
+}
+
+obra {
+  nome: "Last of the Red Hot Lovers",
+  data: 1972,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "Mogambo",
+  data: 1953,
+  genero: "Action",
+  duracao: 116
+}
+
+obra {
+  nome: "To Catch a Thief",
+  data: 1955,
+  genero: "Mystery",
+  duracao: 103
+}
+
+obra {
+  nome: "Rear Window",
+  data: 1954,
+  genero: "Mystery",
+  duracao: 113
+}
+
+obra {
+  nome: "Woman Who Came Back",
+  data: 1945,
+  genero: "Drama",
+  duracao: 69
+}
+
+obra {
+  nome: "Stanley & Livingstone",
+  data: 1939,
+  genero: "Action",
+  duracao: 101
+}
+
+obra {
+  nome: "Bad Seed, The",
+  data: 1956,
+  genero: "Horror",
+  duracao: 129
+}
+
+obra {
+  nome: "Lethal Weapon 2",
+  data: 1989,
+  genero: "Action",
+  duracao: 113
+}
+
+obra {
+  nome: "Blame It on the Bellboy",
+  data: 1992,
+  genero: "Comedy",
+  duracao: 79
+}
+
+obra {
+  nome: "Drop Kick, The",
+  data: 1927,
+  genero: "Drama",
+  duracao: 62
+}
+
+obra {
+  nome: "Superman, The Movie",
+  data: 1978,
+  genero: "Action",
+  duracao: 145
+}
+
+obra {
+  nome: "Superman IV: The Quest for Peace",
+  data: 1987,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "Quackser Fortune Has a Cousin in the Bronx",
+  data: 1970,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Dead Calm",
+  data: 1989,
+  genero: "Mystery",
+  duracao: 96
+}
+
+obra {
+  nome: "Days of Thunder",
+  data: 1990,
+  genero: "Action",
+  duracao: 107
+}
+
+obra {
+  nome: "My Life As a Dog",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Paris, Texas",
+  data: 1984,
+  genero: "Drama",
+  duracao: 150
+}
+
+obra {
+  nome: "Unfaithfully Yours",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 96
+}
+
+obra {
+  nome: "Bullseye!",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "Erik the Viking",
+  data: 1989,
+  genero: "Action",
+  duracao: 104
+}
+
+obra {
+  nome: "Dragonard",
+  data: 1987,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Hard Choices",
+  data: 1986,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Rain People, The",
+  data: 1969,
+  genero: "Drama",
+  duracao: 102
+}
+
+obra {
+  nome: "A Year of the Quiet Sun",
+  data: 1984,
+  genero: "Drama",
+  duracao: 106
+}
+
+obra {
+  nome: "Desert Trail, The",
+  data: 1935,
+  genero: "Western",
+  duracao: 54
+}
+
+obra {
+  nome: "Almost an Angel",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "Crocodile Dundee",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "American Friend, The",
+  data: 1977,
+  genero: "Mystery",
+  duracao: 127
+}
+
+obra {
+  nome: "See You in the Morning",
+  data: 1989,
+  genero: "Drama",
+  duracao: 119
+}
+
+obra {
+  nome: "Arrogant, The",
+  data: 1987,
+  genero: "Drama",
+  duracao: 88
+}
+
+obra {
+  nome: "Dracula's Widow",
+  data: 1989,
+  genero: "Horror",
+  duracao: 86
+}
+
+obra {
+  nome: "Ninja Masters of Death",
+  data: 1987,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "Mystery Train",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 110
+}
+
+obra {
+  nome: "Go Tell the Spartans",
+  data: 1978,
+  genero: "War",
+  duracao: 114
+}
+
+obra {
+  nome: "True Stories",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "Ugetsu Monogatari",
+  data: 1953,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Rebel Rousers",
+  data: 1969,
+  genero: "Action",
+  duracao: 80
+}
+
+obra {
+  nome: "Plain Clothes",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "Whose Life Is It, Anyway?",
+  data: 1981,
+  genero: "Drama",
+  duracao: 119
+}
+
+obra {
+  nome: "Running on Empty",
+  data: 1988,
+  genero: "Drama",
+  duracao: 116
+}
+
+obra {
+  nome: "Funny about Love",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "A Chorus Line, The Movie",
+  data: 1985,
+  genero: "Music",
+  duracao: 118
+}
+
+obra {
+  nome: "Stewardess School",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 84
+}
+
+obra {
+  nome: "Big Town, The",
+  data: 1987,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Rumble Fish",
+  data: 1983,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Outsiders, The",
+  data: 1983,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Priceless Beauty",
+  data: 1990,
+  genero: "Science Fiction",
+  duracao: 94
+}
+
+obra {
+  nome: "Streets of Fire",
+  data: 1989,
+  genero: "Action",
+  duracao: 93
+}
+
+obra {
+  nome: "Men Don't Leave",
+  data: 1990,
+  genero: "Drama",
+  duracao: 115
+}
+
+obra {
+  nome: "Everybody's All American",
+  data: 1988,
+  genero: "Romance",
+  duracao: 127
+}
+
+obra {
+  nome: "Cape Fear",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 128
+}
+
+obra {
+  nome: "Postman Always Rings Twice, The",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 121
+}
+
+obra {
+  nome: "Crashing Thru",
+  data: 1949,
+  genero: "Western",
+  duracao: 58
+}
+
+obra {
+  nome: "Get Out Your Handkerchiefs",
+  data: 1978,
+  genero: "Comedy",
+  duracao: 109
+}
+
+obra {
+  nome: "Boy Friend, THe",
+  data: 1971,
+  genero: "Music",
+  duracao: 137
+}
+
+obra {
+  nome: "Hard To Kill",
+  data: 1990,
+  genero: "Action",
+  duracao: 100
+}
+
+obra {
+  nome: "Psycho",
+  data: 1960,
+  genero: "Horror",
+  duracao: 109
+}
+
+obra {
+  nome: "Jet Pilot",
+  data: 1957,
+  genero: "Action",
+  duracao: 112
+}
+
+obra {
+  nome: "Under Cover",
+  data: 1987,
+  genero: "Mystery",
+  duracao: 95
+}
+
+obra {
+  nome: "A Streetcar Named Desire",
+  data: 1951,
+  genero: "Drama",
+  duracao: 122
+}
+
+obra {
+  nome: "Golden Child, The",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 93
+}
+
+obra {
+  nome: "Statue, The",
+  data: 1971,
+  genero: "Drama",
+  duracao: 84
+}
+
+obra {
+  nome: "Christopher Columbus",
+  data: 1985,
+  genero: "Drama",
+  duracao: 128
+}
+
+obra {
+  nome: "In Country",
+  data: 1989,
+  genero: "Drama",
+  duracao: 116
+}
+
+obra {
+  nome: "Wild Geese, The",
+  data: 1978,
+  genero: "Action",
+  duracao: 132
+}
+
+obra {
+  nome: "Second Coming of Suzanne., The",
+  data: 1974,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Bronco Billy",
+  data: 1980,
+  genero: "Westerns",
+  duracao: 116
+}
+
+obra {
+  nome: "Gauntlet, The",
+  data: 1977,
+  genero: "Action",
+  duracao: 109
+}
+
+obra {
+  nome: "Ratboy",
+  data: 1986,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Lady Vanishes",
+  data: 1938,
+  genero: "Mystery",
+  duracao: 96
+}
+
+obra {
+  nome: "Kitchen Toto, THe",
+  data: 1987,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Carlton-Browne of the F.O.",
+  data: 1959,
+  genero: "Comedy",
+  duracao: 88
+}
+
+obra {
+  nome: "Racketeer",
+  data: 1929,
+  genero: "Drama",
+  duracao: 68
+}
+
+obra {
+  nome: "Mr. & Mrs. Smith",
+  data: 1941,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "Alrededor de Medianoche",
+  data: 1986,
+  genero: "Drama",
+  duracao: 132
+}
+
+obra {
+  nome: "Losin' It",
+  data: 1982,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Into the Homeland",
+  data: 1987,
+  genero: "Action",
+  duracao: 114
+}
+
+obra {
+  nome: "Boxing Babes",
+  data: 1991,
+  genero: "Action",
+  duracao: 60
+}
+
+obra {
+  nome: "Shock 'em Dead",
+  data: 1991,
+  genero: "Horror",
+  duracao: 94
+}
+
+obra {
+  nome: "Heller in Pink Tights",
+  data: 1960,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Two Women",
+  data: 1961,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Gold of Naples, The",
+  data: 1954,
+  genero: "Drama",
+  duracao: 107
+}
+
+obra {
+  nome: "Yesterday, Today & Tomorrow",
+  data: 1963,
+  genero: "Comedy",
+  duracao: 118
+}
+
+obra {
+  nome: "Legend of the Lost",
+  data: 1957,
+  genero: "Action",
+  duracao: 109
+}
+
+obra {
+  nome: "Brass Target",
+  data: 1978,
+  genero: "Action",
+  duracao: 111
+}
+
+obra {
+  nome: "Fall of the Roman Empire, The",
+  data: 1964,
+  genero: "Drama",
+  duracao: 188
+}
+
+obra {
+  nome: "El Cid",
+  data: 1961,
+  genero: "Drama",
+  duracao: 172
+}
+
+obra {
+  nome: "Desire under the Elms",
+  data: 1958,
+  genero: "Drama",
+  duracao: 114
+}
+
+obra {
+  nome: "Two Nights with Cleo",
+  data: 1953,
+  genero: "Drama",
+  duracao: 92
+}
+
+obra {
+  nome: "Angela",
+  data: 1977,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "A Special Day",
+  data: 1977,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Blood Feud",
+  data: 1979,
+  genero: "Action",
+  duracao: 112
+}
+
+obra {
+  nome: "Sophia Loren, Her Own Story",
+  data: 1991,
+  genero: "Drama",
+  duracao: 145
+}
+
+obra {
+  nome: "Man of La Mancha",
+  data: 1991,
+  genero: "Music",
+  duracao: 130
+}
+
+obra {
+  nome: "Operation Crossbow",
+  data: 1992,
+  genero: "Action",
+  duracao: 116
+}
+
+obra {
+  nome: "Courage",
+  data: 1986,
+  genero: "Drama",
+  duracao: 141
+}
+
+obra {
+  nome: "RAD",
+  data: 1986,
+  genero: "Action",
+  duracao: 94
+}
+
+obra {
+  nome: "Secret Admirer",
+  data: 1992,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "Cocaine Cowboys",
+  data: 1979,
+  genero: "Action",
+  duracao: 85
+}
+
+obra {
+  nome: "Test Pilot",
+  data: 1991,
+  genero: "Drama",
+  duracao: 118
+}
+
+obra {
+  nome: "Ape Man, The",
+  data: 1943,
+  genero: "Horror",
+  duracao: 64
+}
+
+obra {
+  nome: "Mission, The",
+  data: 1986,
+  genero: "Drama",
+  duracao: 125
+}
+
+obra {
+  nome: "Curly Sue",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Lolita",
+  data: 1962,
+  genero: "Drama",
+  duracao: 150
+}
+
+obra {
+  nome: "Sex, Lies, and Videotape",
+  data: 1989,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Green Card",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Gator Bait II",
+  data: 1988,
+  genero: "Action",
+  duracao: 95
+}
+
+obra {
+  nome: "Being There",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 129
+}
+
+obra {
+  nome: "Terms of Endearment",
+  data: 1983,
+  genero: "Drama",
+  duracao: 132
+}
+
+obra {
+  nome: "Woman Times Seven",
+  data: 1967,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Postcards from the Edge",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Two Mules for Sister Sara",
+  data: 1970,
+  genero: "Western",
+  duracao: 105
+}
+
+obra {
+  nome: "Dragonfight",
+  data: 1992,
+  genero: "Drama",
+  duracao: 84
+}
+
+obra {
+  nome: "Back Door to Heaven",
+  data: 1939,
+  genero: "Drama",
+  duracao: 85
+}
+
+obra {
+  nome: "Ciao Italia, Madonna Live from Italy",
+  data: 1988,
+  genero: "Music",
+  duracao: 100
+}
+
+obra {
+  nome: "Madonna, Truth or Dare",
+  data: 1991,
+  genero: "Music",
+  duracao: 118
+}
+
+obra {
+  nome: "A Certain Sacrifice",
+  data: 1992,
+  genero: "Music",
+  duracao: 60
+}
+
+obra {
+  nome: "National Enquirer, The Untold Story",
+  data: 1991,
+  genero: "Music",
+  duracao: 40
+}
+
+obra {
+  nome: "Immaculate Collection, The",
+  data: 1990,
+  genero: "Music",
+  duracao: 60
+}
+
+obra {
+  nome: "Madonna Live, The Virgin Tour",
+  data: 1987,
+  genero: "Music",
+  duracao: 50
+}
+
+obra {
+  nome: "Madonna, Justify My Love",
+  data: 1990,
+  genero: "Music",
+  duracao: 5
+}
+
+obra {
+  nome: "Madonna, Like a Virgin",
+  data: 1991,
+  genero: "Music",
+  duracao: 16
+}
+
+obra {
+  nome: "Hot to Trot",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 83
+}
+
+obra {
+  nome: "Fire with Fire",
+  data: 1986,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Hot Spot",
+  data: 1990,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Amarcord",
+  data: 1974,
+  genero: "Drama",
+  duracao: 124
+}
+
+obra {
+  nome: "Casablanca Express",
+  data: 1988,
+  genero: "Action",
+  duracao: 85
+}
+
+obra {
+  nome: "Out of the Blue",
+  data: 1980,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Sands of Iwo Jima",
+  data: 1949,
+  genero: "War",
+  duracao: 110
+}
+
+obra {
+  nome: "Hand, The",
+  data: 1981,
+  genero: "Horror",
+  duracao: 104
+}
+
+obra {
+  nome: "Deep Cover",
+  data: 1989,
+  genero: "Mystery",
+  duracao: 81
+}
+
+obra {
+  nome: "Il Bidone",
+  data: 1955,
+  genero: "Drama",
+  duracao: 92
+}
+
+obra {
+  nome: "El Guerrero Solitario",
+  data: 1986,
+  genero: "Drama",
+  duracao: 130
+}
+
+obra {
+  nome: "Heartbreak Ridge",
+  data: 1986,
+  genero: "War",
+  duracao: 130
+}
+
+obra {
+  nome: "Goodbye Girl, The",
+  data: 1977,
+  genero: "Comedy",
+  duracao: 110
+}
+
+obra {
+  nome: "Audrey Rose",
+  data: 1991,
+  genero: "Drama",
+  duracao: 113
+}
+
+obra {
+  nome: "Polyester",
+  data: 1981,
+  genero: "Comedy",
+  duracao: 86
+}
+
+obra {
+  nome: "Robin Hood: Prince of Thieves",
+  data: 1991,
+  genero: "Action",
+  duracao: 144
+}
+
+obra {
+  nome: "White Sands",
+  data: 1992,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Color of Money, The",
+  data: 1986,
+  genero: "Drama",
+  duracao: 119
+}
+
+obra {
+  nome: "Children of a Lesser God",
+  data: 1986,
+  genero: "Drama",
+  duracao: 119
+}
+
+obra {
+  nome: "Women on the Verge of a Nervous Breakdown",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 88
+}
+
+obra {
+  nome: "Pepi Luci Bom",
+  data: 1980,
+  genero: "Comedy",
+  duracao: 86
+}
+
+obra {
+  nome: "Forgotten, The",
+  data: 1989,
+  genero: "Mystery",
+  duracao: 100
+}
+
+obra {
+  nome: "Flame & the Arrow, The",
+  data: 1992,
+  genero: "Action",
+  duracao: 89
+}
+
+obra {
+  nome: "After the Shock",
+  data: 1990,
+  genero: "Drama",
+  duracao: 92
+}
+
+obra {
+  nome: "Modern Love",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 110
+}
+
+obra {
+  nome: "Riff Raff",
+  data: 1992,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "Glory Stompers, The",
+  data: 1967,
+  genero: "Action",
+  duracao: 81
+}
+
+obra {
+  nome: "Dances with Wolves",
+  data: 1990,
+  genero: "Western",
+  duracao: 181
+}
+
+obra {
+  nome: "Matewan",
+  data: 1987,
+  genero: "Drama",
+  duracao: 130
+}
+
+obra {
+  nome: "Mississippi Burning",
+  data: 1988,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Eiger Sanction, The",
+  data: 1975,
+  genero: "Action",
+  duracao: 130
+}
+
+obra {
+  nome: "Unsettled Land",
+  data: 1988,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Cat Chaser",
+  data: 1991,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Accused, The",
+  data: 1988,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Winter People",
+  data: 1989,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Reuben, Reuben",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Made in Heaven",
+  data: 1987,
+  genero: "Fantasy",
+  duracao: 102
+}
+
+obra {
+  nome: "Top Gun",
+  data: 1986,
+  genero: "Action",
+  duracao: 109
+}
+
+obra {
+  nome: "Witness",
+  data: 1985,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "House on Carroll Street, The",
+  data: 1988,
+  genero: "Mystery",
+  duracao: 111
+}
+
+obra {
+  nome: "Racing with the Moon",
+  data: 1984,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Lovesick",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "She's Having a Baby",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 106
+}
+
+obra {
+  nome: "Greatest Story Ever Told, The",
+  data: 1965,
+  genero: "Drama",
+  duracao: 199
+}
+
+obra {
+  nome: "Hawks",
+  data: 1989,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "So Fine",
+  data: 1981,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "Paths of Glory",
+  data: 1957,
+  genero: "Drama",
+  duracao: 89
+}
+
+obra {
+  nome: "Tom Jones",
+  data: 1964,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Sunshine Boys, The",
+  data: 1975,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Caddyshack 2",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "Internal Affairs",
+  data: 1990,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "JFK",
+  data: 1991,
+  genero: "Drama",
+  duracao: 206
+}
+
+obra {
+  nome: "New Jack City",
+  data: 1991,
+  genero: "Action",
+  duracao: 97
+}
+
+obra {
+  nome: "Scenes from a Mall",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 87
+}
+
+obra {
+  nome: "Hope & Glory",
+  data: 1987,
+  genero: "War",
+  duracao: 118
+}
+
+obra {
+  nome: "Ryan's Daughter",
+  data: 1970,
+  genero: "Drama",
+  duracao: 194
+}
+
+obra {
+  nome: "Man Who Loved Cat Dancing, The",
+  data: 1973,
+  genero: "Western",
+  duracao: 127
+}
+
+obra {
+  nome: "Man Who Shot Liberty Valance, The",
+  data: 1962,
+  genero: "Western",
+  duracao: 123
+}
+
+obra {
+  nome: "Dead-Bang",
+  data: 1989,
+  genero: "Action",
+  duracao: 102
+}
+
+obra {
+  nome: "Big Top Pee-wee",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Time Machine, The",
+  data: 1960,
+  genero: "Science Fiction",
+  duracao: 103
+}
+
+obra {
+  nome: "Cabaret",
+  data: 1972,
+  genero: "Drama",
+  duracao: 128
+}
+
+obra {
+  nome: "Arthur",
+  data: 1981,
+  genero: "Comedy",
+  duracao: 97
+}
+
+obra {
+  nome: "A Matter of Time",
+  data: 1976,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "New York, New York",
+  data: 1977,
+  genero: "Drama",
+  duracao: 137
+}
+
+obra {
+  nome: "Nightmare on Elm Street, Pt. 5, The Dream Child",
+  data: 1989,
+  genero: "Horror",
+  duracao: 89
+}
+
+obra {
+  nome: "Fiendish Plot of Dr. Fu Manchu, The",
+  data: 1980,
+  genero: "Comedy",
+  duracao: 100
+}
+
+obra {
+  nome: "Four American Composers",
+  data: 1991,
+  genero: "Music",
+  duracao: 240
+}
+
+obra {
+  nome: "Asphalt Jungle, The",
+  data: 1950,
+  genero: "Action",
+  duracao: 112
+}
+
+obra {
+  nome: "Ladies of the Chorus",
+  data: 1992,
+  genero: "Music",
+  duracao: 61
+}
+
+obra {
+  nome: "How to Marry a Millionaire",
+  data: 1953,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "Nothing But Trouble",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Wisdom",
+  data: 1987,
+  genero: "Action",
+  duracao: 109
+}
+
+obra {
+  nome: "One Crazy Summer",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "We're No Angels",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 110
+}
+
+obra {
+  nome: "No Small Affair",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Ghost",
+  data: 1990,
+  genero: "Science Fiction",
+  duracao: 127
+}
+
+obra {
+  nome: "About Last Night",
+  data: 1986,
+  genero: "Drama",
+  duracao: 113
+}
+
+obra {
+  nome: "Six Weeks",
+  data: 1982,
+  genero: "Drama",
+  duracao: 107
+}
+
+obra {
+  nome: "Return of October",
+  data: 1948,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "Come Back, Little Sheba",
+  data: 1952,
+  genero: "Drama",
+  duracao: 99
+}
+
+obra {
+  nome: "Going Places",
+  data: 1974,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Monte Walsh",
+  data: 1970,
+  genero: "Western",
+  duracao: 99
+}
+
+obra {
+  nome: "Mr. Arkadin",
+  data: 1955,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Producers, The",
+  data: 1968,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Front, The",
+  data: 1976,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "House of the Rising Sun",
+  data: 1987,
+  genero: "Drama",
+  duracao: 86
+}
+
+obra {
+  nome: "In a Shallow Grave",
+  data: 1988,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Mc Q",
+  data: 1974,
+  genero: "Action",
+  duracao: 111
+}
+
+obra {
+  nome: "Lady from Louisiana",
+  data: 1941,
+  genero: "Drama",
+  duracao: 85
+}
+
+obra {
+  nome: "Wait Until Spring Bandini",
+  data: 1990,
+  genero: "Drama",
+  duracao: 102
+}
+
+obra {
+  nome: "Long Voyage Home, The",
+  data: 1940,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Trouble with Harry, The",
+  data: 1955,
+  genero: "Mystery",
+  duracao: 100
+}
+
+obra {
+  nome: "Encounters",
+  data: 1987,
+  genero: "Drama",
+  duracao: 60
+}
+
+obra {
+  nome: "Hud",
+  data: 1963,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Operation Pacific",
+  data: 1951,
+  genero: "War",
+  duracao: 111
+}
+
+obra {
+  nome: "Surf Nazis Must Die",
+  data: 1987,
+  genero: "Horror",
+  duracao: 83
+}
+
+obra {
+  nome: "Teahouse of the August Moon",
+  data: 1956,
+  genero: "Drama",
+  duracao: 124
+}
+
+obra {
+  nome: "Back in the U.S.S.R.",
+  data: 1992,
+  genero: "Action",
+  duracao: 88
+}
+
+obra {
+  nome: "Man Who Haunted Himself, The",
+  data: 1970,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Prisoner of Honor.",
+  data: 1991,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Control",
+  data: 1988,
+  genero: "Drama",
+  duracao: 83
+}
+
+obra {
+  nome: "Desert Rider",
+  data: 1923,
+  genero: "Western",
+  duracao: 57
+}
+
+obra {
+  nome: "Wholly Moses!",
+  data: 1980,
+  genero: "Comedy",
+  duracao: 109
+}
+
+obra {
+  nome: "Star Trek VI: The Undiscovered Country",
+  data: 1991,
+  genero: "Science Fiction",
+  duracao: 110
+}
+
+obra {
+  nome: "Star Trek V: The Final Frontier",
+  data: 1989,
+  genero: "Action",
+  duracao: 107
+}
+
+obra {
+  nome: "Circuitry Man",
+  data: 1991,
+  genero: "Action",
+  duracao: 85
+}
+
+obra {
+  nome: "Cobra",
+  data: 1986,
+  genero: "Action",
+  duracao: 87
+}
+
+obra {
+  nome: "Beverly Hills Cop II",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Red Sonja",
+  data: 1990,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "To Joy",
+  data: 1950,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Macbeth",
+  data: 1992,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Vertigo",
+  data: 1958,
+  genero: "Drama",
+  duracao: 128
+}
+
+obra {
+  nome: "Young Love: Lemon Popsicle Seven",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "Crack-Up",
+  data: 1946,
+  genero: "Mystery",
+  duracao: 93
+}
+
+obra {
+  nome: "Bury Me Not on the Lone Prairie",
+  data: 1941,
+  genero: "Western",
+  duracao: 57
+}
+
+obra {
+  nome: "Law & Order",
+  data: 1940,
+  genero: "Western",
+  duracao: 57
+}
+
+obra {
+  nome: "Man from Montana",
+  data: 1941,
+  genero: "Western",
+  duracao: 56
+}
+
+obra {
+  nome: "Long Gray Line, The",
+  data: 1992,
+  genero: "Drama",
+  duracao: 137
+}
+
+obra {
+  nome: "Rio Grande",
+  data: 1950,
+  genero: "Western",
+  duracao: 105
+}
+
+obra {
+  nome: "Wings of Eagles, The",
+  data: 1957,
+  genero: "Drama",
+  duracao: 107
+}
+
+obra {
+  nome: "Jamaica Inn",
+  data: 1939,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Big Jake",
+  data: 1971,
+  genero: "Action",
+  duracao: 110
+}
+
+obra {
+  nome: "Quiet Man, The",
+  data: 1992,
+  genero: "Drama",
+  duracao: 153
+}
+
+obra {
+  nome: "After the Rehearsal",
+  data: 1983,
+  genero: "Drama",
+  duracao: 72
+}
+
+obra {
+  nome: "Big Jim McLain",
+  data: 1952,
+  genero: "Western",
+  duracao: 90
+}
+
+obra {
+  nome: "Smith!",
+  data: 1969,
+  genero: "Western",
+  duracao: 101
+}
+
+obra {
+  nome: "Wild One, The",
+  data: 1953,
+  genero: "Drama",
+  duracao: 79
+}
+
+obra {
+  nome: "Manxman, The",
+  data: 1929,
+  genero: "Drama",
+  duracao: 129
+}
+
+obra {
+  nome: "International Velvet",
+  data: 1978,
+  genero: "Drama",
+  duracao: 126
+}
+
+obra {
+  nome: "Scanners",
+  data: 1981,
+  genero: "Horror",
+  duracao: 104
+}
+
+obra {
+  nome: "Trick or Treat",
+  data: 1986,
+  genero: "Horror",
+  duracao: 98
+}
+
+obra {
+  nome: "48 Hrs.",
+  data: 1982,
+  genero: "Action",
+  duracao: 92
+}
+
+obra {
+  nome: "Trip to Bountiful, The",
+  data: 1985,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Mister Roberts",
+  data: 1955,
+  genero: "Comedy",
+  duracao: 116
+}
+
+obra {
+  nome: "Z",
+  data: 1969,
+  genero: "Drama",
+  duracao: 127
+}
+
+obra {
+  nome: "Maurice",
+  data: 1987,
+  genero: "Drama",
+  duracao: 139
+}
+
+obra {
+  nome: "Hamlet",
+  data: 1969,
+  genero: "Drama",
+  duracao: 114
+}
+
+obra {
+  nome: "La Femme Nikita",
+  data: 1991,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Honeymoon in Vegas",
+  data: 1993,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "Going for the Gold",
+  data: 1988,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "Shout at the Devil",
+  data: 1976,
+  genero: "Action",
+  duracao: 128
+}
+
+obra {
+  nome: "A Smoky Mountain Christmas",
+  data: 1986,
+  genero: "Music",
+  duracao: 94
+}
+
+obra {
+  nome: "Getting Physical",
+  data: 1984,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Torn Apart",
+  data: 1990,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "From the Hip",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 112
+}
+
+obra {
+  nome: "Ratings Game, The",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Class Act",
+  data: 1992,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Water",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "Silent Movie",
+  data: 1978,
+  genero: "Comedy",
+  duracao: 88
+}
+
+obra {
+  nome: "Pink Cadillac",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 122
+}
+
+obra {
+  nome: "Jerk, The",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Sweet Liberty",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Grease II",
+  data: 1982,
+  genero: "Music",
+  duracao: 115
+}
+
+obra {
+  nome: "Married to the Mob",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 104
+}
+
+obra {
+  nome: "Ladyhawke",
+  data: 1985,
+  genero: "Adventure",
+  duracao: 121
+}
+
+obra {
+  nome: "Fabulous Baker Boys, The",
+  data: 1989,
+  genero: "Drama",
+  duracao: 114
+}
+
+obra {
+  nome: "Into the Night",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 115
+}
+
+obra {
+  nome: "Russia House, The",
+  data: 1991,
+  genero: "Drama",
+  duracao: 124
+}
+
+obra {
+  nome: "Tequila Sunrise",
+  data: 1988,
+  genero: "Mystery",
+  duracao: 116
+}
+
+obra {
+  nome: "B. A. D. Cats",
+  data: 1989,
+  genero: "Action",
+  duracao: 74
+}
+
+obra {
+  nome: "Last Movie, The",
+  data: 1971,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Dillinger",
+  data: 1973,
+  genero: "Drama",
+  duracao: 106
+}
+
+obra {
+  nome: "Little Dorrit",
+  data: 1988,
+  genero: "Drama",
+  duracao: 360
+}
+
+obra {
+  nome: "My Best Girl",
+  data: 1927,
+  genero: "Drama",
+  duracao: 78
+}
+
+obra {
+  nome: "Seizure",
+  data: 1989,
+  genero: "Horror",
+  duracao: 93
+}
+
+obra {
+  nome: "A Chorus of Disapproval",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 89
+}
+
+obra {
+  nome: "Rome Adventure",
+  data: 1962,
+  genero: "Drama",
+  duracao: 119
+}
+
+obra {
+  nome: "Drowning by Numbers",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 121
+}
+
+obra {
+  nome: "Born to Ride",
+  data: 1991,
+  genero: "Action",
+  duracao: 88
+}
+
+obra {
+  nome: "Her Alibi",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Glitz",
+  data: 1988,
+  genero: "Mystery",
+  duracao: 96
+}
+
+obra {
+  nome: "Dangerous Pursuit",
+  data: 1990,
+  genero: "Mystery",
+  duracao: 95
+}
+
+obra {
+  nome: "Experiment in Terror",
+  data: 1962,
+  genero: "Mystery",
+  duracao: 123
+}
+
+obra {
+  nome: "Hideaways, The",
+  data: 1972,
+  genero: "Comedy",
+  duracao: 105
+}
+
+obra {
+  nome: "What's New Pussycat",
+  data: 1965,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "What's New Pussycat?",
+  data: 1965,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "Packin' It In",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "Naked Gun: From the Files of Police Squad!, THe",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "In Too Deep",
+  data: 1990,
+  genero: "Drama",
+  duracao: 106
+}
+
+obra {
+  nome: "Twins",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Experts, The",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Naked Lie",
+  data: 1989,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Mistress",
+  data: 1987,
+  genero: "Drama",
+  duracao: 87
+}
+
+obra {
+  nome: "Adam at 6 A.M.",
+  data: 1970,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Web of Deceit",
+  data: 1990,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "New York Stories",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 119
+}
+
+obra {
+  nome: "Dreams Lost, Dreams Found",
+  data: 1987,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Au Revoir les Enfants",
+  data: 1987,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Quo Vadis",
+  data: 1989,
+  genero: "Drama",
+  duracao: 122
+}
+
+obra {
+  nome: "Fighting Kentuckian, The",
+  data: 1949,
+  genero: "Action",
+  duracao: 100
+}
+
+obra {
+  nome: "Zardoz",
+  data: 1974,
+  genero: "Science Fiction",
+  duracao: 104
+}
+
+obra {
+  nome: "Police Academy 6: City under Siege",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 84
+}
+
+obra {
+  nome: "Police Academy 5: Assignment Miami Beach",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Police Academy 3: Back in Training",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 84
+}
+
+obra {
+  nome: "America's Music, Blues",
+  data: 1991,
+  genero: "Music",
+  duracao: 60
+}
+
+obra {
+  nome: "Julia",
+  data: 1977,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Devils, The",
+  data: 1971,
+  genero: "Drama",
+  duracao: 111
+}
+
+obra {
+  nome: "Ransom",
+  data: 1984,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Cadillac Man",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 97
+}
+
+obra {
+  nome: "Best of Times, The",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 104
+}
+
+obra {
+  nome: "Death of a Salesman",
+  data: 1985,
+  genero: "Drama",
+  duracao: 135
+}
+
+obra {
+  nome: "It Started with a Kiss",
+  data: 1993,
+  genero: "Drama",
+  duracao: 104
+}
+
+obra {
+  nome: "Money, The",
+  data: 1989,
+  genero: "Drama",
+  duracao: 88
+}
+
+obra {
+  nome: "Empire of the Sun",
+  data: 1987,
+  genero: "Drama",
+  duracao: 153
+}
+
+obra {
+  nome: "Comfort of Strangers, The",
+  data: 1991,
+  genero: "Mystery",
+  duracao: 102
+}
+
+obra {
+  nome: "On Her Majesty's Secret Service",
+  data: 1969,
+  genero: "Action",
+  duracao: 135
+}
+
+obra {
+  nome: "Pretty in Pink",
+  data: 1986,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "PK. & the Kid.",
+  data: 1987,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Lone Star Trail, The",
+  data: 1943,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Summer",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "Planes, Trains & Automobiles",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 93
+}
+
+obra {
+  nome: "Pretty Woman",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 119
+}
+
+obra {
+  nome: "Flatliners",
+  data: 1991,
+  genero: "Drama",
+  duracao: 111
+}
+
+obra {
+  nome: "Hook",
+  data: 1991,
+  genero: "Action",
+  duracao: 142
+}
+
+obra {
+  nome: "Riders of Pasco Basin",
+  data: 1940,
+  genero: "Western",
+  duracao: 56
+}
+
+obra {
+  nome: "Gotta Dance, Gotta Sing",
+  data: 1992,
+  genero: "Music",
+  duracao: 53
+}
+
+obra {
+  nome: "Desperate Hours",
+  data: 1990,
+  genero: "Mystery",
+  duracao: 106
+}
+
+obra {
+  nome: "Gung Ho",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 111
+}
+
+obra {
+  nome: "Shooting Elizabeth",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 96
+}
+
+obra {
+  nome: "Strangers on a Train",
+  data: 1951,
+  genero: "Mystery",
+  duracao: 101
+}
+
+obra {
+  nome: "Sacketts, The",
+  data: 1979,
+  genero: "Western",
+  duracao: 198
+}
+
+obra {
+  nome: "To Die Standing",
+  data: 1991,
+  genero: "Action",
+  duracao: 87
+}
+
+obra {
+  nome: "Rodeo Girl",
+  data: 1980,
+  genero: "Drama",
+  duracao: 92
+}
+
+obra {
+  nome: "Butch Cassidy & the Sundance Kid",
+  data: 1969,
+  genero: "Western",
+  duracao: 110
+}
+
+obra {
+  nome: "Hellfighters",
+  data: 1968,
+  genero: "Action",
+  duracao: 121
+}
+
+obra {
+  nome: "Final Countdown, The",
+  data: 1980,
+  genero: "Action",
+  duracao: 92
+}
+
+obra {
+  nome: "Blue Velvet",
+  data: 1986,
+  genero: "Mystery",
+  duracao: 120
+}
+
+obra {
+  nome: "Cousins",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 110
+}
+
+obra {
+  nome: "Black & White in Color",
+  data: 1976,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Another Woman",
+  data: 1988,
+  genero: "Drama",
+  duracao: 81
+}
+
+obra {
+  nome: "Night on Earth",
+  data: 1992,
+  genero: "Drama",
+  duracao: 128
+}
+
+obra {
+  nome: "Permanent Record",
+  data: 1988,
+  genero: "Drama",
+  duracao: 92
+}
+
+obra {
+  nome: "Fisher King, The",
+  data: 1992,
+  genero: "Drama",
+  duracao: 138
+}
+
+obra {
+  nome: "Another You",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "Young Lions, The",
+  data: 1958,
+  genero: "Drama",
+  duracao: 167
+}
+
+obra {
+  nome: "Cheerleader Camp",
+  data: 1988,
+  genero: "Horror",
+  duracao: 89
+}
+
+obra {
+  nome: "Trapper County War",
+  data: 1990,
+  genero: "Action",
+  duracao: 98
+}
+
+obra {
+  nome: "Angel & the Badman",
+  data: 1947,
+  genero: "Western",
+  duracao: 96
+}
+
+obra {
+  nome: "Impulse",
+  data: 1990,
+  genero: "Mystery",
+  duracao: 109
+}
+
+obra {
+  nome: "Track Twenty-Nine",
+  data: 1988,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Freejack",
+  data: 1991,
+  genero: "Action",
+  duracao: 110
+}
+
+obra {
+  nome: "John Wayne Matinee Double Feature, No. 1",
+  data: 1939,
+  genero: "Western",
+  duracao: 109
+}
+
+obra {
+  nome: "Smallest Show on Earth, The",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 81
+}
+
+obra {
+  nome: "Innerspace",
+  data: 1987,
+  genero: "Science Fiction",
+  duracao: 120
+}
+
+obra {
+  nome: "Presidio, The",
+  data: 1988,
+  genero: "Action",
+  duracao: 97
+}
+
+obra {
+  nome: "Joe Versus the Volcano",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Doors, The",
+  data: 1991,
+  genero: "Drama",
+  duracao: 135
+}
+
+obra {
+  nome: "Welcome Home, Roxy Carmichael",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "Cancel My Reservation",
+  data: 1972,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "North by Northwest",
+  data: 1991,
+  genero: "Mystery",
+  duracao: 135
+}
+
+obra {
+  nome: "Russians Are Coming, the Russians Are, The",
+  data: 1966,
+  genero: "Comedy",
+  duracao: 127
+}
+
+obra {
+  nome: "Exodus",
+  data: 1992,
+  genero: "Drama",
+  duracao: 213
+}
+
+obra {
+  nome: "Ballad of Narayama, The",
+  data: 1982,
+  genero: "Drama",
+  duracao: 128
+}
+
+obra {
+  nome: "Out of the Darkness",
+  data: 1985,
+  genero: "Mystery",
+  duracao: 96
+}
+
+obra {
+  nome: "Garden of the Finzi-Continis, The",
+  data: 1971,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Steppenwolf",
+  data: 1974,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Mackintosh Man, The",
+  data: 1973,
+  genero: "Action",
+  duracao: 100
+}
+
+obra {
+  nome: "Partner",
+  data: 1968,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Conformist, The",
+  data: 1970,
+  genero: "Drama",
+  duracao: 107
+}
+
+obra {
+  nome: "Dirty Harry",
+  data: 1971,
+  genero: "Drama",
+  duracao: 102
+}
+
+obra {
+  nome: "Ferris Bueller's Day Off",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Legend",
+  data: 1986,
+  genero: "Science Fiction",
+  duracao: 89
+}
+
+obra {
+  nome: "Buddy System, The",
+  data: 1984,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "A Dry White Season",
+  data: 1989,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Rocky Horror Picture Show, The",
+  data: 1975,
+  genero: "Music",
+  duracao: 105
+}
+
+obra {
+  nome: "War & Peace",
+  data: 1968,
+  genero: "Drama",
+  duracao: 360
+}
+
+obra {
+  nome: "Defense of the Realm",
+  data: 1992,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Basil The Rat",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Fawlty Towers, Gourmet Night, Waldorf Salad & The Kipper & the Corpse",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Going Under",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 80
+}
+
+obra {
+  nome: "U S. Sub Standard.",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 83
+}
+
+obra {
+  nome: "Passenger, The",
+  data: 1975,
+  genero: "Drama",
+  duracao: 118
+}
+
+obra {
+  nome: "Last Tango in Paris",
+  data: 1973,
+  genero: "Drama",
+  duracao: 127
+}
+
+obra {
+  nome: "Indigo Autumn & Lilac Dream",
+  data: 1987,
+  genero: "Drama",
+  duracao: 155
+}
+
+obra {
+  nome: "Kriemhild's Revenge, The Nibelungenlied",
+  data: 1924,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Johnny Tiger",
+  data: 1966,
+  genero: "Drama",
+  duracao: 102
+}
+
+obra {
+  nome: "Head Office",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Le Charme Discret de la Bourgeoisie",
+  data: 1972,
+  genero: "Comedy",
+  duracao: 100
+}
+
+obra {
+  nome: "Blue City",
+  data: 1986,
+  genero: "Action",
+  duracao: 83
+}
+
+obra {
+  nome: "Bad Boys",
+  data: 1983,
+  genero: "Drama",
+  duracao: 123
+}
+
+obra {
+  nome: "Whoopee Boys, The",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 82
+}
+
+obra {
+  nome: "Last Picture Show, The",
+  data: 1971,
+  genero: "Drama",
+  duracao: 118
+}
+
+obra {
+  nome: "Diamond Trap, The",
+  data: 1988,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Endless Love",
+  data: 1981,
+  genero: "Drama",
+  duracao: 115
+}
+
+obra {
+  nome: "Rocky",
+  data: 1976,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Cocktail",
+  data: 1988,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Sabotage",
+  data: 1936,
+  genero: "Mystery",
+  duracao: 77
+}
+
+obra {
+  nome: "Madame Rosa",
+  data: 1977,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Fozzie's Muppet Scrapbook",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 56
+}
+
+obra {
+  nome: "Desiree",
+  data: 1954,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Spartacus",
+  data: 1960,
+  genero: "Drama",
+  duracao: 185
+}
+
+obra {
+  nome: "Guys & Dolls",
+  data: 1955,
+  genero: "Comedy",
+  duracao: 150
+}
+
+obra {
+  nome: "Until They Sail",
+  data: 1992,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Coming to America",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 116
+}
+
+obra {
+  nome: "Lilies of the Field",
+  data: 1963,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "River's Edge",
+  data: 1987,
+  genero: "Drama",
+  duracao: 99
+}
+
+obra {
+  nome: "Ruthless People",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 93
+}
+
+obra {
+  nome: "Secret of My Success, The",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 110
+}
+
+obra {
+  nome: "Shop on Main Street, The",
+  data: 1965,
+  genero: "Drama",
+  duracao: 128
+}
+
+obra {
+  nome: "Funny Farm",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Lonely Passion of Judith Hearne, The",
+  data: 1988,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "California Suite",
+  data: 1978,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Maximum Overdrive",
+  data: 1986,
+  genero: "Horror",
+  duracao: 97
+}
+
+obra {
+  nome: "Pale Rider",
+  data: 1985,
+  genero: "Western",
+  duracao: 116
+}
+
+obra {
+  nome: "Kissing Place, The",
+  data: 1990,
+  genero: "Drama",
+  duracao: 88
+}
+
+obra {
+  nome: "French Lesson",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Roller Blade",
+  data: 1985,
+  genero: "Action",
+  duracao: 88
+}
+
+obra {
+  nome: "A Shot in the Dark",
+  data: 1964,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Treasure Seekers, The",
+  data: 1979,
+  genero: "Action",
+  duracao: 88
+}
+
+obra {
+  nome: "Missing",
+  data: 1982,
+  genero: "Drama",
+  duracao: 122
+}
+
+obra {
+  nome: "Picasso Trigger",
+  data: 1989,
+  genero: "Action",
+  duracao: 99
+}
+
+obra {
+  nome: "Hard Ticket to Hawaii",
+  data: 1987,
+  genero: "Action",
+  duracao: 97
+}
+
+obra {
+  nome: "Baby Face",
+  data: 1933,
+  genero: "Drama",
+  duracao: 72
+}
+
+obra {
+  nome: "Violent Men, The",
+  data: 1992,
+  genero: "Action",
+  duracao: 95
+}
+
+obra {
+  nome: "Cocoon",
+  data: 1985,
+  genero: "Science Fiction",
+  duracao: 117
+}
+
+obra {
+  nome: "Clockwise",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 96
+}
+
+obra {
+  nome: "Romantic Comedy",
+  data: 1993,
+  genero: "Comedy",
+  duracao: 103
+}
+
+obra {
+  nome: "Outland",
+  data: 1981,
+  genero: "Science Fiction",
+  duracao: 111
+}
+
+obra {
+  nome: "Hang 'em High",
+  data: 1967,
+  genero: "Western",
+  duracao: 114
+}
+
+obra {
+  nome: "Basic Instinct",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 123
+}
+
+obra {
+  nome: "Total Recall",
+  data: 1990,
+  genero: "Action",
+  duracao: 113
+}
+
+obra {
+  nome: "Stakeout",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 115
+}
+
+obra {
+  nome: "Unnamable II, The Statement of Randolph Carter, The",
+  data: 1992,
+  genero: "Drama",
+  duracao: 104
+}
+
+obra {
+  nome: "Trip, The",
+  data: 1967,
+  genero: "Drama",
+  duracao: 85
+}
+
+obra {
+  nome: "Ironweed",
+  data: 1987,
+  genero: "Drama",
+  duracao: 135
+}
+
+obra {
+  nome: "Defending Your Life",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 112
+}
+
+obra {
+  nome: "Deer Hunter, The",
+  data: 1978,
+  genero: "Drama",
+  duracao: 183
+}
+
+obra {
+  nome: "Falling in Love",
+  data: 1984,
+  genero: "Drama",
+  duracao: 106
+}
+
+obra {
+  nome: "Heartburn",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "Silkwood",
+  data: 1983,
+  genero: "Drama",
+  duracao: 131
+}
+
+obra {
+  nome: "Sophie's Choice",
+  data: 1982,
+  genero: "Drama",
+  duracao: 151
+}
+
+obra {
+  nome: "Out of Africa",
+  data: 1985,
+  genero: "Drama",
+  duracao: 161
+}
+
+obra {
+  nome: "French Lieutenant's Woman, The",
+  data: 1981,
+  genero: "Drama",
+  duracao: 127
+}
+
+obra {
+  nome: "Plenty",
+  data: 1985,
+  genero: "Drama",
+  duracao: 124
+}
+
+obra {
+  nome: "A Cry in the Dark",
+  data: 1988,
+  genero: "Drama",
+  duracao: 122
+}
+
+obra {
+  nome: "She-Devil",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Death Becomes Her",
+  data: 1992,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Kids & Pesticides",
+  data: 1991,
+  genero: "Drama",
+  duracao: 28
+}
+
+obra {
+  nome: "On a Clear Day You Can See Forever",
+  data: 1970,
+  genero: "Music",
+  duracao: 129
+}
+
+obra {
+  nome: "Nuts",
+  data: 1987,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Yentl",
+  data: 1983,
+  genero: "Music",
+  duracao: 134
+}
+
+obra {
+  nome: "Funny Girl",
+  data: 1968,
+  genero: "Music",
+  duracao: 151
+}
+
+obra {
+  nome: "Fellow Traveller",
+  data: 1990,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Dodesukaden",
+  data: 1970,
+  genero: "Drama",
+  duracao: 140
+}
+
+obra {
+  nome: "So Ends Our Night",
+  data: 1941,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Sword of the Valiant",
+  data: 1984,
+  genero: "Action",
+  duracao: 102
+}
+
+obra {
+  nome: "Devil's Wanton, The",
+  data: 1949,
+  genero: "Drama",
+  duracao: 78
+}
+
+obra {
+  nome: "Driving Miss Daisy",
+  data: 1989,
+  genero: "Drama",
+  duracao: 99
+}
+
+obra {
+  nome: "Seventh Cross, The",
+  data: 1991,
+  genero: "Drama",
+  duracao: 111
+}
+
+obra {
+  nome: "Between Friends",
+  data: 1983,
+  genero: "Drama",
+  duracao: 105
+}
+
+obra {
+  nome: "Raintree County",
+  data: 1957,
+  genero: "Drama",
+  duracao: 173
+}
+
+obra {
+  nome: "Driver's Seat, The",
+  data: 1975,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Reflections in a Golden Eye",
+  data: 1967,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "X, Y & Zee",
+  data: 1972,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Secret Ceremony",
+  data: 1968,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Cleopatra",
+  data: 1963,
+  genero: "Drama",
+  duracao: 243
+}
+
+obra {
+  nome: "Who's Afraid of Virginia Woolf?",
+  data: 1992,
+  genero: "Drama",
+  duracao: 130
+}
+
+obra {
+  nome: "A Little Night Music",
+  data: 1977,
+  genero: "Music",
+  duracao: 110
+}
+
+obra {
+  nome: "Giant",
+  data: 1956,
+  genero: "Drama",
+  duracao: 201
+}
+
+obra {
+  nome: "Rumor Mill, The",
+  data: 1985,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Lassie Come Home",
+  data: 1943,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Return Engagement",
+  data: 1993,
+  genero: "Drama",
+  duracao: 76
+}
+
+obra {
+  nome: "Hammersmith Is Out",
+  data: 1972,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Super Duper Bloopers",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Ash Wednesday",
+  data: 1973,
+  genero: "Drama",
+  duracao: 99
+}
+
+obra {
+  nome: "Last Time I Saw Paris, The",
+  data: 1991,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Cimarron",
+  data: 1931,
+  genero: "Western",
+  duracao: 125
+}
+
+obra {
+  nome: "Apache Woman",
+  data: 1992,
+  genero: "Western",
+  duracao: 83
+}
+
+obra {
+  nome: "Mystic Pizza",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Dogfight",
+  data: 1991,
+  genero: "Action",
+  duracao: 95
+}
+
+obra {
+  nome: "Adventures of Rex & Rinty, The",
+  data: 1935,
+  genero: "Western",
+  duracao: 234
+}
+
+obra {
+  nome: "Daphnis & Chloe",
+  data: 1988,
+  genero: "Music",
+  duracao: 60
+}
+
+obra {
+  nome: "Marathon",
+  data: 1980,
+  genero: "Comedy",
+  duracao: 97
+}
+
+obra {
+  nome: "Fort Apache",
+  data: 1948,
+  genero: "Western",
+  duracao: 127
+}
+
+obra {
+  nome: "Wee Willie Winkie",
+  data: 1937,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Big Shots",
+  data: 1987,
+  genero: "Action",
+  duracao: 91
+}
+
+obra {
+  nome: "Doin' Time on Planet Earth",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 85
+}
+
+obra {
+  nome: "All the Right Moves",
+  data: 1983,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Some Kind of Wonderful",
+  data: 1987,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "All New Tales from the Crypt, A Trilogy",
+  data: 1990,
+  genero: "Horror",
+  duracao: 87
+}
+
+obra {
+  nome: "Back to the Future",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 116
+}
+
+obra {
+  nome: "Winter Light",
+  data: 1963,
+  genero: "Drama",
+  duracao: 80
+}
+
+obra {
+  nome: "Silence, The",
+  data: 1963,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Magician, The",
+  data: 1959,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Four Horsemen of the Apocalypse, The",
+  data: 1961,
+  genero: "Drama",
+  duracao: 154
+}
+
+obra {
+  nome: "Critical Condition",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Center of the Web",
+  data: 1989,
+  genero: "Mystery",
+  duracao: 88
+}
+
+obra {
+  nome: "Border Shootout",
+  data: 1990,
+  genero: "Action",
+  duracao: 110
+}
+
+obra {
+  nome: "Lean on Me",
+  data: 1989,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "On Wings of Eagles",
+  data: 1986,
+  genero: "Drama",
+  duracao: 221
+}
+
+obra {
+  nome: "Texas",
+  data: 1941,
+  genero: "Western",
+  duracao: 94
+}
+
+obra {
+  nome: "Allegheny Uprising",
+  data: 1939,
+  genero: "Drama",
+  duracao: 80
+}
+
+obra {
+  nome: "Dark Command",
+  data: 1940,
+  genero: "Western",
+  duracao: 95
+}
+
+obra {
+  nome: "Peggy Sue Got Married",
+  data: 1986,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "Dear America, Letters Home from Vietnam",
+  data: 1989,
+  genero: "War",
+  duracao: 84
+}
+
+obra {
+  nome: "Prizzi's Honor",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 130
+}
+
+obra {
+  nome: "Man with Two Brains, The",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Crimes of Passion",
+  data: 1984,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Jewel of the Nile, The",
+  data: 1985,
+  genero: "Action",
+  duracao: 106
+}
+
+obra {
+  nome: "Romancing the Stone",
+  data: 1984,
+  genero: "Action",
+  duracao: 106
+}
+
+obra {
+  nome: "Accidental Tourist, The",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 121
+}
+
+obra {
+  nome: "Sea Chase, The",
+  data: 1955,
+  genero: "War",
+  duracao: 117
+}
+
+obra {
+  nome: "Another Time, Another Place",
+  data: 1958,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Cannibal Women in the Avocado Jungle of Death",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Mr Love.",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "2001: A Space Odyssey",
+  data: 1968,
+  genero: "Science Fiction",
+  duracao: 139
+}
+
+obra {
+  nome: "Persona",
+  data: 1966,
+  genero: "Drama",
+  duracao: 81
+}
+
+obra {
+  nome: "Hour of the Wolf",
+  data: 1968,
+  genero: "Drama",
+  duracao: 88
+}
+
+obra {
+  nome: "Passion of Anna, The",
+  data: 1969,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Dangerous Moves",
+  data: 1984,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Sayonara",
+  data: 1957,
+  genero: "Drama",
+  duracao: 147
+}
+
+obra {
+  nome: "Where Eagles Dare",
+  data: 1968,
+  genero: "War",
+  duracao: 158
+}
+
+obra {
+  nome: "Teen Wolf",
+  data: 1985,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Amazon",
+  data: 1990,
+  genero: "Action",
+  duracao: 88
+}
+
+obra {
+  nome: "Virgin Spring, The",
+  data: 1959,
+  genero: "Drama",
+  duracao: 88
+}
+
+obra {
+  nome: "Spider's Stratagem",
+  data: 1970,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Play Misty for Me",
+  data: 1971,
+  genero: "Mystery",
+  duracao: 102
+}
+
+obra {
+  nome: "Going Ape",
+  data: 1981,
+  genero: "Comedy",
+  duracao: 88
+}
+
+obra {
+  nome: "Cool Hand Luke",
+  data: 1967,
+  genero: "Drama",
+  duracao: 127
+}
+
+obra {
+  nome: "Phantom of the Ritz",
+  data: 1988,
+  genero: "Horror",
+  duracao: 89
+}
+
+obra {
+  nome: "Crash & Burn",
+  data: 1990,
+  genero: "Science Fiction",
+  duracao: 85
+}
+
+obra {
+  nome: "After Dark My Sweet",
+  data: 1991,
+  genero: "Mystery",
+  duracao: 114
+}
+
+obra {
+  nome: "Christopher Columbus: The Discovery",
+  data: 1992,
+  genero: "Adventure",
+  duracao: 121
+}
+
+obra {
+  nome: "Young Sherlock Holmes",
+  data: 1986,
+  genero: "Mystery",
+  duracao: 109
+}
+
+obra {
+  nome: "Doc Hollywood",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 104
+}
+
+obra {
+  nome: "Baja Oklahoma",
+  data: 1988,
+  genero: "Comedy",
+  duracao: 96
+}
+
+obra {
+  nome: "Aliens",
+  data: 1986,
+  genero: "Science Fiction",
+  duracao: 137
+}
+
+obra {
+  nome: "Alien Three",
+  data: 1992,
+  genero: "Science Fiction",
+  duracao: 115
+}
+
+obra {
+  nome: "Alien: resurrection",
+  data: 1997,
+  genero: "Science Fiction",
+  duracao: 109
+}
+
+obra {
+  nome: "Alien",
+  data: 1979,
+  genero: "Science Fiction",
+  duracao: 117
+}
+
+obra {
+  nome: "One Woman or Two",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 97
+}
+
+obra {
+  nome: "Soggy Bottom U. S. A.",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 96
+}
+
+obra {
+  nome: "Bang the Drum Slowly",
+  data: 1973,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Catamount Killing, The",
+  data: 1974,
+  genero: "Action",
+  duracao: 82
+}
+
+obra {
+  nome: "Fuzz",
+  data: 1972,
+  genero: "Action",
+  duracao: 92
+}
+
+obra {
+  nome: "Shoot Loud, Louder, I Don't Understand!",
+  data: 1966,
+  genero: "Mystery",
+  duracao: 101
+}
+
+obra {
+  nome: "Bedazzled",
+  data: 1967,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Prince & the Pauper, The",
+  data: 1977,
+  genero: "Action",
+  duracao: 120
+}
+
+obra {
+  nome: "One Hundred Rifles",
+  data: 1969,
+  genero: "Western",
+  duracao: 110
+}
+
+obra {
+  nome: "Wild Party, The",
+  data: 1975,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Bandolero!",
+  data: 1968,
+  genero: "Western",
+  duracao: 106
+}
+
+obra {
+  nome: "Last of Sheila, The",
+  data: 1973,
+  genero: "Mystery",
+  duracao: 119
+}
+
+obra {
+  nome: "Hannie Caulder",
+  data: 1972,
+  genero: "Drama",
+  duracao: 87
+}
+
+obra {
+  nome: "Bird",
+  data: 1988,
+  genero: "Drama",
+  duracao: 161
+}
+
+obra {
+  nome: "Meet Millie",
+  data: 1955,
+  genero: "Drama",
+  duracao: 60
+}
+
+obra {
+  nome: "Hell Comes to Frogtown",
+  data: 1987,
+  genero: "Science Fiction",
+  duracao: 88
+}
+
+obra {
+  nome: "Fortune Cookie, The",
+  data: 1966,
+  genero: "Comedy",
+  duracao: 126
+}
+
+obra {
+  nome: "Sun Shines Bright, The",
+  data: 1990,
+  genero: "Action",
+  duracao: 92
+}
+
+obra {
+  nome: "Squeeze, The",
+  data: 1987,
+  genero: "Action",
+  duracao: 106
+}
+
+obra {
+  nome: "Start the Revolution Without Me",
+  data: 1970,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "Major League",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Bright Lights, Big City",
+  data: 1990,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Lost Boys, The",
+  data: 1987,
+  genero: "Horror",
+  duracao: 97
+}
+
+obra {
+  nome: "Cookie",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 93
+}
+
+obra {
+  nome: "Conversation, The",
+  data: 1974,
+  genero: "Drama",
+  duracao: 114
+}
+
+obra {
+  nome: "American Graffiti",
+  data: 1973,
+  genero: "Comedy",
+  duracao: 112
+}
+
+obra {
+  nome: "Dangerous When Wet",
+  data: 1953,
+  genero: "Music",
+  duracao: 96
+}
+
+obra {
+  nome: "Stir Crazy",
+  data: 1980,
+  genero: "Comedy",
+  duracao: 111
+}
+
+obra {
+  nome: "Young Einstein",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "Killing, The",
+  data: 1956,
+  genero: "Drama",
+  duracao: 83
+}
+
+obra {
+  nome: "Cahill, United States Marshal",
+  data: 1973,
+  genero: "Western",
+  duracao: 102
+}
+
+obra {
+  nome: "Savage Intruder, The",
+  data: 1989,
+  genero: "Horror",
+  duracao: 90
+}
+
+obra {
+  nome: "Sheltering Sky, The",
+  data: 1992,
+  genero: "Drama",
+  duracao: 139
+}
+
+obra {
+  nome: "An Officer & a Gentleman",
+  data: 1982,
+  genero: "Drama",
+  duracao: 125
+}
+
+obra {
+  nome: "Black Widow",
+  data: 1987,
+  genero: "Mystery",
+  duracao: 101
+}
+
+obra {
+  nome: "Legal Eagles",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 116
+}
+
+obra {
+  nome: "Bloody Mama",
+  data: 1970,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "A Patch of Blue",
+  data: 1965,
+  genero: "Drama",
+  duracao: 106
+}
+
+obra {
+  nome: "I Died a Thousand Times",
+  data: 1955,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Tentacles",
+  data: 1977,
+  genero: "Horror",
+  duracao: 90
+}
+
+obra {
+  nome: "Scalphunters, The",
+  data: 1968,
+  genero: "Western",
+  duracao: 100
+}
+
+obra {
+  nome: "A Day in October",
+  data: 1992,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "A Fistful of Dollars",
+  data: 1964,
+  genero: "Westerns",
+  duracao: 102
+}
+
+obra {
+  nome: "My Science Project",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Great Race, The",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 160
+}
+
+obra {
+  nome: "Searchers, The",
+  data: 1956,
+  genero: "Western",
+  duracao: 119
+}
+
+obra {
+  nome: "Meteor",
+  data: 1979,
+  genero: "Action",
+  duracao: 105
+}
+
+obra {
+  nome: "Rebel Without a Cause",
+  data: 1955,
+  genero: "Drama",
+  duracao: 111
+}
+
+obra {
+  nome: "West Side Story",
+  data: 1961,
+  genero: "Music",
+  duracao: 153
+}
+
+obra {
+  nome: "Trash",
+  data: 1970,
+  genero: "Comedy",
+  duracao: 110
+}
+
+obra {
+  nome: "A Big Hand for the Little Lady",
+  data: 1966,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "A Fine Madness",
+  data: 1966,
+  genero: "Comedy",
+  duracao: 104
+}
+
+obra {
+  nome: "Glass Menagerie, The",
+  data: 1987,
+  genero: "Drama",
+  duracao: 134
+}
+
+obra {
+  nome: "Harry & Son",
+  data: 1989,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Rachel, Rachel",
+  data: 1968,
+  genero: "Drama",
+  duracao: 102
+}
+
+obra {
+  nome: "Paris Blues",
+  data: 1961,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Fugitive Kind, The",
+  data: 1960,
+  genero: "Drama",
+  duracao: 135
+}
+
+obra {
+  nome: "State of Grace",
+  data: 1991,
+  genero: "Drama",
+  duracao: 144
+}
+
+obra {
+  nome: "Shadow of a Doubt",
+  data: 1943,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Men, The",
+  data: 1950,
+  genero: "Drama",
+  duracao: 85
+}
+
+obra {
+  nome: "Stage Fright",
+  data: 1950,
+  genero: "Mystery",
+  duracao: 110
+}
+
+obra {
+  nome: "Magic Town",
+  data: 1947,
+  genero: "Drama",
+  duracao: 103
+}
+
+obra {
+  nome: "That Lucky Touch",
+  data: 1975,
+  genero: "Action",
+  duracao: 93
+}
+
+obra {
+  nome: "Lust for Gold",
+  data: 1949,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Heat",
+  data: 1987,
+  genero: "Mystery",
+  duracao: 103
+}
+
+obra {
+  nome: "Employee's Entrance",
+  data: 1993,
+  genero: "Drama",
+  duracao: 75
+}
+
+obra {
+  nome: "Night Is My Future",
+  data: 1947,
+  genero: "Drama",
+  duracao: 87
+}
+
+obra {
+  nome: "Witches, The",
+  data: 1990,
+  genero: "Science Fiction",
+  duracao: 92
+}
+
+obra {
+  nome: "Vera Cruz",
+  data: 1953,
+  genero: "Action",
+  duracao: 94
+}
+
+obra {
+  nome: "Apache",
+  data: 1954,
+  genero: "Western",
+  duracao: 91
+}
+
+obra {
+  nome: "Twilight's Last Gleaming",
+  data: 1977,
+  genero: "Drama",
+  duracao: 146
+}
+
+obra {
+  nome: "Frisco Kid, The",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 119
+}
+
+obra {
+  nome: "Bank on the Stars",
+  data: 1954,
+  genero: "Drama",
+  duracao: 30
+}
+
+obra {
+  nome: "Law of Desire",
+  data: 1987,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Quiller Memorandum, The",
+  data: 1966,
+  genero: "Mystery",
+  duracao: 103
+}
+
+obra {
+  nome: "Longest Day, The",
+  data: 1962,
+  genero: "War",
+  duracao: 183
+}
+
+obra {
+  nome: "Name of the Rose, The",
+  data: 1986,
+  genero: "Drama",
+  duracao: 128
+}
+
+obra {
+  nome: "Bloodsport",
+  data: 1988,
+  genero: "Action",
+  duracao: 92
+}
+
+obra {
+  nome: "Torment",
+  data: 1986,
+  genero: "Horror",
+  duracao: 85
+}
+
+obra {
+  nome: "Pelle the Conqueror",
+  data: 1988,
+  genero: "Drama",
+  duracao: 138
+}
+
+obra {
+  nome: "Taps",
+  data: 1981,
+  genero: "Drama",
+  duracao: 118
+}
+
+obra {
+  nome: "Freshman, The",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Last Emperor, The",
+  data: 1987,
+  genero: "Drama",
+  duracao: 164
+}
+
+obra {
+  nome: "Grim Reaper, The",
+  data: 1962,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Le Dernier Combat",
+  data: 1983,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Too Beautiful for You",
+  data: 1989,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Fire, Ice & Dynamite",
+  data: 1991,
+  genero: "Action",
+  duracao: 105
+}
+
+obra {
+  nome: "Heavens Above",
+  data: 1963,
+  genero: "Comedy",
+  duracao: 113
+}
+
+obra {
+  nome: "One Eyed Jacks",
+  data: 1961,
+  genero: "Western",
+  duracao: 141
+}
+
+obra {
+  nome: "Swing It, Sailor!",
+  data: 1937,
+  genero: "Comedy",
+  duracao: 61
+}
+
+obra {
+  nome: "Wolf at the Door, The",
+  data: 1987,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Modern Times",
+  data: 1936,
+  genero: "Comedy",
+  duracao: 87
+}
+
+obra {
+  nome: "Thunderbolt & Lightfoot",
+  data: 1991,
+  genero: "Action",
+  duracao: 114
+}
+
+obra {
+  nome: "A Nous la Liberte",
+  data: 1931,
+  genero: "Drama",
+  duracao: 87
+}
+
+obra {
+  nome: "Scum",
+  data: 1979,
+  genero: "Action",
+  duracao: 95
+}
+
+obra {
+  nome: "Inside Man, The",
+  data: 1984,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "Apocalypse Now",
+  data: 1979,
+  genero: "Drama",
+  duracao: 153
+}
+
+obra {
+  nome: "Bellboy & the Playgirls, The",
+  data: 1990,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Terror, The",
+  data: 1963,
+  genero: "Horror",
+  duracao: 81
+}
+
+obra {
+  nome: "Raven, The",
+  data: 1963,
+  genero: "Horror",
+  duracao: 86
+}
+
+obra {
+  nome: "They Came from Within",
+  data: 1975,
+  genero: "Horror",
+  duracao: 87
+}
+
+obra {
+  nome: "Boy in Blue, The",
+  data: 1986,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Killer Tomatoes Strike Back",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 87
+}
+
+obra {
+  nome: "Attack of the Killer Tomatoes",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 87
+}
+
+obra {
+  nome: "Untouchables, The",
+  data: 1987,
+  genero: "Drama",
+  duracao: 119
+}
+
+obra {
+  nome: "Wise Guys",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "American Autobahn",
+  data: 1989,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Final Alliance, The",
+  data: 1990,
+  genero: "Action",
+  duracao: 94
+}
+
+obra {
+  nome: "Bounty, The",
+  data: 1984,
+  genero: "Drama",
+  duracao: 130
+}
+
+obra {
+  nome: "Little Prince, The",
+  data: 1974,
+  genero: "Music",
+  duracao: 89
+}
+
+obra {
+  nome: "Posse",
+  data: 1975,
+  genero: "Western",
+  duracao: 94
+}
+
+obra {
+  nome: "Firefox",
+  data: 1982,
+  genero: "Action",
+  duracao: 136
+}
+
+obra {
+  nome: "Penitentiary III",
+  data: 1987,
+  genero: "Action",
+  duracao: 91
+}
+
+obra {
+  nome: "Wrong Box, The",
+  data: 1966,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Wagonmaster",
+  data: 1990,
+  genero: "Western",
+  duracao: 86
+}
+
+obra {
+  nome: "They Were Expendable",
+  data: 1945,
+  genero: "War",
+  duracao: 135
+}
+
+obra {
+  nome: "Last Hurrah, The",
+  data: 1991,
+  genero: "Drama",
+  duracao: 125
+}
+
+obra {
+  nome: "Law of the Golden West",
+  data: 1949,
+  genero: "Western",
+  duracao: 59
+}
+
+obra {
+  nome: "Pioneer Marshal",
+  data: 1949,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Ranger of the Cherokee Strip",
+  data: 1949,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Vanishing Westerner",
+  data: 1950,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Bandits of Dark Canyon",
+  data: 1948,
+  genero: "Western",
+  duracao: 59
+}
+
+obra {
+  nome: "Bold Frontiersman, The",
+  data: 1948,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Wild Frontier, The",
+  data: 1948,
+  genero: "Western",
+  duracao: 59
+}
+
+obra {
+  nome: "Firemen's Ball, The",
+  data: 1968,
+  genero: "Comedy",
+  duracao: 73
+}
+
+obra {
+  nome: "Local Hero",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 112
+}
+
+obra {
+  nome: "French Connection, The",
+  data: 1971,
+  genero: "Drama",
+  duracao: 104
+}
+
+obra {
+  nome: "To Live & Die in L. A.",
+  data: 1985,
+  genero: "Action",
+  duracao: 114
+}
+
+obra {
+  nome: "Ferry to Hong Kong",
+  data: 1961,
+  genero: "Drama",
+  duracao: 113
+}
+
+obra {
+  nome: "Eddie Murphy, Delirious",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 69
+}
+
+obra {
+  nome: "Secret Policeman's Private Parts, The",
+  data: 1984,
+  genero: "Comedy",
+  duracao: 77
+}
+
+obra {
+  nome: "Up the Creek",
+  data: 1958,
+  genero: "Comedy",
+  duracao: 83
+}
+
+obra {
+  nome: "Yol",
+  data: 1982,
+  genero: "Drama",
+  duracao: 111
+}
+
+obra {
+  nome: "Sara Dane",
+  data: 1989,
+  genero: "Drama",
+  duracao: 150
+}
+
+obra {
+  nome: "Night Tide",
+  data: 1988,
+  genero: "Drama",
+  duracao: 84
+}
+
+obra {
+  nome: "His Majesty O'Keefe",
+  data: 1953,
+  genero: "Action",
+  duracao: 92
+}
+
+obra {
+  nome: "North to Alaska",
+  data: 1960,
+  genero: "Western",
+  duracao: 122
+}
+
+obra {
+  nome: "Flight to Fury",
+  data: 1966,
+  genero: "Action",
+  duracao: 76
+}
+
+obra {
+  nome: "Ride in the Whirlwind",
+  data: 1966,
+  genero: "Western",
+  duracao: 82
+}
+
+obra {
+  nome: "Powderkeg",
+  data: 1970,
+  genero: "Western",
+  duracao: 93
+}
+
+obra {
+  nome: "I Confess",
+  data: 1953,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Thirty-Nine Steps, The",
+  data: 1935,
+  genero: "Science Fiction",
+  duracao: 88
+}
+
+obra {
+  nome: "Topaz",
+  data: 1969,
+  genero: "Mystery",
+  duracao: 126
+}
+
+obra {
+  nome: "Murder",
+  data: 1930,
+  genero: "Mystery",
+  duracao: 95
+}
+
+obra {
+  nome: "Dial M for Murder",
+  data: 1954,
+  genero: "Mystery",
+  duracao: 123
+}
+
+obra {
+  nome: "Young & Innocent",
+  data: 1937,
+  genero: "Mystery",
+  duracao: 80
+}
+
+obra {
+  nome: "Creature from Black Lake",
+  data: 1976,
+  genero: "Horror",
+  duracao: 95
+}
+
+obra {
+  nome: "Chariots of Fire",
+  data: 1981,
+  genero: "Drama",
+  duracao: 124
+}
+
+obra {
+  nome: "Monty Python Live at the Hollywood Bowl",
+  data: 1982,
+  genero: "Comedy",
+  duracao: 81
+}
+
+obra {
+  nome: "Man Who Would Be King, The",
+  data: 1975,
+  genero: "Drama",
+  duracao: 129
+}
+
+obra {
+  nome: "Victory",
+  data: 1981,
+  genero: "Drama",
+  duracao: 117
+}
+
+obra {
+  nome: "Kelly's Heroes",
+  data: 1970,
+  genero: "War",
+  duracao: 146
+}
+
+obra {
+  nome: "Next of Kin",
+  data: 1989,
+  genero: "Mystery",
+  duracao: 109
+}
+
+obra {
+  nome: "Chattahoochee",
+  data: 1990,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Angelic Conversation, The",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 82
+}
+
+obra {
+  nome: "Down by Law",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Killing Fields, The",
+  data: 1984,
+  genero: "Drama",
+  duracao: 141
+}
+
+obra {
+  nome: "Survival Zone",
+  data: 1992,
+  genero: "Action",
+  duracao: 85
+}
+
+obra {
+  nome: "Monty Python's Life of Brian",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Monty Python's the Meaning of Life",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 107
+}
+
+obra {
+  nome: "Red Tent, The",
+  data: 1971,
+  genero: "Action",
+  duracao: 121
+}
+
+obra {
+  nome: "Dakota",
+  data: 1945,
+  genero: "Western",
+  duracao: 82
+}
+
+obra {
+  nome: "Viva Zapata!",
+  data: 1952,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Green Berets, The",
+  data: 1968,
+  genero: "War",
+  duracao: 133
+}
+
+obra {
+  nome: "Big Bad John",
+  data: 1990,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "Ticket of Leave Man, The",
+  data: 1937,
+  genero: "Mystery",
+  duracao: 71
+}
+
+obra {
+  nome: "D-Day, The Sixth of June",
+  data: 1956,
+  genero: "War",
+  duracao: 106
+}
+
+obra {
+  nome: "Apprenticeship of Duddy Kravitz, The",
+  data: 1974,
+  genero: "Drama",
+  duracao: 121
+}
+
+obra {
+  nome: "A Clockwork Orange",
+  data: 1971,
+  genero: "Science Fiction",
+  duracao: 138
+}
+
+obra {
+  nome: "Full Metal Jacket",
+  data: 1991,
+  genero: "War",
+  duracao: 117
+}
+
+obra {
+  nome: "Sanshiro Sugata",
+  data: 1943,
+  genero: "Drama",
+  duracao: 82
+}
+
+obra {
+  nome: "Rhapsody in August",
+  data: 1991,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "No Regrets for Our Youth",
+  data: 1946,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Bad Sleep Well, The",
+  data: 1960,
+  genero: "Drama",
+  duracao: 152
+}
+
+obra {
+  nome: "Idiot, The",
+  data: 1951,
+  genero: "Drama",
+  duracao: 166
+}
+
+obra {
+  nome: "Rashomon",
+  data: 1951,
+  genero: "Drama",
+  duracao: 83
+}
+
+obra {
+  nome: "Sanjuro",
+  data: 1962,
+  genero: "Mystery",
+  duracao: 96
+}
+
+obra {
+  nome: "Seven Samurai",
+  data: 1955,
+  genero: "Drama",
+  duracao: 200
+}
+
+obra {
+  nome: "Throne of Blood",
+  data: 1957,
+  genero: "Drama",
+  duracao: 110
+}
+
+obra {
+  nome: "Yojimbo",
+  data: 1961,
+  genero: "Action",
+  duracao: 110
+}
+
+obra {
+  nome: "Kagemusha",
+  data: 1980,
+  genero: "Drama",
+  duracao: 161
+}
+
+obra {
+  nome: "Ikiru",
+  data: 1952,
+  genero: "Drama",
+  duracao: 134
+}
+
+obra {
+  nome: "Empire of Spiritual Ninja",
+  data: 1987,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "Ninja, the Violent Sorcerer",
+  data: 1986,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "Metropolis",
+  data: 1926,
+  genero: "Science Fiction",
+  duracao: 139
+}
+
+obra {
+  nome: "Cloak & Dagger",
+  data: 1946,
+  genero: "Mystery",
+  duracao: 106
+}
+
+obra {
+  nome: "Spiders",
+  data: 1920,
+  genero: "Drama",
+  duracao: 137
+}
+
+obra {
+  nome: "Human Desire",
+  data: 1954,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Spies",
+  data: 1928,
+  genero: "Drama",
+  duracao: 130
+}
+
+obra {
+  nome: "Testament of Dr. Mabuse, The",
+  data: 1933,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Fury",
+  data: 1991,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Mo' Better Blues",
+  data: 1990,
+  genero: "Drama",
+  duracao: 129
+}
+
+obra {
+  nome: "Matt Talbot",
+  data: 1989,
+  genero: "Drama",
+  duracao: 30
+}
+
+obra {
+  nome: "Will Rogers, Look Back in Laughter",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 55
+}
+
+obra {
+  nome: "For a Few Dollars More",
+  data: 1991,
+  genero: "Westerns",
+  duracao: 130
+}
+
+obra {
+  nome: "Thirty Seconds over Tokyo",
+  data: 1944,
+  genero: "War",
+  duracao: 139
+}
+
+obra {
+  nome: "Class of 1984",
+  data: 1982,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Juggernaut",
+  data: 1974,
+  genero: "Action",
+  duracao: 109
+}
+
+obra {
+  nome: "Good Morning, Vietnam",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 120
+}
+
+obra {
+  nome: "Blood on the Sun",
+  data: 1945,
+  genero: "Drama",
+  duracao: 94
+}
+
+obra {
+  nome: "Paint Your Wagon",
+  data: 1969,
+  genero: "Music",
+  duracao: 161
+}
+
+obra {
+  nome: "Ensign Pulver",
+  data: 1964,
+  genero: "Comedy",
+  duracao: 105
+}
+
+obra {
+  nome: "Street People",
+  data: 1976,
+  genero: "Action",
+  duracao: 92
+}
+
+obra {
+  nome: "Manhunt, The",
+  data: 1984,
+  genero: "Action",
+  duracao: 83
+}
+
+obra {
+  nome: "Operation Nam",
+  data: 1987,
+  genero: "War",
+  duracao: 85
+}
+
+obra {
+  nome: "Fighting Seabees, The",
+  data: 1944,
+  genero: "War",
+  duracao: 100
+}
+
+obra {
+  nome: "Let It Rock",
+  data: 1988,
+  genero: "Drama",
+  duracao: 75
+}
+
+obra {
+  nome: "Eraserhead",
+  data: 1978,
+  genero: "Horror",
+  duracao: 90
+}
+
+obra {
+  nome: "Ladykillers, The",
+  data: 1955,
+  genero: "Comedy",
+  duracao: 87
+}
+
+obra {
+  nome: "Sweet Smell of Success",
+  data: 1957,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "And Now for Something Completely Different",
+  data: 1971,
+  genero: "Comedy",
+  duracao: 88
+}
+
+obra {
+  nome: "Crackers",
+  data: 1984,
+  genero: "Action",
+  duracao: 92
+}
+
+obra {
+  nome: "Green Glove",
+  data: 1991,
+  genero: "Drama",
+  duracao: 89
+}
+
+obra {
+  nome: "Menace on the Mountain",
+  data: 1970,
+  genero: "Action",
+  duracao: 89
+}
+
+obra {
+  nome: "In Old California",
+  data: 1940,
+  genero: "Western",
+  duracao: 90
+}
+
+obra {
+  nome: "Thirty Is a Dangerous Age, Cynthia",
+  data: 1967,
+  genero: "Comedy",
+  duracao: 85
+}
+
+obra {
+  nome: "Ffolkes",
+  data: 1980,
+  genero: "Action",
+  duracao: 99
+}
+
+obra {
+  nome: "Chisum",
+  data: 1970,
+  genero: "Western",
+  duracao: 111
+}
+
+obra {
+  nome: "Hunt for Red October, The",
+  data: 1990,
+  genero: "Drama",
+  duracao: 135
+}
+
+obra {
+  nome: "Closely Watched Trains",
+  data: 1966,
+  genero: "Drama",
+  duracao: 123
+}
+
+obra {
+  nome: "Executive Action",
+  data: 1973,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Flying Tigers",
+  data: 1942,
+  genero: "Action",
+  duracao: 101
+}
+
+obra {
+  nome: "Father's Little Dividend",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 87
+}
+
+obra {
+  nome: "An Evening with Robin Williams",
+  data: 1982,
+  genero: "Comedy",
+  duracao: 92
+}
+
+obra {
+  nome: "Eddie Murphy Raw",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "Harlem Nights",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 118
+}
+
+obra {
+  nome: "Santee",
+  data: 1973,
+  genero: "Western",
+  duracao: 93
+}
+
+obra {
+  nome: "Good Father, The",
+  data: 1987,
+  genero: "Drama",
+  duracao: 90
+}
+
+obra {
+  nome: "Sometimes a Great Notion",
+  data: 1971,
+  genero: "Drama",
+  duracao: 115
+}
+
+obra {
+  nome: "Catch Twenty-Two",
+  data: 1970,
+  genero: "Comedy",
+  duracao: 117
+}
+
+obra {
+  nome: "Dark Age",
+  data: 1988,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "Deadline",
+  data: 1981,
+  genero: "Mystery",
+  duracao: 94
+}
+
+obra {
+  nome: "Mysterious Mr. Wong",
+  data: 1935,
+  genero: "Mystery",
+  duracao: 60
+}
+
+obra {
+  nome: "A Month in the Country",
+  data: 1988,
+  genero: "Drama",
+  duracao: 92
+}
+
+obra {
+  nome: "Prom Night III, The Last Kiss",
+  data: 1990,
+  genero: "Horror",
+  duracao: 97
+}
+
+obra {
+  nome: "Wrong Arm of the Law, The",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 94
+}
+
+obra {
+  nome: "Orphans",
+  data: 1987,
+  genero: "Drama",
+  duracao: 116
+}
+
+obra {
+  nome: "All the President's Men",
+  data: 1976,
+  genero: "Drama",
+  duracao: 139
+}
+
+obra {
+  nome: "J-Men Forever",
+  data: 1987,
+  genero: "Action",
+  duracao: 73
+}
+
+obra {
+  nome: "Wild Bunch, The",
+  data: 1969,
+  genero: "Western",
+  duracao: 144
+}
+
+obra {
+  nome: "Judgement in Berlin",
+  data: 1988,
+  genero: "Drama",
+  duracao: 92
+}
+
+obra {
+  nome: "Rocket Gibraltar",
+  data: 1988,
+  genero: "Drama",
+  duracao: 100
+}
+
+obra {
+  nome: "Yakuza, The",
+  data: 1975,
+  genero: "Action",
+  duracao: 112
+}
+
+obra {
+  nome: "Jeremiah Johnson",
+  data: 1972,
+  genero: "Drama",
+  duracao: 116
+}
+
+obra {
+  nome: "Burn!",
+  data: 1970,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Magnum Force",
+  data: 1973,
+  genero: "Action",
+  duracao: 122
+}
+
+obra {
+  nome: "Cyborg",
+  data: 1989,
+  genero: "Action",
+  duracao: 86
+}
+
+obra {
+  nome: "Prisoner of Zenda, The",
+  data: 1979,
+  genero: "Comedy",
+  duracao: 108
+}
+
+obra {
+  nome: "Scream",
+  data: 1983,
+  genero: "Horror",
+  duracao: 86
+}
+
+obra {
+  nome: "Assault, The",
+  data: 1986,
+  genero: "Drama",
+  duracao: 140
+}
+
+obra {
+  nome: "Flying Leathernecks",
+  data: 1951,
+  genero: "Action",
+  duracao: 102
+}
+
+obra {
+  nome: "What Comes Around",
+  data: 1985,
+  genero: "Drama",
+  duracao: 92
+}
+
+obra {
+  nome: "Mon Oncle D'Amerique",
+  data: 1980,
+  genero: "Comedy",
+  duracao: 123
+}
+
+obra {
+  nome: "Culpepper Cattle Company, The",
+  data: 1972,
+  genero: "Western",
+  duracao: 92
+}
+
+obra {
+  nome: "Survivors, The",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Roadhouse Sixty-Six",
+  data: 1984,
+  genero: "Action",
+  duracao: 96
+}
+
+obra {
+  nome: "Burning Poles, Cecil Taylor in Performance",
+  data: 1991,
+  genero: "Music",
+  duracao: 60
+}
+
+obra {
+  nome: "Russkies",
+  data: 1987,
+  genero: "Action",
+  duracao: 98
+}
+
+obra {
+  nome: "My Blue Heaven",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 96
+}
+
+obra {
+  nome: "Altered States",
+  data: 1990,
+  genero: "Science Fiction",
+  duracao: 103
+}
+
+obra {
+  nome: "Cowboys, The",
+  data: 1972,
+  genero: "Western",
+  duracao: 128
+}
+
+obra {
+  nome: "Code Name, Emerald",
+  data: 1985,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "Patton",
+  data: 1970,
+  genero: "War",
+  duracao: 170
+}
+
+obra {
+  nome: "Midnight Cowboy",
+  data: 1969,
+  genero: "Drama",
+  duracao: 123
+}
+
+obra {
+  nome: "Falcon & the Snowman, The",
+  data: 1985,
+  genero: "Drama",
+  duracao: 131
+}
+
+obra {
+  nome: "Maitresse",
+  data: 1976,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Disorderlies",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 86
+}
+
+obra {
+  nome: "Garrison Keillor's Home",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Overland Stage Raiders",
+  data: 1938,
+  genero: "Western",
+  duracao: 55
+}
+
+obra {
+  nome: "Pals of the Saddle",
+  data: 1938,
+  genero: "Western",
+  duracao: 55
+}
+
+obra {
+  nome: "Alone in the Dark",
+  data: 1982,
+  genero: "Horror",
+  duracao: 92
+}
+
+obra {
+  nome: "Beguiled, The",
+  data: 1971,
+  genero: "Drama",
+  duracao: 109
+}
+
+obra {
+  nome: "Escape from Alcatraz",
+  data: 1979,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Criss Cross",
+  data: 1948,
+  genero: "Drama",
+  duracao: 88
+}
+
+obra {
+  nome: "Midway",
+  data: 1976,
+  genero: "War",
+  duracao: 132
+}
+
+obra {
+  nome: "Indiana Jones & the Last Crusade",
+  data: 1990,
+  genero: "Action",
+  duracao: 126
+}
+
+obra {
+  nome: "Duel",
+  data: 1993,
+  genero: "Mystery",
+  duracao: 90
+}
+
+obra {
+  nome: "Separate but Equal",
+  data: 1991,
+  genero: "Drama",
+  duracao: 193
+}
+
+obra {
+  nome: "Gosta Berling's Saga",
+  data: 1924,
+  genero: "Drama",
+  duracao: 123
+}
+
+obra {
+  nome: "Platoon",
+  data: 1986,
+  genero: "Drama",
+  duracao: 120
+}
+
+obra {
+  nome: "Crawling Hand, The",
+  data: 1963,
+  genero: "Science Fiction",
+  duracao: 89
+}
+
+obra {
+  nome: "Willy Wonka & the Chocolate Factory",
+  data: 1971,
+  genero: "Music",
+  duracao: 100
+}
+
+obra {
+  nome: "Joe Kidd",
+  data: 1971,
+  genero: "Western",
+  duracao: 88
+}
+
+obra {
+  nome: "Santa Claus, The Movie",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 104
+}
+
+obra {
+  nome: "Boys Town",
+  data: 1938,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Erasure, Live Wild!",
+  data: 1990,
+  genero: "Music",
+  duracao: 59
+}
+
+obra {
+  nome: "A Question of Honor",
+  data: 1982,
+  genero: "Drama",
+  duracao: 150
+}
+
+obra {
+  nome: "Check Your Guns",
+  data: 1947,
+  genero: "Western",
+  duracao: 61
+}
+
+obra {
+  nome: "West to Glory",
+  data: 1947,
+  genero: "Western",
+  duracao: 56
+}
+
+obra {
+  nome: "Throwback, The",
+  data: 1937,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Border Feud",
+  data: 1992,
+  genero: "Action",
+  duracao: 54
+}
+
+obra {
+  nome: "Fighting Vigilantes, The",
+  data: 1947,
+  genero: "Western",
+  duracao: 58
+}
+
+obra {
+  nome: "Law of the Lash",
+  data: 1947,
+  genero: "Western",
+  duracao: 53
+}
+
+obra {
+  nome: "Outlaw Country",
+  data: 1949,
+  genero: "Western",
+  duracao: 66
+}
+
+obra {
+  nome: "Return of the Lash",
+  data: 1992,
+  genero: "Action",
+  duracao: 53
+}
+
+obra {
+  nome: "Mystery of the Hooded Horsemen",
+  data: 1937,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Tex Rides with the Boy Scouts",
+  data: 1937,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Shadows of the West",
+  data: 1949,
+  genero: "Western",
+  duracao: 59
+}
+
+obra {
+  nome: "Instant Karma",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 102
+}
+
+obra {
+  nome: "Time Lock",
+  data: 1957,
+  genero: "Drama",
+  duracao: 73
+}
+
+obra {
+  nome: "Appointment in Honduras",
+  data: 1953,
+  genero: "Drama",
+  duracao: 79
+}
+
+obra {
+  nome: "Danton",
+  data: 1982,
+  genero: "Drama",
+  duracao: 136
+}
+
+obra {
+  nome: "Alamo, The",
+  data: 1960,
+  genero: "Action",
+  duracao: 164
+}
+
+obra {
+  nome: "La Chevre, (The Goat)",
+  data: 1986,
+  genero: "Drama",
+  duracao: 91
+}
+
+obra {
+  nome: "Les Comperes",
+  data: 1985,
+  genero: "Comedy",
+  duracao: 109
+}
+
+obra {
+  nome: "Dead Poets Society",
+  data: 1990,
+  genero: "Drama",
+  duracao: 128
+}
+
+obra {
+  nome: "Othello, The Lost Masterpiece",
+  data: 1952,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Battleground, The",
+  data: 1949,
+  genero: "War",
+  duracao: 119
+}
+
+obra {
+  nome: "Kings of the Road (In the Course of Time)",
+  data: 1976,
+  genero: "Drama",
+  duracao: 176
+}
+
+obra {
+  nome: "Hiroshima",
+  data: 1990,
+  genero: "Drama",
+  duracao: 98
+}
+
+obra {
+  nome: "Return of Martin Guerre, The",
+  data: 1982,
+  genero: "Drama",
+  duracao: 111
+}
+
+obra {
+  nome: "Somebody up There Likes Me",
+  data: 1956,
+  genero: "Drama",
+  duracao: 97
+}
+
+obra {
+  nome: "Jack Benny Show",
+  data: 1955,
+  genero: "Comedy",
+  duracao: 57
+}
+
+obra {
+  nome: "Mutiny on the Bounty",
+  data: 1962,
+  genero: "Action",
+  duracao: 182
+}
+
+obra {
+  nome: "Monty Python's Flying Circus",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Monty Python's Flying Circus, Vol 1.",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Monty Python's Flying Circus, Vol 2.",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 59
+}
+
+obra {
+  nome: "Monty Python's Flying Circus, Vol 3.",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 58
+}
+
+obra {
+  nome: "Secret Policeman's Other Ball, The",
+  data: 1982,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Taming of the Shrew, The",
+  data: 1981,
+  genero: "Drama",
+  duracao: 127
+}
+
+obra {
+  nome: "Offence, The",
+  data: 1993,
+  genero: "Mystery",
+  duracao: 108
+}
+
+obra {
+  nome: "Hollywood Mavericks",
+  data: 1992,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Live at Harrah's",
+  data: 1990,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Persuaders, The Overture, The",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 52
+}
+
+obra {
+  nome: "Nineteen Hundred",
+  data: 1977,
+  genero: "Drama",
+  duracao: 255
+}
+
+obra {
+  nome: "Van, The",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 90
+}
+
+obra {
+  nome: "My Country Right or Wrong",
+  data: 1972,
+  genero: "War",
+  duracao: 15
+}
+
+obra {
+  nome: "Dead Pool, The",
+  data: 1992,
+  genero: "Action",
+  duracao: 92
+}
+
+obra {
+  nome: "Good, the Bad & the Ugly, The",
+  data: 1992,
+  genero: "Westerns",
+  duracao: 163
+}
+
+obra {
+  nome: "Rawhide, Premiere Episode",
+  data: 1959,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Tightrope",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 118
+}
+
+obra {
+  nome: "Hearts of Fire",
+  data: 1987,
+  genero: "Drama",
+  duracao: 95
+}
+
+obra {
+  nome: "How the West Was Won",
+  data: 1992,
+  genero: "Western",
+  duracao: 165
+}
+
+obra {
+  nome: "Great White Death",
+  data: 1993,
+  genero: "Action",
+  duracao: 88
+}
+
+obra {
+  nome: "Mosquito Coast, The",
+  data: 1986,
+  genero: "Drama",
+  duracao: 119
+}
+
+obra {
+  nome: "Today We Kill....Tomorrow We Die",
+  data: 1993,
+  genero: "Western",
+  duracao: 102
+}
+
+obra {
+  nome: "Back to the Future II",
+  data: 1989,
+  genero: "Comedy",
+  duracao: 116
+}
+
+obra {
+  nome: "Maverick, Duel at Sundown",
+  data: 1959,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Deadly Trackers",
+  data: 1973,
+  genero: "Western",
+  duracao: 105
+}
+
+obra {
+  nome: "American Film Institute, Alfred Hitchcock",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 72
+}
+
+obra {
+  nome: "Othello",
+  data: 1982,
+  genero: "Drama",
+  duracao: 208
+}
+
+obra {
+  nome: "Only Way Home, The",
+  data: 1975,
+  genero: "Drama",
+  duracao: 85
+}
+
+obra {
+  nome: "Tales of Tomorrow",
+  data: 1953,
+  genero: "Horror",
+  duracao: 120
+}
+
+obra {
+  nome: "Inherit the Wind",
+  data: 1991,
+  genero: "Drama",
+  duracao: 128
+}
+
+obra {
+  nome: "This Is Horror",
+  data: 1990,
+  genero: "Horror",
+  duracao: 45
+}
+
+obra {
+  nome: "Conversation Piece",
+  data: 1992,
+  genero: "Drama",
+  duracao: 112
+}
+
+obra {
+  nome: "Crimson Pirate, The",
+  data: 1992,
+  genero: "Action",
+  duracao: 105
+}
+
+obra {
+  nome: "Devil's Disciple, The",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 83
+}
+
+obra {
+  nome: "Hallelujah Trail, The",
+  data: 1992,
+  genero: "Drama",
+  duracao: 166
+}
+
+obra {
+  nome: "Train, The",
+  data: 1992,
+  genero: "Action",
+  duracao: 133
+}
+
+obra {
+  nome: "Jay Leno: The American Dream",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 49
+}
+
+obra {
+  nome: "Primal Rage",
+  data: 1990,
+  genero: "Mystery",
+  duracao: 92
+}
+
+obra {
+  nome: "Industrial Symphony, The Dream of the Broken-Hearted",
+  data: 1990,
+  genero: "Music",
+  duracao: 50
+}
+
+obra {
+  nome: "Howie Mandel's North American Watusi Tour",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 52
+}
+
+obra {
+  nome: "Branford Marsalis, Steep",
+  data: 1989,
+  genero: "Music",
+  duracao: 90
+}
+
+obra {
+  nome: "L. A. Story",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 98
+}
+
+obra {
+  nome: "Steve Martin Live!",
+  data: 1986,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Steve Martin, The Funnier Side of Eastern Canada",
+  data: 1974,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Romulus & the Sabines",
+  data: 1992,
+  genero: "Action",
+  duracao: 101
+}
+
+obra {
+  nome: "Strange Brew",
+  data: 1983,
+  genero: "Comedy",
+  duracao: 91
+}
+
+obra {
+  nome: "Another Forty-Eight Hours",
+  data: 1990,
+  genero: "Action",
+  duracao: 98
+}
+
+obra {
+  nome: "What about Bob?",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 99
+}
+
+obra {
+  nome: "Mummy's Revenge, The",
+  data: 1953,
+  genero: "Horror",
+  duracao: 91
+}
+
+obra {
+  nome: "Harper",
+  data: 1992,
+  genero: "Mystery",
+  duracao: 121
+}
+
+obra {
+  nome: "Left Handed Gun, The",
+  data: 1992,
+  genero: "Western",
+  duracao: 102
+}
+
+obra {
+  nome: "Prize, The",
+  data: 1992,
+  genero: "Drama",
+  duracao: 136
+}
+
+obra {
+  nome: "Exile in Concert",
+  data: 1989,
+  genero: "Music",
+  duracao: 61
+}
+
+obra {
+  nome: "Joe Piscopo New Jersey Special",
+  data: 1987,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Joe Piscopo Video, The",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 60
+}
+
+obra {
+  nome: "Salsa: The Motion Picture",
+  data: 1988,
+  genero: "Drama",
+  duracao: 96
+}
+
+obra {
+  nome: "Hollywood's Greatest War Movies",
+  data: 1991,
+  genero: "War",
+  duracao: 80
+}
+
+obra {
+  nome: "Out for Justice",
+  data: 1991,
+  genero: "Action",
+  duracao: 91
+}
+
+obra {
+  nome: "Case of the Mukkinese Battle Horn, The",
+  data: 1956,
+  genero: "Comedy",
+  duracao: 27
+}
+
+obra {
+  nome: "Goon Show Movie, The",
+  data: 1953,
+  genero: "Comedy",
+  duracao: 75
+}
+
+obra {
+  nome: "Great McGonagall, The",
+  data: 1975,
+  genero: "Comedy",
+  duracao: 95
+}
+
+obra {
+  nome: "I'm All Right Jack",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Magic Christian, The",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 101
+}
+
+obra {
+  nome: "Never Let Go",
+  data: 1960,
+  genero: "Action",
+  duracao: 91
+}
+
+obra {
+  nome: "Pink Panther, The",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 121
+}
+
+obra {
+  nome: "Two-Way Stretch",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 84
+}
+
+obra {
+  nome: "Face at the Window, The",
+  data: 1988,
+  genero: "Horror",
+  duracao: 65
+}
+
+obra {
+  nome: "Tom Thumb",
+  data: 1958,
+  genero: "Science Fiction",
+  duracao: 92
+}
+
+obra {
+  nome: "Beartooth",
+  data: 1989,
+  genero: "Action",
+  duracao: 90
+}
+
+obra {
+  nome: "James Taylor in Concert",
+  data: 1979,
+  genero: "Music",
+  duracao: 90
+}
+
+obra {
+  nome: "Gangbusters",
+  data: 1942,
+  genero: "Drama",
+  duracao: 253
+}
+
+obra {
+  nome: "Law & Jake Wade, The",
+  data: 1992,
+  genero: "Drama",
+  duracao: 87
+}
+
+obra {
+  nome: "Chuka",
+  data: 1967,
+  genero: "Western",
+  duracao: 105
+}
+
+obra {
+  nome: "Cry of the Innocent",
+  data: 1980,
+  genero: "Drama",
+  duracao: 93
+}
+
+obra {
+  nome: "Edison the Man",
+  data: 1991,
+  genero: "Drama",
+  duracao: 108
+}
+
+obra {
+  nome: "Keeper of the Flame",
+  data: 1991,
+  genero: "Drama",
+  duracao: 101
+}
+
+obra {
+  nome: "Spencer Tracy Legacy, The",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 92
+}
+
+obra {
+  nome: "Cheyenne, The Iron Trail",
+  data: 1957,
+  genero: "Western",
+  duracao: 60
+}
+
+obra {
+  nome: "Dawn Rider, The",
+  data: 1992,
+  genero: "Western",
+  duracao: 56
+}
+
+obra {
+  nome: "Frontier Horizon",
+  data: 1939,
+  genero: "Western",
+  duracao: 55
+}
+
+obra {
+  nome: "Hell Town",
+  data: 1934,
+  genero: "Western",
+  duracao: 54
+}
+
+obra {
+  nome: "Hurricane Express, The",
+  data: 1932,
+  genero: "Action",
+  duracao: 210
+}
+
+obra {
+  nome: "In Harm's Way",
+  data: 1965,
+  genero: "War",
+  duracao: 165
+}
+
+obra {
+  nome: "John Wayne Matinee Double Feature, No. 2",
+  data: 1939,
+  genero: "Western",
+  duracao: 112
+}
+
+obra {
+  nome: "John Wayne Matinee Double Feature, No. 3",
+  data: 1939,
+  genero: "Western",
+  duracao: 110
+}
+
+obra {
+  nome: "John Wayne Matinee Double Feature, No. 4",
+  data: 1938,
+  genero: "Western",
+  duracao: 110
+}
+
+obra {
+  nome: "King of the Pecos",
+  data: 1991,
+  genero: "Western",
+  duracao: 56
+}
+
+obra {
+  nome: "Lawless Frontier",
+  data: 1992,
+  genero: "Western",
+  duracao: 59
+}
+
+obra {
+  nome: "Lawless Frontier, The",
+  data: 1991,
+  genero: "Western",
+  duracao: 52
+}
+
+obra {
+  nome: "Lawless Nineties, The",
+  data: 1991,
+  genero: "Western",
+  duracao: 56
+}
+
+obra {
+  nome: "Lucky Texan",
+  data: 1934,
+  genero: "Western",
+  duracao: 54
+}
+
+obra {
+  nome: "McQ",
+  data: 1992,
+  genero: "Action",
+  duracao: 112
+}
+
+obra {
+  nome: "Neath the Arizona Skies",
+  data: 1991,
+  genero: "Western",
+  duracao: 54
+}
+
+obra {
+  nome: "Randy Rides Alone",
+  data: 1991,
+  genero: "Western",
+  duracao: 53
+}
+
+obra {
+  nome: "Range Feud",
+  data: 1993,
+  genero: "Western",
+  duracao: 58
+}
+
+obra {
+  nome: "Red River",
+  data: 1992,
+  genero: "Western",
+  duracao: 134
+}
+
+obra {
+  nome: "Riders of Destiny",
+  data: 1991,
+  genero: "Western",
+  duracao: 52
+}
+
+obra {
+  nome: "Shadow of the Eagle, The",
+  data: 1932,
+  genero: "Action",
+  duracao: 226
+}
+
+obra {
+  nome: "Blood & Guns",
+  data: 1989,
+  genero: "Action",
+  duracao: 103
+}
+
+obra {
+  nome: "Hot Money",
+  data: 1988,
+  genero: "Drama",
+  duracao: 78
+}
+
+obra {
+  nome: "Comedy Tonight",
+  data: 1977,
+  genero: "Comedy",
+  duracao: 75
+}
+
+obra {
+  nome: "Robin Williams",
+  data: 1991,
+  genero: "Comedy",
+  duracao: 65
+}
+

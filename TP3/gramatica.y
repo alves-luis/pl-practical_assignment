@@ -2,14 +2,16 @@
 #include <stdio.h>
 #include "lex.yy.c"
 %}
-%union { char * string; }
+%union { char * string; int integer; }
 
 /* Tipos de nodos */
 %token ARTISTA OBRA EVENTO
 /* Tipos de Tags */
 %token NOME IDADE FORMACAO PRODUTORAS DATA GENERO DURACAO EDICAO TIPO
-/* Valor das Tags */
-%token <string> VALOR
+/* STRING das Tags */
+%token <string> STRING
+/* Valores das Tags*/
+%token <integer> INT
 /* Tipos de Relações */
 %token PRODUZIU APRENDEU COLABOROU PARTICIPOU
 
@@ -25,51 +27,45 @@ Conteudo: Nodo
         | Relacao
         ;
 
-Nodo: ARTISTA '{' Nome LTagArtista '}'
-    | OBRA '{' Nome LTagObra '}'
-    | EVENTO '{' Nome LTagEvento '}'
+Nodo: ARTISTA '{' LTagArtista '}'      { printf("Estou num ARTISTA!\n"); }
+    | OBRA '{' LTagObra '}'            { printf("Estou numa OBRA!\n"); }
+    | EVENTO '{' LTagEvento '}'        { printf("Estou num EVENTO!\n"); }
     ;
 
-Nome: NOME ':' VALOR
+Nome: NOME ':' STRING
     ;
 
-LTagArtista: /* empty list */
-           | LTagArtista TagArtista
+LTagArtista: Nome
+           | LTagArtista ',' TagArtista
            ;
 
-TagArtista: AtributoArtista ':' VALOR
+TagArtista: IDADE ':' INT
+          | FORMACAO ':' STRING
+          | PRODUTORAS ':' STRING
           ;
 
-AtributoArtista: IDADE
-               | FORMACAO
-               | PRODUTORAS
-               ;
-
-LTagObra: /* empty list */
-        | LTagObra TagObra
+LTagObra: Nome
+        | LTagObra ',' TagObra
         ;
 
-TagObra: AtributoObra ':' VALOR
-         ;
+TagObra: Data
+       | GENERO ':' STRING
+       | DURACAO ':' INT
+       ;
 
-AtributoObra: DATA
-            | GENERO
-            | DURACAO
-            ;
+Data: DATA ':' INT
+    ;
 
-LTagEvento: /* empty list */
-          | LTagEvento TagEvento
+LTagEvento: Nome
+          | LTagEvento ',' TagEvento
           ;
 
-TagEvento: AtributoEvento ':' VALOR
+TagEvento: Data
+         | EDICAO ':' INT
+         | TIPO ':' STRING
          ;
 
-AtributoEvento: EDICAO
-              | DATA
-              | TIPO
-              ;
-
-Relacao: VALOR Ligacao VALOR '.'
+Relacao: STRING Ligacao STRING { printf("Estou  numa RELAÇÃO!\n"); }
        ;
 
 Ligacao: PRODUZIU

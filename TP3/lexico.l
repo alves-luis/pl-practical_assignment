@@ -3,6 +3,9 @@
 #include <stdio.h>
 %}
 
+numero                   [0-9]
+INT                      {numero}+
+
 %%
 (?i:Artista)             { return ARTISTA; }
 (?i:Obra)                { return OBRA; }
@@ -20,12 +23,13 @@
 (?i:aprendeuCom)         { return APRENDEU; }
 (?i:colaborouCom)        { return COLABOROU; }
 (?i:participouEm)        { return PARTICIPOU; }
-[;.:{}]                  { return yytext[0];}
-'[^']+'                  {
+{INT}                    { yylval.integer = atoi(yytext); return INT;}
+\"[^"]+\"                {
                            yytext[yyleng-1] = '\0';
                            yylval.string = yytext + 1;
-                           return VALOR;
+                           return STRING;
                          }
+[,:{}]                   { return yytext[0];}
 .|\n                     { ; }
 
 %%
