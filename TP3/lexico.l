@@ -25,13 +25,15 @@ INT                      {numero}+
 (?i:participouEm)        { return PARTICIPOU; }
 (?i:id)                  { return ID_TAG; }
 {INT}                    { yylval.integer = atoi(yytext); return INT; }
-[a-z][0-9]+              { yylval.string = strdup(yytext); return ID; }
+a[0-9]+                  { yylval.string = strdup(yytext); return ID_ARTISTA; }
+o[0-9]+                  { yylval.string = strdup(yytext); return ID_OBRA; }
+e[0-9]+                  { yylval.string = strdup(yytext); return ID_EVENTO; }
 \"[^"]+\"                {
                            yytext[yyleng-1] = '\0';
                            yylval.string = strdup(yytext + 1);
                            return STRING;
                          }
-[,:{}]                   { return yytext[0];}
+[,:{}.]                  { return yytext[0];}
 .|\n                     { ; }
 
 %%

@@ -1,5 +1,5 @@
 BEGIN {FS = ";"; RS = "\n"}
-NR > 2 && $1 ~/.+/ && $3 ~/.+/ && $4 ~/.+/ && $2 ~/.+/ {
-        print "obra {\n  id: t" NR ",\n  nome: \"" $3 "\",\n  data: " $1 ",\n  genero: \"" $4 "\",\n  duracao: " $2 "\n}\n"
+NR > 2 && $1 !~ /\\N/ && $3 !~ /\\N/ && $4 !~ /\\N/ && $2 !~ /\\N/ {
+        print "obra {\n  id: o" NR ",\n  nome: \"" $3 "\",\n  data: " $1 ",\n  genero: \"" $4 "\",\n  duracao: " $2 "\n}\n"
        }
 END {}

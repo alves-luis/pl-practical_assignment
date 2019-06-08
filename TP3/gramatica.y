@@ -3,6 +3,7 @@
 #include <stdio.h>
 #include <string.h>
 #include "lex.yy.c"
+#include <glib.h>
 
 int yyerror(char * s);
 
@@ -39,8 +40,11 @@ int artista[N_ARTISTA_TAGS];
 int evento[N_EVENTO_TAGS];
 int obra[N_OBRA_TAGS];
 
-/* used to store the ID */
+/* used to store the current ID */
 char * id = NULL;
+
+/* Table of IDs */
+GHashTable * idHash;
 
 /**
   * Clears the array of used tags in artista
@@ -96,6 +100,28 @@ int useTagNode(int tag, int node) {
   return USED;
 }
 
+/**
+  * Inserts a new id into the hash, returns whether it already
+  * had that ID
+ */
+int insertId(char * id) {
+    char * idCopy = strdup(id);
+    int hadKey = g_hash_table_insert(idHash, idCopy, strdup(idCopy));
+    return !hadKey;
+}
+
+/**
+  * Returns 1 if does not have one (or both) of the ids
+  * 0 if it does have them
+ */
+int hasBothIds(char * idL, char * idR) {
+    void * hasFirst = g_hash_table_lookup(idHash,idL);
+    void * hasSecond = g_hash_table_lookup(idHash,idR);
+    if (!hasFirst || !hasSecond)
+        return 1;
+    return 0;
+}
+
 char * formatFieldNode(char * title, char * content, int header) {
   char * result;
   asprintf(&result,"\t<h%d>%s</h%d>\n\t\t<p>%s</p>\n", header, title, header, content);
@@ -132,7 +158,7 @@ void printGraph(char * content) {
       fclose(file);
   }
   else
-    puts("Errou :(");
+    puts("Could not open graph.dot!");
 }
 
 
@@ -144,13 +170,13 @@ void printGraph(char * content) {
 /* Tipos de Tags */
 %token NOME IDADE FORMACAO PRODUTORAS DATA GENERO DURACAO EDICAO TIPO ID_TAG
 /* STRING das Tags e do ID */
-%token <string> STRING ID
+%token <string> STRING ID_ARTISTA ID_OBRA ID_EVENTO
 /* Valores das Tags*/
 %token <integer> INT
 /* Tipos de Relações */
 %token PRODUZIU APRENDEU COLABOROU PARTICIPOU
-
-%type <string> Nome TagArtista LTagArtista Nodo Id LTagObra LTagEvento LConteudos Conteudo Relacao Ligacao TagObra TagEvento Data
+/* Tipos das regras da gramática */
+%type <string> Nome TagArtista LTagArtista Nodo LTagObra LTagEvento LConteudos Conteudo Relacao TagObra TagEvento Data RArtistaObra RArtistaEvento RArtistaArtista
 
 %%
 MvA: LConteudos                       { printGraph($1); }
@@ -161,10 +187,13 @@ LConteudos: Conteudo                  { $$ = $1; }
           ;
 
 Conteudo: Nodo                         { addFile($1);
+                                         int err = insertId(id);
+                                         if (err)
+                                            yyerror("Id já existente!");
                                          asprintf(&$$, "\t%s [URL=\"%s.html\"];\n", id, id);
                                          id = NULL;
                                        }
-        | Relacao                      { $$ = $1; }
+        | Relacao '.'                  { $$ = $1; }
         ;
 
 Nodo: ARTISTA '{' LTagArtista '}'      { asprintf(&$$,"<h1>Artista</h1>\n%s",$3); clearArtista(); }
@@ -175,18 +204,14 @@ Nodo: ARTISTA '{' LTagArtista '}'      { asprintf(&$$,"<h1>Artista</h1>\n%s",$3)
 Nome: NOME ':' STRING                  { $$ = $3; }
     ;
 
-LTagArtista: Id                         { int err = useTagNode(cID,cARTISTA);
+LTagArtista: ID_TAG ':' ID_ARTISTA      { int err = useTagNode(cID,cARTISTA);
                                           if (err)
                                             yyerror("Id já havia sido definido!");
-                                          asprintf(&$$,"%s",formatFieldNode("Id",$1,2));
+                                          id = $3;
+                                          asprintf(&$$,"%s",formatFieldNode("Id",$3,2));
                                         }
            | LTagArtista ',' TagArtista { asprintf(&$$,"%s\n%s",$1,$3); }
            ;
-
-Id: ID_TAG ':' ID                      {  id = $3;
-                                          $$ = $3;
-                                       }
-  ;
 
 TagArtista: IDADE ':' INT              { int err = useTagNode(cIDADE,cARTISTA);
                                          if (err)
@@ -212,93 +237,110 @@ TagArtista: IDADE ':' INT              { int err = useTagNode(cIDADE,cARTISTA);
                                        }
           ;
 
-LTagObra: Id                           { int err = useTagNode(cID,cOBRA);
-                                          if (err)
+LTagObra: ID_TAG ':' ID_OBRA           { int err = useTagNode(cID,cOBRA);
+                                         if (err)
                                             yyerror("Id já havia sido definido!");
-                                          asprintf(&$$,"%s",formatFieldNode("Id",$1,2));
+                                         id = $3;
+                                         asprintf(&$$,"%s",formatFieldNode("Id",$3,2));
                                        }
         | LTagObra ',' TagObra         { asprintf(&$$,"%s\n%s",$1,$3); }
         ;
 
 TagObra: Data                          { int err = useTagNode(cDATA, cOBRA);
                                          if (err)
-                                            yyerror("Data já havia sido definido!");
+                                            yyerror("Data já havia sido definida!");
                                          asprintf(&$$,"%s",formatFieldNode("Data",$1,2));
                                        }
        | GENERO ':' STRING             { int err = useTagNode(cGENERO,cOBRA);
-                                          if (err)
-                                             yyerror("Género já havia sido definida!");
-                                          asprintf(&$$,"%s",formatFieldNode("Género",$3,2));
+                                         if (err)
+                                            yyerror("Género já havia sido definido!");
+                                         asprintf(&$$,"%s",formatFieldNode("Género",$3,2));
                                        }
        | DURACAO ':' INT               { int err = useTagNode(cDURACAO,cOBRA);
-                                          if (err)
-                                             yyerror("Duração já havia sido definida!");
-                                          char * duracao = intToString($3);
-                                          asprintf(&$$,"%s",formatFieldNode("Duração",duracao,2));
-                                          free(duracao);
+                                         if (err)
+                                            yyerror("Duração já havia sido definida!");
+                                         char * duracao = intToString($3);
+                                         asprintf(&$$,"%s",formatFieldNode("Duração",duracao,2));
+                                         free(duracao);
                                        }
        | Nome                          { int err = useTagNode(cNOME,cOBRA);
-                                          if (err)
-                                             yyerror("Nome já havia sido definida!");
-                                          asprintf(&$$,"%s",formatFieldNode("Nome",$1,2));
+                                         if (err)
+                                            yyerror("Nome já havia sido definido!");
+                                         asprintf(&$$,"%s",formatFieldNode("Nome",$1,2));
                                        }
        ;
 
-Data: DATA ':' INT                     {
-                                           $$ = intToString($3);
-                                       }
+Data: DATA ':' INT                     { $$ = intToString($3); }
     ;
 
-LTagEvento: Id                         { int err = useTagNode(cID,cEVENTO);
-                                          if (err)
+LTagEvento: ID_TAG ':' ID_EVENTO       { int err = useTagNode(cID,cEVENTO);
+                                         if (err)
                                             yyerror("Id já havia sido definido!");
-                                          asprintf(&$$,"%s",formatFieldNode("Id",$1,2));
+                                         id = $3;
+                                         asprintf(&$$,"%s",formatFieldNode("Id",$3,2));
                                        }
           | LTagEvento ',' TagEvento   { asprintf(&$$,"%s\n%s",$1,$3); }
           ;
 
 TagEvento: Data                        { int err = useTagNode(cDATA, cEVENTO);
                                          if (err)
-                                            yyerror("Data já havia sido definido!");
+                                            yyerror("Data já havia sido definida!");
                                          asprintf(&$$,"%s",formatFieldNode("Data",$1,2));
                                        }
          | EDICAO ':' INT              { int err = useTagNode(cEDICAO,cEVENTO);
-                                          if (err)
-                                             yyerror("Edição já havia sido definida!");
-                                          char * edicao = intToString($3);
-                                          asprintf(&$$,"%s",formatFieldNode("Edição",edicao,2));
-                                          free(edicao);
+                                         if (err)
+                                            yyerror("Edição já havia sido definida!");
+                                         char * edicao = intToString($3);
+                                         asprintf(&$$,"%s",formatFieldNode("Edição",edicao,2));
+                                         free(edicao);
                                         }
          | TIPO ':' STRING              { int err = useTagNode(cTIPO,cEVENTO);
-                                            if (err)
-                                               yyerror("Tipo já havia sido definida!");
-                                            asprintf(&$$,"%s",formatFieldNode("Tipo",$3,2));
+                                          if (err)
+                                            yyerror("Tipo já havia sido definido!");
+                                          asprintf(&$$,"%s",formatFieldNode("Tipo",$3,2));
                                          }
          | Nome                          { int err = useTagNode(cNOME,cEVENTO);
-                                            if (err)
-                                               yyerror("Nome já havia sido definida!");
-                                            asprintf(&$$,"%s",formatFieldNode("Nome",$1,2));
+                                           if (err)
+                                             yyerror("Nome já havia sido definido!");
+                                           asprintf(&$$,"%s",formatFieldNode("Nome",$1,2));
                                          }
          ;
 
-Relacao: ID Ligacao ID {
-                          asprintf(&$$,"\t%s -- %s %s;\n",$1, $3, $2);
-                       }
+Relacao: ID_ARTISTA RArtistaObra ID_OBRA       { int err = hasBothIds($1,$3);
+                                                 if (err)
+                                                    yyerror("Impossível estabelecer relação entre IDs inexistentes!");
+                                                 asprintf(&$$,"\t%s -- %s %s;\n",$1, $3, $2);
+                                               }
+       | ID_ARTISTA RArtistaEvento ID_EVENTO   { int err = hasBothIds($1,$3);
+                                                 if (err)
+                                                    yyerror("Impossível estabelecer relação entre IDs inexistentes!");
+                                                 asprintf(&$$,"\t%s -- %s %s;\n",$1, $3, $2); }
+       | ID_ARTISTA RArtistaArtista ID_ARTISTA { int err = hasBothIds($1,$3);
+                                                 if (err)
+                                                   yyerror("Impossível estabelecer relação entre IDs inexistentes!");
+                                                 asprintf(&$$,"\t%s -- %s %s;\n",$1, $3, $2); }
        ;
 
-Ligacao: PRODUZIU      { $$ = "[label=\"produziu com\",color=red,penwidth=3.0]"; }
-       | APRENDEU      { $$ = "[label=\"aprendeu com\",color=blue,penwidth=3.0]"; }
-       | COLABOROU     { $$ = "[label=\"colaborou com\",color=green,penwidth=3.0]"; }
-       | PARTICIPOU    { $$ = "[label=\"participou em\",color=black,penwidth=3.0]"; }
-       ;
+RArtistaObra: PRODUZIU                   { $$ = "[label=\"produziu com\",color=red,penwidth=3.0]"; }
+            ;
+
+RArtistaEvento: PARTICIPOU               { $$ = "[label=\"participou em\",color=black,penwidth=3.0]"; }
+              ;
+
+RArtistaArtista: APRENDEU                { $$ = "[label=\"aprendeu com\",color=blue,penwidth=3.0]"; }
+               | COLABOROU               { $$ = "[label=\"colaborou com\",color=green,penwidth=3.0]"; }
+               ;
 %%
 
 int yyerror(char *s){
-  printf("ERRO SINTÁTICO: %s\n",s);
+  printf("Erro sintático: %s\n",s);
   return 0;
 }
 
 int main(){
-  yyparse();
-  return 0;
+    idHash = g_hash_table_new_full(g_str_hash,g_str_equal,free,free);
+    yyparse();
+    g_hash_table_remove_all(idHash);
+    g_hash_table_destroy(idHash);
+    return 0;
 }

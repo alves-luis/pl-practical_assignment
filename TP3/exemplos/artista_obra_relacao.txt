@@ -17,4 +17,5 @@ evento {
   data: 2019,
   edicao: 45
 }
-a0 produziu o0
+a0 produziu o0.
+a0 participouEm e0.
