@@ -11,4 +11,10 @@ obra {
   genero: "Documentário",
   duracao: 20
 }
+evento {
+  id: e0,
+  tipo: "Festival",
+  data: 2019,
+  edicao: 45
+}
 a0 produziu o0
