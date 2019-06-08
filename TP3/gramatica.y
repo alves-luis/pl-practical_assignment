@@ -1,4 +1,5 @@
 %{
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <string.h>
 #include "lex.yy.c"
@@ -39,7 +40,7 @@ int evento[N_EVENTO_TAGS];
 int obra[N_OBRA_TAGS];
 
 /* used to store the ID */
-char * id;
+char * id = NULL;
 
 /**
   * Clears the array of used tags in artista
@@ -118,6 +119,18 @@ void addFile(char * fileContent) {
   }
 }
 
+void printGraph(char * content) {
+  char * fileName = "graph.dot";
+  FILE * file = fopen(fileName,"w");
+  if (file) {
+      char * header = "graph G {\n";
+      fwrite(header, 1, strlen(header), file);
+      fwrite(content, 1, strlen(content), file);
+      char * footer = "\n}\n";
+      fwrite(footer, 1, strlen(footer), file);
+  }
+}
+
 
 %}
 %union { char * string; int integer; }
@@ -133,18 +146,21 @@ void addFile(char * fileContent) {
 /* Tipos de Relações */
 %token PRODUZIU APRENDEU COLABOROU PARTICIPOU
 
-%type <string> Nome TagArtista LTagArtista Nodo Id LTagObra LTagEvento
+%type <string> Nome TagArtista LTagArtista Nodo Id LTagObra LTagEvento LConteudos Conteudo Relacao Ligacao
 
 %%
-MvA: LConteudos
+MvA: LConteudos                       { printGraph($1); }
    ;
 
-LConteudos: Conteudo
-          | LConteudos Conteudo
+LConteudos: Conteudo                  { $$ = $1; }
+          | LConteudos Conteudo       { asprintf(&$$,"%s%s",$1,$2); }
           ;
 
-Conteudo: Nodo                         { addFile($1); id = NULL; }
-        | Relacao
+Conteudo: Nodo                         { addFile($1);
+                                         asprintf(&$$, "%s [URL=\"%s.html\"];\n", id, id);
+                                         id = NULL;
+                                       }
+        | Relacao                      { $$ = $1; }
         ;
 
 Nodo: ARTISTA '{' LTagArtista '}'      { asprintf(&$$,"<h1>Artista</h1>\n%s",$3); clearArtista(); }
@@ -188,7 +204,6 @@ TagArtista: IDADE ':' INT              { int err = useTagNode(cIDADE,cARTISTA);
           | Nome                       { int err = useTagNode(cNOME, cARTISTA);
                                          if (err)
                                             yyerror("Nome já havia sido definido!");
-                                         ;
                                          asprintf(&$$,"%s",formatFieldNode("Nome",$1,2));
                                        }
           ;
@@ -216,13 +231,15 @@ TagEvento: Data
          | Nome
          ;
 
-Relacao: ID Ligacao ID {  }
+Relacao: ID Ligacao ID {
+                          asprintf(&$$,"%s -- %s %s;",$1, $3, $2);
+                       }
        ;
 
-Ligacao: PRODUZIU
-       | APRENDEU
-       | COLABOROU
-       | PARTICIPOU
+Ligacao: PRODUZIU      { $$ = "[label=\"produziu com\",color=red,pen-width=3.0]"; }
+       | APRENDEU      { $$ = "[label=\"aprendeu com\",color=blue,pen-width=3.0]"; }
+       | COLABOROU     { $$ = "[label=\"colaborou com\",color=green,pen-width=3.0]"; }
+       | PARTICIPOU    { $$ = "[label=\"participou em\",color=black,pen-width=3.0]"; }
        ;
 %%
 
