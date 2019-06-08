@@ -133,7 +133,7 @@ void addFile(char * fileContent) {
 /* Tipos de Relações */
 %token PRODUZIU APRENDEU COLABOROU PARTICIPOU
 
-%type <string> Nome TagArtista LTagArtista Nodo Id LTagObra LTagEvento
+%type <string> Nome TagArtista LTagArtista Nodo Id LTagObra LTagEvento TagObra TagEvento Data
 
 %%
 MvA: LConteudos
@@ -188,32 +188,77 @@ TagArtista: IDADE ':' INT              { int err = useTagNode(cIDADE,cARTISTA);
           | Nome                       { int err = useTagNode(cNOME, cARTISTA);
                                          if (err)
                                             yyerror("Nome já havia sido definido!");
-                                         ;
                                          asprintf(&$$,"%s",formatFieldNode("Nome",$1,2));
                                        }
           ;
 
-LTagObra: Id
-        | LTagObra ',' TagObra
+LTagObra: Id                           { int err = useTagNode(cID,cOBRA);
+                                          if (err)
+                                            yyerror("Id já havia sido definido!");
+                                          asprintf(&$$,"%s",formatFieldNode("Id",$1,2));
+                                       }
+        | LTagObra ',' TagObra         { asprintf(&$$,"%s\n%s",$1,$3); }
         ;
 
-TagObra: Data
-       | GENERO ':' STRING
-       | DURACAO ':' INT
-       | Nome
+TagObra: Data                          { int err = useTagNode(cDATA, cOBRA);
+                                         if (err)
+                                            yyerror("Data já havia sido definido!");
+                                         asprintf(&$$,"%s",formatFieldNode("Data",$1,2));
+                                       }
+       | GENERO ':' STRING             { int err = useTagNode(cGENERO,cOBRA);
+                                          if (err)
+                                             yyerror("Género já havia sido definida!");
+                                          asprintf(&$$,"%s",formatFieldNode("Género",$3,2));
+                                       }
+       | DURACAO ':' INT               { int err = useTagNode(cDURACAO,cOBRA);
+                                          if (err)
+                                             yyerror("Duração já havia sido definida!");
+                                          char * duracao = intToString($3);
+                                          asprintf(&$$,"%s",formatFieldNode("Duração",duracao,2));
+                                          free(duracao);
+                                       }
+       | Nome                          { int err = useTagNode(cNOME,cOBRA);
+                                          if (err)
+                                             yyerror("Nome já havia sido definida!");
+                                          asprintf(&$$,"%s",formatFieldNode("Nome",$1,2));
+                                       }
        ;
 
-Data: DATA ':' INT
+Data: DATA ':' INT                     {
+                                           $$ = intToString($3);
+                                       }
     ;
 
-LTagEvento: Id
-          | LTagEvento ',' TagEvento
+LTagEvento: Id                         { int err = useTagNode(cID,cEVENTO);
+                                          if (err)
+                                            yyerror("Id já havia sido definido!");
+                                          asprintf(&$$,"%s",formatFieldNode("Id",$1,2));
+                                       }
+          | LTagEvento ',' TagEvento   { asprintf(&$$,"%s\n%s",$1,$3); }
           ;
 
-TagEvento: Data
-         | EDICAO ':' INT
-         | TIPO ':' STRING
-         | Nome
+TagEvento: Data                        { int err = useTagNode(cDATA, cEVENTO);
+                                         if (err)
+                                            yyerror("Data já havia sido definido!");
+                                         asprintf(&$$,"%s",formatFieldNode("Data",$1,2));
+                                       }
+         | EDICAO ':' INT              { int err = useTagNode(cEDICAO,cEVENTO);
+                                          if (err)
+                                             yyerror("Edição já havia sido definida!");
+                                          char * edicao = intToString($3);
+                                          asprintf(&$$,"%s",formatFieldNode("Edição",edicao,2));
+                                          free(edicao);
+                                        }
+         | TIPO ':' STRING              { int err = useTagNode(cTIPO,cEVENTO);
+                                            if (err)
+                                               yyerror("Tipo já havia sido definida!");
+                                            asprintf(&$$,"%s",formatFieldNode("Tipo",$3,2));
+                                         }
+         | Nome                          { int err = useTagNode(cNOME,cEVENTO);
+                                            if (err)
+                                               yyerror("Nome já havia sido definida!");
+                                            asprintf(&$$,"%s",formatFieldNode("Nome",$1,2));
+                                         }
          ;
 
 Relacao: ID Ligacao ID {  }
