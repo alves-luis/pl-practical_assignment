@@ -115,6 +115,7 @@ void addFile(char * fileContent) {
     FILE * file = fopen(fileName,"w");
     if (file) {
       fwrite(fileContent, 1, strlen(fileContent), file);
+      fclose(file);
     }
   }
 }
@@ -126,9 +127,12 @@ void printGraph(char * content) {
       char * header = "graph G {\n";
       fwrite(header, 1, strlen(header), file);
       fwrite(content, 1, strlen(content), file);
-      char * footer = "\n}\n";
+      char * footer = "}\n";
       fwrite(footer, 1, strlen(footer), file);
+      fclose(file);
   }
+  else
+    puts("Errou :(");
 }
 
 
@@ -157,7 +161,7 @@ LConteudos: Conteudo                  { $$ = $1; }
           ;
 
 Conteudo: Nodo                         { addFile($1);
-                                         asprintf(&$$, "%s [URL=\"%s.html\"];\n", id, id);
+                                         asprintf(&$$, "\t%s [URL=\"%s.html\"];\n", id, id);
                                          id = NULL;
                                        }
         | Relacao                      { $$ = $1; }
@@ -278,14 +282,14 @@ TagEvento: Data                        { int err = useTagNode(cDATA, cEVENTO);
          ;
 
 Relacao: ID Ligacao ID {
-                          asprintf(&$$,"%s -- %s %s;",$1, $3, $2);
+                          asprintf(&$$,"\t%s -- %s %s;\n",$1, $3, $2);
                        }
        ;
 
-Ligacao: PRODUZIU      { $$ = "[label=\"produziu com\",color=red,pen-width=3.0]"; }
-       | APRENDEU      { $$ = "[label=\"aprendeu com\",color=blue,pen-width=3.0]"; }
-       | COLABOROU     { $$ = "[label=\"colaborou com\",color=green,pen-width=3.0]"; }
-       | PARTICIPOU    { $$ = "[label=\"participou em\",color=black,pen-width=3.0]"; }
+Ligacao: PRODUZIU      { $$ = "[label=\"produziu com\",color=red,penwidth=3.0]"; }
+       | APRENDEU      { $$ = "[label=\"aprendeu com\",color=blue,penwidth=3.0]"; }
+       | COLABOROU     { $$ = "[label=\"colaborou com\",color=green,penwidth=3.0]"; }
+       | PARTICIPOU    { $$ = "[label=\"participou em\",color=black,penwidth=3.0]"; }
        ;
 %%
 
