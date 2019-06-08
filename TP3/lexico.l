@@ -23,10 +23,12 @@ INT                      {numero}+
 (?i:aprendeuCom)         { return APRENDEU; }
 (?i:colaborouCom)        { return COLABOROU; }
 (?i:participouEm)        { return PARTICIPOU; }
-{INT}                    { yylval.integer = atoi(yytext); return INT;}
+(?i:id)                  { return ID_TAG; }
+{INT}                    { yylval.integer = atoi(yytext); return INT; }
+[a-z][0-9]+              { yylval.string = strdup(yytext); return ID; }
 \"[^"]+\"                {
                            yytext[yyleng-1] = '\0';
-                           yylval.string = yytext + 1;
+                           yylval.string = strdup(yytext + 1);
                            return STRING;
                          }
 [,:{}]                   { return yytext[0];}
