@@ -1,12 +1,14 @@
 artista {
+    id: a0,
     nome: "Luis",
     idade: 23,
     formacao: "UMinho"
 }
 obra {
+  id: o0,
   nome: "Os 3 Gambuzinos",
   data: 1969,
   genero: "Documentário",
   duracao: 20
 }
-"Luis" produziu "Os 3 Gambuzinos"
+a0 produziu o0
