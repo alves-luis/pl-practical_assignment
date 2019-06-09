@@ -1,4 +1,0 @@
-nodo {
-  nome: valor;
-  tag: valor;
-}
