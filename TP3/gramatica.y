@@ -42,6 +42,8 @@ int obra[N_OBRA_TAGS];
 
 /* used to store the current ID */
 char * id = NULL;
+/* used to store the current name */
+char * nome = NULL;
 
 /* Table of IDs */
 GHashTable * idHash;
@@ -150,7 +152,7 @@ void printGraph(char * content) {
   char * fileName = "graph.dot";
   FILE * file = fopen(fileName,"w");
   if (file) {
-      char * header = "graph G {\n";
+      char * header = "graph G {\n\trankdir=\"LR\";\n";
       fwrite(header, 1, strlen(header), file);
       fwrite(content, 1, strlen(content), file);
       char * footer = "}\n";
@@ -190,8 +192,12 @@ Conteudo: Nodo                         { addFile($1);
                                          int err = insertId(id);
                                          if (err)
                                             yyerror("Id já existente!");
-                                         asprintf(&$$, "\t%s [URL=\"%s.html\"];\n", id, id);
+                                         if (nome)
+                                            asprintf(&$$, "\t%s [URL=\"%s.html\",label=\"%s\"];\n", id, id, nome);
+                                         else
+                                            asprintf(&$$, "\t%s [URL=\"%s.html\"];\n", id, id);
                                          id = NULL;
+                                         nome = NULL;
                                        }
         | Relacao '.'                  { $$ = $1; }
         ;
@@ -201,7 +207,8 @@ Nodo: ARTISTA '{' LTagArtista '}'      { asprintf(&$$,"<h1>Artista</h1>\n%s",$3)
     | EVENTO '{' LTagEvento '}'        { asprintf(&$$,"<h1>Evento</h1>\n%s",$3); clearEvento(); }
     ;
 
-Nome: NOME ':' STRING                  { $$ = $3; }
+Nome: NOME ':' STRING                  { nome = $3;
+                                         $$ = $3; }
     ;
 
 LTagArtista: ID_TAG ':' ID_ARTISTA      { int err = useTagNode(cID,cARTISTA);
@@ -321,7 +328,7 @@ Relacao: ID_ARTISTA RArtistaObra ID_OBRA       { int err = hasBothIds($1,$3);
                                                  asprintf(&$$,"\t%s -- %s %s;\n",$1, $3, $2); }
        ;
 
-RArtistaObra: PRODUZIU                   { $$ = "[label=\"produziu com\",color=red,penwidth=3.0]"; }
+RArtistaObra: PRODUZIU                   { $$ = "[label=\"produziu\",color=red,penwidth=3.0]"; }
             ;
 
 RArtistaEvento: PARTICIPOU               { $$ = "[label=\"participou em\",color=black,penwidth=3.0]"; }

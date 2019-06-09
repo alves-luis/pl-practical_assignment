@@ -1,0 +1,108 @@
+artista {
+    id: a0,
+    nome: "Robert De Niro",
+    idade: 75,
+    produtoras: "Francis Ford Coppola",
+    formacao: "HB Studio, Stella Adler Conservatory, Lee Strasberg's Actors Studio"
+}
+artista {
+    id: a1,
+    nome: "Jodie Foster",
+    idade: 56,
+    idade: 57,
+    formacao: "Yale University"
+}
+artista {
+    id: a2,
+    nome: "Al Pacino",
+    idade: 79,
+    formacao: "High School of Performing Arts"
+}
+artista {
+    id: a3,
+    nome: "Michael Moriarty",
+    idade: 78,
+    formacao: "London Academy of Music and Dramatic Art"
+}
+artista {
+    id: a4,
+    nome: "Robert Duvall",
+    idade: 88,
+    formacao: "Neighborhood Playhouse School of the Theatre"
+}
+obra {
+  id: o0,
+  nome: "Bang the Drum Slowly",
+  data: 1973,
+  genero: "Drama",
+  duracao: 96
+}
+obra {
+  id: o1,
+  nome: "Mean Streets",
+  data: 1973,
+  genero: "Crime",
+  duracao: 112
+}
+obra {
+  id: o2,
+  nome: "The Godfather Part II",
+  data: 1974,
+  genero: "Crime",
+  duracao: 200
+}
+obra {
+  id: o3,
+  nome: "Taxi Driver",
+  data: 1976,
+  genero: "Thriller",
+  duracao: 113
+}
+evento {
+  id: e0,
+  nome: "The 47th Academy Awards",
+  data: 1975,
+  tipo: "Festival",
+  edicao: 47
+}
+evento {
+  id: e1,
+  nome: "The 49th Academy Awards",
+  data: 1977,
+  tipo: "Festival",
+  edicao: 49
+}
+evento {
+  id: e2,
+  nome: "The British Academy Film Awards (29)",
+  data: 1976,
+  tipo: "Festival",
+  edicao: 29
+}
+evento {
+  id: e3,
+  nome: "The British Academy Film Awards (30)",
+  data: 1977,
+  tipo: "Festival",
+  edicao: 30
+}
+a0 produziu o0.
+a0 produziu o1.
+a0 produziu o2.
+a0 produziu o3.
+a0 participouEm e0.
+a0 participouEm e1.
+a0 participouEm e2.
+a0 participouEm e3.
+a1 participouEm e1.
+a1 produziu o3.
+a0 colaborouCom a1.
+a2 produziu o2.
+a2 colaborouCom a0.
+a2 participouEm e0.
+a2 participouEm e2.
+a3 produziu o0.
+a3 colaborouCom a0.
+a4 produziu o2.
+a4 colaborouCom a0.
+a4 colaborouCom a2.
