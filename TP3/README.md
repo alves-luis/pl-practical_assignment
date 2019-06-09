@@ -15,4 +15,4 @@ Para popular um ficheiro com nodos do tipo obra, utiliza-se:
 `gawk -f povoa_obra.awk < film.csv > obras.txt`
 
 Para gerar o svg, utiliza-se:
-'dot -Tsvg graph.dot -o graph.svg'
+`dot -Tsvg graph.dot -o graph.svg`
