@@ -1,0 +1,8 @@
+artista {
+    id: a78,
+    nome: "Christopher Nolan",
+    idade: 48,
+    formacao: "Vida"
+}
+
+a78 produziu o345.

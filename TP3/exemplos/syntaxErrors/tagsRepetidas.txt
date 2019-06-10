@@ -1,0 +1,7 @@
+artista {
+    id: a201,
+    nome: "Margot",
+    nome: "Robbie",
+    idade: 28,
+    formacao: "New Zealand Art College"
+}

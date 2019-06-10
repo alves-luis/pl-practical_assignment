@@ -1,0 +1,12 @@
+artista {
+    id: a23,
+    nome: "Luis",
+    idade: 22,
+    formacao: "ESCA"
+}
+artista {
+    id: a23,
+    nome: "Rafaela",
+    idade: 21,
+    formacao: "ESAS"
+}

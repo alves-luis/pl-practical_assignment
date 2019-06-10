@@ -1,0 +1,17 @@
+artista {
+    id: a245,
+    nome: "Chris Evans",
+    idade: 38,
+    formacao: "Hollywood"
+}
+
+obra {
+  id: o83,
+  nome: "Avengers: Endgame ",
+  data: 2019,
+  genero: "Action",
+  duracao: 181
+}
+
+
+a245 participouEm 

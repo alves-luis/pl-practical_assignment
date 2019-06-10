@@ -1,0 +1,7 @@
+obra {
+  id: o0,
+  nome: "Aladdin",
+  data: 1992,
+  genero: "Animação",
+  duracao: "uma hora e trinta"
+}

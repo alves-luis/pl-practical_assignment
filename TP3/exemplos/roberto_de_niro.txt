@@ -9,7 +9,6 @@ artista {
     id: a1,
     nome: "Jodie Foster",
     idade: 56,
-    idade: 57,
     formacao: "Yale University"
 }
 artista {

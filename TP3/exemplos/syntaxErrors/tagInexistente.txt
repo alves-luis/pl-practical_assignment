@@ -1,0 +1,7 @@
+evento {
+  id: e0,
+  tipo: "Entrega de Prémios",
+  data: 2012,
+  edicao: 24,
+  apresentador: "Barack Obama"
+}
