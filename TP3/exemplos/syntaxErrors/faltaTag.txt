@@ -2,5 +2,5 @@ obra {
   id: o0,
   nome: "The Dark Knight Rises",
   data: 2012,
-  genero: "Thriller",
+  genero: "Thriller"
 }
