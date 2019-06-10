@@ -9,10 +9,12 @@ Os ficheiros de exemplo bem sucedidos são:
 * `roberto_de_niro.txt` - grafo mais bonito, com vários artistas, obras e eventos
 
 Quanto a ficheiros de exemplo com erros sintáticos, são estes:
-* Ainda não existem :/
-
-Para popular um ficheiro com nodos do tipo obra, utiliza-se:
-`gawk -f povoa_obra.awk < film.csv > obras.txt`
+* `idRepetido.txt` - exemplo de repetição de ID
+* `relacaoComIdInexistente.txt` - exemplo de relação com ID não válido
+* `relacaoIncompleta.txt` - exemplo de relação sem um dos lados
+* `tagInexistente.txt` - exemplo de tag que não está incluída na gramática
+* `tagsRepetidas.txt` - exemplo de tag que aparece mais que uma vez num nodo
+* `tipoErrado.txt` - exemplo de tag cujo valor é do tipo errado
 
 Para gerar o svg, utiliza-se:
 `dot -Tsvg graph.dot -o graph.svg`
