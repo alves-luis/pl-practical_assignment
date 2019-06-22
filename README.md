@@ -5,6 +5,8 @@ Team members:
 * [Luís Alves](https://github.com/alves-luis)
 * [Rafaela Rodrigues](https://github.com/rafaelacrr)
 
-Grade TP1: 17.5
-Grade TP2: 17
-Grade TP3: 19
+Grade TP1: 17.5/20
+
+Grade TP2: 17/20
+
+Grade TP3: 19/20
